@@ -1,4 +1,29 @@
 (function () {
+    let audioCtx;
+    function playSound(correct) {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        var osc = audioCtx.createOscillator();
+        var gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        gain.gain.value = 0.15;
+        if (correct) {
+            osc.frequency.value = 660;
+            osc.type = 'sine';
+            osc.start();
+            osc.frequency.setValueAtTime(880, audioCtx.currentTime + 0.1);
+            gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
+            osc.stop(audioCtx.currentTime + 0.3);
+        } else {
+            osc.frequency.value = 300;
+            osc.type = 'sawtooth';
+            osc.start();
+            osc.frequency.setValueAtTime(200, audioCtx.currentTime + 0.15);
+            gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
+            osc.stop(audioCtx.currentTime + 0.3);
+        }
+    }
+
     let supabase;
     let currentUser = null;
     let words = [];
@@ -315,8 +340,10 @@
         if (!isCorrect) {
             el.classList.add('wrong');
             wrongWords.push(wordObj);
+            playSound(false);
         } else {
             correctCount++;
+            playSound(true);
         }
 
         // Save answer immediately
