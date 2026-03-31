@@ -336,11 +336,12 @@
             order = order.concat(shuffle(newWords));
         }
 
-        // Load all answers for this session
+        // Load all answers for this session (including old records with null session_id)
         var { data: answers } = await supabase
             .from('progress')
             .select('word, correct')
-            .eq('session_id', session.id);
+            .eq('user_id', currentUser.id)
+            .in('session_id', [session.id, null]);
 
         var answered = {};
         if (answers) {
