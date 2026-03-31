@@ -31,7 +31,7 @@
     let currentIndex = 0;
     let correctCount = 0;
     let wrongWords = [];
-    let currentSessionId = null; // track active quiz session
+    let currentSessionId = null;
 
     function init() {
         if (typeof CONFIG === 'undefined') {
@@ -58,6 +58,8 @@
         try {
             const res = await fetch('words.json');
             words = await res.json();
+            // Sort alphabetically by word
+            words.sort(function (a, b) { return a.word.localeCompare(b.word); });
         } catch (e) {
             console.error('Failed to load words:', e);
         }
@@ -79,8 +81,8 @@
         document.getElementById('login-btn').addEventListener('click', handleLogin);
         document.getElementById('signup-btn').addEventListener('click', handleSignup);
         document.getElementById('logout-btn').addEventListener('click', handleLogout);
-        document.getElementById('start-quiz-btn').addEventListener('click', startQuiz);
-        document.getElementById('try-again-btn').addEventListener('click', startQuiz);
+        document.getElementById('start-quiz-btn').addEventListener('click', handleStartOrResume);
+        document.getElementById('try-again-btn').addEventListener('click', startNewQuiz);
         document.getElementById('home-btn').addEventListener('click', showHome);
         document.getElementById('download-wrong-btn').addEventListener('click', downloadWrongWords);
 
@@ -144,10 +146,10 @@
         document.getElementById(pageId).classList.add('active');
     }
 
-    function showHome() {
+    async function showHome() {
         document.getElementById('user-info').textContent = currentUser ? currentUser.email : '';
         showPage('home-page');
-        checkResumeQuiz();
+        await checkResumeQuiz();
         loadHistory();
     }
 
@@ -176,27 +178,12 @@
         return a;
     }
 
-    // Generate a stable quiz order key from session id
-    async function createQuizSession() {
-        var sessionId = Date.now().toString(36) + Math.random().toString(36).slice(2);
-        currentSessionId = sessionId;
-        // Save the word order to supabase
-        var order = shuffle(words).map(function (w) { return w.word; });
-        var { error } = await supabase.from('quiz_sessions').insert({
-            id: sessionId,
-            user_id: currentUser.id,
-            word_order: JSON.stringify(order),
-            completed: false
-        });
-        if (error) {
-            console.error('Failed to create quiz session:', error);
-            // fallback: just shuffle locally
-            currentSessionId = null;
-        }
-        return order;
-    }
-
     async function checkResumeQuiz() {
+        var btn = document.getElementById('start-quiz-btn');
+        var infoEl = document.getElementById('resume-info');
+        if (infoEl) infoEl.remove();
+        btn.textContent = 'Start Quiz';
+
         if (!supabase || !currentUser) return;
         try {
             var { data, error } = await supabase
@@ -209,82 +196,70 @@
             if (error || !data || !data.length) return;
 
             var session = data[0];
-            var order = JSON.parse(session.word_order);
             // Load answers for this session
             var { data: answers } = await supabase
                 .from('progress')
                 .select('word, correct')
-                .eq('user_id', currentUser.id)
                 .eq('session_id', session.id);
-            var answered = {};
-            if (answers) {
-                answers.forEach(function (a) { answered[a.word] = a.correct; });
-            }
 
-            var answeredWords = Object.keys(answered);
-            var remaining = order.filter(function (w) { return !answered[w]; });
-            if (remaining.length === 0) {
-                // all done, mark completed
+            var answeredCount = answers ? answers.length : 0;
+            var orderLen = JSON.parse(session.word_order).length;
+
+            if (answeredCount === 0) {
+                // No answers recorded yet, treat as fresh start
                 await supabase.from('quiz_sessions').update({ completed: true }).eq('id', session.id);
                 return;
             }
 
-            // Show resume button
-            var btn = document.getElementById('start-quiz-btn');
-            var resumeInfo = document.createElement('div');
-            resumeInfo.id = 'resume-info';
-            resumeInfo.style.marginTop = '12px';
-            resumeInfo.style.padding = '12px';
-            resumeInfo.style.background = '#e8f0fe';
-            resumeInfo.style.borderRadius = '8px';
-            resumeInfo.style.fontSize = '14px';
-            resumeInfo.innerHTML = 'You have an unfinished quiz (' + answeredWords.length + '/' + order.length + ' done).';
-            btn.parentNode.insertBefore(resumeInfo, btn.nextSibling);
+            // Show resume info
+            var info = document.createElement('div');
+            info.id = 'resume-info';
+            info.style.cssText = 'margin-top:12px;padding:12px;background:#e8f0fe;border-radius:8px;font-size:14px;';
+            info.textContent = 'You have an unfinished quiz (' + answeredCount + '/' + orderLen + ' done).';
+            btn.parentNode.insertBefore(info, btn.nextSibling);
 
             btn.textContent = 'Resume Quiz';
-            btn.onclick = function () {
-                currentSessionId = session.id;
-                quizWords = order.map(function (w) {
-                    return words.find(function (ww) { return ww.word === w; });
-                }).filter(Boolean);
-                currentIndex = 0;
-                correctCount = 0;
-                wrongWords = [];
-                // Skip already answered
-                for (var i = 0; i < quizWords.length; i++) {
-                    if (answered[quizWords[i].word] === undefined) break;
-                    if (answered[quizWords[i].word]) correctCount++;
-                    else wrongWords.push(quizWords[i]);
-                    currentIndex = i + 1;
-                }
-                var el = document.getElementById('resume-info');
-                if (el) el.remove();
-                showPage('quiz-page');
-                if (currentIndex < quizWords.length) {
-                    showQuestion();
-                } else {
-                    showResults();
-                }
-            };
         } catch (e) {
             console.error('Failed to check resume:', e);
         }
     }
 
-    async function startQuiz() {
+    // Unified handler: start new or resume existing
+    async function handleStartOrResume() {
         if (!words.length) return;
-        // Clean up any old resume info
-        var el = document.getElementById('resume-info');
-        if (el) el.remove();
-        document.getElementById('start-quiz-btn').textContent = 'Start Quiz';
-        document.getElementById('start-quiz-btn').onclick = startQuiz;
+        // Check if there's an unfinished session
+        if (supabase && currentUser) {
+            var { data } = await supabase
+                .from('quiz_sessions')
+                .select('*')
+                .eq('user_id', currentUser.id)
+                .eq('completed', false)
+                .order('created_at', { ascending: false })
+                .limit(1);
+            if (data && data.length) {
+                await resumeQuiz(data[0]);
+                return;
+            }
+        }
+        await startNewQuiz();
+    }
 
-        quizWords = shuffle(words);
+    async function startNewQuiz() {
+        if (!words.length) return;
+        // Mark any old unfinished sessions as completed
+        if (supabase && currentUser) {
+            await supabase.from('quiz_sessions')
+                .update({ completed: true })
+                .eq('user_id', currentUser.id)
+                .eq('completed', false);
+        }
+
+        quizWords = words.slice(); // alphabetical order
         currentIndex = 0;
         correctCount = 0;
         wrongWords = [];
 
-        // Create a quiz session
+        // Create session
         if (supabase && currentUser) {
             var sessionId = Date.now().toString(36) + Math.random().toString(36).slice(2);
             var order = quizWords.map(function (w) { return w.word; });
@@ -300,6 +275,49 @@
                 console.error('Failed to create session:', e);
                 currentSessionId = null;
             }
+        }
+
+        showPage('quiz-page');
+        showQuestion();
+    }
+
+    async function resumeQuiz(session) {
+        var order = JSON.parse(session.word_order);
+        // Load all answers for this session
+        var { data: answers } = await supabase
+            .from('progress')
+            .select('word, correct')
+            .eq('session_id', session.id);
+
+        var answered = {};
+        if (answers) {
+            answers.forEach(function (a) { answered[a.word] = a.correct; });
+        }
+
+        // Rebuild quizWords in saved order
+        quizWords = order.map(function (w) {
+            return words.find(function (ww) { return ww.word === w; });
+        }).filter(Boolean);
+
+        currentIndex = 0;
+        correctCount = 0;
+        wrongWords = [];
+
+        // Skip to first unanswered word, counting correct/wrong
+        for (var i = 0; i < quizWords.length; i++) {
+            if (answered[quizWords[i].word] === undefined) break;
+            if (answered[quizWords[i].word]) correctCount++;
+            else wrongWords.push(quizWords[i]);
+            currentIndex = i + 1;
+        }
+
+        currentSessionId = session.id;
+
+        if (currentIndex >= quizWords.length) {
+            // All done somehow
+            await supabase.from('quiz_sessions').update({ completed: true }).eq('id', session.id);
+            showHome();
+            return;
         }
 
         showPage('quiz-page');
@@ -346,7 +364,6 @@
             playSound(true);
         }
 
-        // Save answer immediately
         saveAnswer(wordObj, isCorrect);
 
         setTimeout(function () {
@@ -431,7 +448,6 @@
                 return;
             }
 
-            // For each completed session, get score
             var list = data.slice(0, 10);
             var container = document.getElementById('history-list');
             container.innerHTML = '';
