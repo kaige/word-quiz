@@ -399,7 +399,7 @@
         });
     }
 
-    function handleAnswer(el, isCorrect, wordObj) {
+    async function handleAnswer(el, isCorrect, wordObj) {
         var allOptions = document.querySelectorAll('.quiz-option');
         allOptions.forEach(function (opt) {
             opt.classList.add('disabled');
