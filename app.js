@@ -257,7 +257,23 @@
             .eq('user_id', currentUser.id)
             .limit(1);
         if (data && data.length) {
-            return JSON.parse(data[0].word_order);
+            var savedOrder = JSON.parse(data[0].word_order);
+            // Check if word list was updated (new words added)
+            var currentWords = words.map(function (w) { return w.word; });
+            var savedSet = {};
+            savedOrder.forEach(function (w) { savedSet[w] = true; });
+            var newWords = currentWords.filter(function (w) { return !savedSet[w]; });
+            if (newWords.length > 0) {
+                // Append new words in shuffled order
+                var shuffledNew = shuffle(newWords);
+                var updatedOrder = savedOrder.concat(shuffledNew);
+                // Save updated order
+                await supabase.from('user_word_order')
+                    .update({ word_order: JSON.stringify(updatedOrder) })
+                    .eq('user_id', currentUser.id);
+                return updatedOrder;
+            }
+            return savedOrder;
         }
         // First time: generate random order and save
         var order = shuffle(words).map(function (w) { return w.word; });
@@ -311,6 +327,15 @@
 
     async function resumeQuiz(session) {
         var order = JSON.parse(session.word_order);
+        // Rebuild quizWords, including any new words not in original order
+        var currentWords = words.map(function (w) { return w.word; });
+        var orderSet = {};
+        order.forEach(function (w) { orderSet[w] = true; });
+        var newWords = currentWords.filter(function (w) { return !orderSet[w]; });
+        if (newWords.length > 0) {
+            order = order.concat(shuffle(newWords));
+        }
+
         // Load all answers for this session
         var { data: answers } = await supabase
             .from('progress')
@@ -322,7 +347,7 @@
             answers.forEach(function (a) { answered[a.word] = a.correct; });
         }
 
-        // Rebuild quizWords in saved order
+        // Rebuild quizWords in saved order + new words
         quizWords = order.map(function (w) {
             return words.find(function (ww) { return ww.word === w; });
         }).filter(Boolean);
@@ -392,7 +417,7 @@
             playSound(true);
         }
 
-        saveAnswer(wordObj, isCorrect);
+        await saveAnswer(wordObj, isCorrect);
 
         setTimeout(function () {
             currentIndex++;
