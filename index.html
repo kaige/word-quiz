@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="auth-page" class="page active">
+            <div class="card">
+                <h1>Word Quiz</h1>
+                <div id="auth-forms">
+                    <div id="login-form">
+                        <h2>Login</h2>
+                        <input type="email" id="login-email" placeholder="Email" autocomplete="email">
+                        <input type="password" id="login-password" placeholder="Password" autocomplete="current-password">
+                        <button id="login-btn" class="btn btn-primary">Login</button>
+                        <p class="toggle-text">Don't have an account? <a href="#" id="show-signup">Sign up</a></p>
+                    </div>
+                    <div id="signup-form" class="hidden">
+                        <h2>Sign Up</h2>
+                        <input type="email" id="signup-email" placeholder="Email" autocomplete="email">
+                        <input type="password" id="signup-password" placeholder="Password (min 6 chars)" autocomplete="new-password">
+                        <button id="signup-btn" class="btn btn-primary">Sign Up</button>
+                        <p class="toggle-text">Already have an account? <a href="#" id="show-login">Login</a></p>
+                    </div>
+                </div>
+                <div id="auth-error" class="error-msg hidden"></div>
+                <div id="auth-loading" class="loading hidden">Loading...</div>
+            </div>
+        </div>
+
+        <div id="home-page" class="page">
+            <div class="card">
+                <div class="home-header">
+                    <h1>Word Quiz</h1>
+                    <button id="logout-btn" class="btn btn-small">Logout</button>
+                </div>
+                <div id="user-info" class="user-info"></div>
+                <button id="start-quiz-btn" class="btn btn-primary btn-large">Start Quiz</button>
+                <div id="history-section" class="hidden">
+                    <h3>Past Results</h3>
+                    <div id="history-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="quiz-page" class="page">
+            <div class="card">
+                <div class="quiz-progress">
+                    <span id="progress-text">1 / 10</span>
+                    <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+                </div>
+                <div id="quiz-word" class="quiz-word"></div>
+                <div id="quiz-options" class="quiz-options"></div>
+            </div>
+        </div>
+
+        <div id="results-page" class="page">
+            <div class="card">
+                <h2>Quiz Complete!</h2>
+                <div class="results-stats">
+                    <div class="stat-circle">
+                        <span id="results-correct" class="stat-number"></span>
+                        <span class="stat-label">Correct</span>
+                    </div>
+                    <div class="stat-divider">/</div>
+                    <div class="stat-circle">
+                        <span id="results-total" class="stat-number"></span>
+                        <span class="stat-label">Total</span>
+                    </div>
+                </div>
+                <div id="results-percentage" class="results-percentage"></div>
+                <div id="wrong-words-section" class="wrong-words hidden">
+                    <h3>Words to Review</h3>
+                    <div id="wrong-words-list"></div>
+                    <button id="download-wrong-btn" class="btn btn-secondary">Download Wrong Words</button>
+                </div>
+                <div class="results-actions">
+                    <button id="try-again-btn" class="btn btn-primary">Try Again</button>
+                    <button id="home-btn" class="btn btn-secondary">Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
