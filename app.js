@@ -88,6 +88,8 @@
         document.getElementById('quiz-stats-btn').addEventListener('click', showQuizStats);
         document.getElementById('close-stats-btn').addEventListener('click', hideQuizStats);
         document.getElementById('back-to-quiz-btn').addEventListener('click', hideQuizStats);
+        document.getElementById('download-quiz-correct-btn').addEventListener('click', function () { downloadWordList('correct'); });
+        document.getElementById('download-quiz-wrong-btn').addEventListener('click', function () { downloadWordList('wrong'); });
 
         ['login-email', 'login-password'].forEach(function (id) {
             document.getElementById(id).addEventListener('keydown', function (e) {
@@ -549,6 +551,27 @@
 
     function hideQuizStats() {
         document.getElementById('quiz-stats-modal').classList.add('hidden');
+    }
+
+    function downloadWordList(type) {
+        var list = [];
+        if (type === 'correct') {
+            var wrongSet = {};
+            wrongWords.forEach(function (w) { wrongSet[w.word] = true; });
+            for (var i = 0; i < currentIndex && i < quizWords.length; i++) {
+                if (!wrongSet[quizWords[i].word]) list.push(quizWords[i]);
+            }
+        } else {
+            list = wrongWords;
+        }
+        var content = list.map(function (w) { return w.word + '\t' + w.definition; }).join('\n');
+        var blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = type + '_words.txt';
+        a.click();
+        URL.revokeObjectURL(url);
     }
 
     document.addEventListener('DOMContentLoaded', init);
