@@ -300,52 +300,59 @@
         correctCount = 0;
         wrongWords = [];
 
-        // Start quiz immediately with shuffled words
-        if (supabase && currentUser) {
-            // Try to load saved order, but use shuffle as fallback and don't block
-            var { data } = await supabase
-                .from('user_word_order')
-                .select('word_order')
-                .eq('user_id', currentUser.id)
-                .limit(1);
+        var cacheKey = currentUser ? 'word_order_' + currentUser.id : 'word_order_guest';
 
-            if (data && data.length) {
-                var savedOrder = JSON.parse(data[0].word_order);
-                // Check for new words
-                var currentWords = words.map(function (w) { return w.word; });
-                var orderSet = {};
-                savedOrder.forEach(function (w) { orderSet[w] = true; });
-                var newWords = currentWords.filter(function (w) { return !orderSet[w]; });
-                if (newWords.length > 0) {
-                    savedOrder = savedOrder.concat(shuffle(newWords));
-                    supabase.from('user_word_order')
-                        .update({ word_order: JSON.stringify(savedOrder) })
-                        .eq('user_id', currentUser.id)
-                        .then(function() {}, function(e) { console.error(e); });
-                }
-                quizWords = savedOrder.map(function (w) {
-                    return words.find(function (ww) { return ww.word === w; });
-                }).filter(Boolean);
-            } else {
-                quizWords = shuffle(words);
-                // Save order in background
-                var order = quizWords.map(function (w) { return w.word; });
-                supabase.from('user_word_order').insert({
-                    user_id: currentUser.id,
-                    word_order: JSON.stringify(order)
-                }).catch(function (e) { console.error('Failed to save word order:', e); });
-            }
-
-            var sessionId = Date.now().toString(36) + Math.random().toString(36).slice(2);
-            currentSessionId = sessionId;
-            supabase.from('quiz_sessions').insert({
-                id: sessionId,
-                user_id: currentUser.id,
-                word_order: JSON.stringify(quizWords.map(function(w){return w.word;})),
-                completed: false
-            }).catch(function (e) { console.error('Failed to create session:', e); });
+        if (localStorage.getItem(cacheKey)) {
+            quizWords = JSON.parse(localStorage.getItem(cacheKey)).map(function (w) {
+                return words.find(function (ww) { return ww.word === w; });
+            }).filter(Boolean);
         } else {
             quizWords = shuffle(words);
+            localStorage.setItem(cacheKey, JSON.stringify(quizWords.map(function(w){return w.word;})));
+        }
+
+        // Check for new words in local cache
+        var cachedOrder = JSON.parse(localStorage.getItem(cacheKey) || '[]');
+        var currentWords = words.map(function (w) { return w.word; });
+        var orderSet = {};
+        cachedOrder.forEach(function (w) { orderSet[w] = true; });
+        var newWords = currentWords.filter(function (w) { return !orderSet[w]; });
+        if (newWords.length > 0) {
+            cachedOrder = cachedOrder.concat(shuffle(newWords));
+            localStorage.setItem(cacheKey, JSON.stringify(cachedOrder));
+            quizWords = cachedOrder.map(function (w) {
+                return words.find(function (ww) { return ww.word === w; });
+            }).filter(Boolean);
+        }
+
+        // Sync to Supabase in background
+        if (supabase && currentUser) {
+            (async function() {
+                var { data } = await supabase
+                    .from('user_word_order')
+                    .select('word_order')
+                    .eq('user_id', currentUser.id)
+                    .limit(1);
+                var order = quizWords.map(function(w){return w.word;});
+                if (data && data.length) {
+                    await supabase.from('user_word_order')
+                        .update({ word_order: JSON.stringify(order) })
+                        .eq('user_id', currentUser.id);
+                } else {
+                    await supabase.from('user_word_order').insert({
+                        user_id: currentUser.id,
+                        word_order: JSON.stringify(order)
+                    });
+                }
+                var sessionId = Date.now().toString(36) + Math.random().toString(36).slice(2);
+                currentSessionId = sessionId;
+                await supabase.from('quiz_sessions').insert({
+                    id: sessionId,
+                    user_id: currentUser.id,
+                    word_order: JSON.stringify(order),
+                    completed: false
+                });
+            })();
         }
 
         showPage('quiz-page');
