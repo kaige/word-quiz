@@ -6,6 +6,7 @@
     let currentIndex = 0;
     let correctCount = 0;
     let wrongWords = [];
+    let currentSessionId = null; // track active quiz session
 
     function init() {
         if (typeof CONFIG === 'undefined') {
@@ -94,18 +95,18 @@
         var { data, error } = await supabase.auth.signUp({ email: email, password: password });
         showAuthLoading(false);
         if (error) { showAuthError(error.message); return; }
-        // Auto-login if no email confirmation required
         if (data.user && data.session) {
             currentUser = data.user;
             showHome();
         } else {
-            showAuthError('Account created! Please check your email to confirm, then login.');
+            showAuthError('Account created! Please login.');
         }
     }
 
     async function handleLogout() {
         await supabase.auth.signOut();
         currentUser = null;
+        currentSessionId = null;
         showPage('auth-page');
         document.getElementById('login-email').value = '';
         document.getElementById('login-password').value = '';
@@ -121,6 +122,7 @@
     function showHome() {
         document.getElementById('user-info').textContent = currentUser ? currentUser.email : '';
         showPage('home-page');
+        checkResumeQuiz();
         loadHistory();
     }
 
@@ -149,12 +151,132 @@
         return a;
     }
 
-    function startQuiz() {
+    // Generate a stable quiz order key from session id
+    async function createQuizSession() {
+        var sessionId = Date.now().toString(36) + Math.random().toString(36).slice(2);
+        currentSessionId = sessionId;
+        // Save the word order to supabase
+        var order = shuffle(words).map(function (w) { return w.word; });
+        var { error } = await supabase.from('quiz_sessions').insert({
+            id: sessionId,
+            user_id: currentUser.id,
+            word_order: JSON.stringify(order),
+            completed: false
+        });
+        if (error) {
+            console.error('Failed to create quiz session:', error);
+            // fallback: just shuffle locally
+            currentSessionId = null;
+        }
+        return order;
+    }
+
+    async function checkResumeQuiz() {
+        if (!supabase || !currentUser) return;
+        try {
+            var { data, error } = await supabase
+                .from('quiz_sessions')
+                .select('*')
+                .eq('user_id', currentUser.id)
+                .eq('completed', false)
+                .order('created_at', { ascending: false })
+                .limit(1);
+            if (error || !data || !data.length) return;
+
+            var session = data[0];
+            var order = JSON.parse(session.word_order);
+            // Load answers for this session
+            var { data: answers } = await supabase
+                .from('progress')
+                .select('word, correct')
+                .eq('user_id', currentUser.id)
+                .eq('session_id', session.id);
+            var answered = {};
+            if (answers) {
+                answers.forEach(function (a) { answered[a.word] = a.correct; });
+            }
+
+            var answeredWords = Object.keys(answered);
+            var remaining = order.filter(function (w) { return !answered[w]; });
+            if (remaining.length === 0) {
+                // all done, mark completed
+                await supabase.from('quiz_sessions').update({ completed: true }).eq('id', session.id);
+                return;
+            }
+
+            // Show resume button
+            var btn = document.getElementById('start-quiz-btn');
+            var resumeInfo = document.createElement('div');
+            resumeInfo.id = 'resume-info';
+            resumeInfo.style.marginTop = '12px';
+            resumeInfo.style.padding = '12px';
+            resumeInfo.style.background = '#e8f0fe';
+            resumeInfo.style.borderRadius = '8px';
+            resumeInfo.style.fontSize = '14px';
+            resumeInfo.innerHTML = 'You have an unfinished quiz (' + answeredWords.length + '/' + order.length + ' done).';
+            btn.parentNode.insertBefore(resumeInfo, btn.nextSibling);
+
+            btn.textContent = 'Resume Quiz';
+            btn.onclick = function () {
+                currentSessionId = session.id;
+                quizWords = order.map(function (w) {
+                    return words.find(function (ww) { return ww.word === w; });
+                }).filter(Boolean);
+                currentIndex = 0;
+                correctCount = 0;
+                wrongWords = [];
+                // Skip already answered
+                for (var i = 0; i < quizWords.length; i++) {
+                    if (answered[quizWords[i].word] === undefined) break;
+                    if (answered[quizWords[i].word]) correctCount++;
+                    else wrongWords.push(quizWords[i]);
+                    currentIndex = i + 1;
+                }
+                var el = document.getElementById('resume-info');
+                if (el) el.remove();
+                showPage('quiz-page');
+                if (currentIndex < quizWords.length) {
+                    showQuestion();
+                } else {
+                    showResults();
+                }
+            };
+        } catch (e) {
+            console.error('Failed to check resume:', e);
+        }
+    }
+
+    async function startQuiz() {
         if (!words.length) return;
+        // Clean up any old resume info
+        var el = document.getElementById('resume-info');
+        if (el) el.remove();
+        document.getElementById('start-quiz-btn').textContent = 'Start Quiz';
+        document.getElementById('start-quiz-btn').onclick = startQuiz;
+
         quizWords = shuffle(words);
         currentIndex = 0;
         correctCount = 0;
         wrongWords = [];
+
+        // Create a quiz session
+        if (supabase && currentUser) {
+            var sessionId = Date.now().toString(36) + Math.random().toString(36).slice(2);
+            var order = quizWords.map(function (w) { return w.word; });
+            try {
+                await supabase.from('quiz_sessions').insert({
+                    id: sessionId,
+                    user_id: currentUser.id,
+                    word_order: JSON.stringify(order),
+                    completed: false
+                });
+                currentSessionId = sessionId;
+            } catch (e) {
+                console.error('Failed to create session:', e);
+                currentSessionId = null;
+            }
+        }
+
         showPage('quiz-page');
         showQuestion();
     }
@@ -197,6 +319,9 @@
             correctCount++;
         }
 
+        // Save answer immediately
+        saveAnswer(wordObj, isCorrect);
+
         setTimeout(function () {
             currentIndex++;
             if (currentIndex < quizWords.length) {
@@ -204,7 +329,22 @@
             } else {
                 showResults();
             }
-        }, 1200);
+        }, 600);
+    }
+
+    async function saveAnswer(wordObj, isCorrect) {
+        if (!supabase || !currentUser) return;
+        try {
+            await supabase.from('progress').insert({
+                user_id: currentUser.id,
+                word: wordObj.word,
+                correct: isCorrect,
+                session_id: currentSessionId,
+                answered_at: new Date().toISOString()
+            });
+        } catch (e) {
+            console.error('Failed to save answer:', e);
+        }
     }
 
     function showResults() {
@@ -230,7 +370,14 @@
         }
 
         showPage('results-page');
-        saveProgress();
+        completeSession();
+    }
+
+    function completeSession() {
+        if (supabase && currentUser && currentSessionId) {
+            supabase.from('quiz_sessions').update({ completed: true }).eq('id', currentSessionId)
+                .catch(function (e) { console.error('Failed to complete session:', e); });
+        }
     }
 
     function downloadWrongWords() {
@@ -244,61 +391,48 @@
         URL.revokeObjectURL(url);
     }
 
-    async function saveProgress() {
-        if (!supabase || !currentUser) return;
-        var now = new Date().toISOString();
-        var records = quizWords.map(function (w) {
-            var correct = wrongWords.some(function (ww) { return ww.word === w.word; }) ? false : true;
-            return { user_id: currentUser.id, word: w.word, correct: correct, answered_at: now };
-        });
-        try {
-            await supabase.from('progress').insert(records);
-        } catch (e) {
-            console.error('Failed to save progress:', e);
-        }
-    }
-
     async function loadHistory() {
         if (!supabase || !currentUser) return;
         try {
             var { data, error } = await supabase
-                .from('progress')
-                .select('answered_at, correct')
+                .from('quiz_sessions')
+                .select('id, created_at, completed')
                 .eq('user_id', currentUser.id)
-                .order('answered_at', { ascending: false });
+                .order('created_at', { ascending: false });
             if (error || !data || !data.length) {
                 document.getElementById('history-section').classList.add('hidden');
                 return;
             }
 
-            var quizzes = {};
-            data.forEach(function (row) {
-                var key = row.answered_at.slice(0, 16);
-                if (!quizzes[key]) quizzes[key] = { total: 0, correct: 0, date: row.answered_at };
-                quizzes[key].total++;
-                if (row.correct) quizzes[key].correct++;
-            });
-
-            var list = Object.values(quizzes).sort(function (a, b) {
-                return b.date.localeCompare(a.date);
-            }).slice(0, 10);
-
-            if (!list.length) {
-                document.getElementById('history-section').classList.add('hidden');
-                return;
-            }
-
+            // For each completed session, get score
+            var list = data.slice(0, 10);
             var container = document.getElementById('history-list');
             container.innerHTML = '';
-            list.forEach(function (q) {
+
+            for (var i = 0; i < list.length; i++) {
+                var s = list[i];
+                var { data: answers } = await supabase
+                    .from('progress')
+                    .select('correct')
+                    .eq('session_id', s.id);
+                var total = answers ? answers.length : 0;
+                var correct = answers ? answers.filter(function (a) { return a.correct; }).length : 0;
+                if (total === 0) continue;
+
                 var div = document.createElement('div');
                 div.className = 'history-item';
-                var d = new Date(q.date);
+                var d = new Date(s.created_at);
                 var dateStr = d.toLocaleDateString() + ' ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-                div.innerHTML = '<span class="history-date">' + dateStr + '</span><span class="history-score">' + q.correct + '/' + q.total + ' (' + Math.round(q.correct / q.total * 100) + '%)</span>';
+                var status = s.completed ? '' : ' (unfinished)';
+                div.innerHTML = '<span class="history-date">' + dateStr + status + '</span><span class="history-score">' + correct + '/' + total + ' (' + Math.round(correct / total * 100) + '%)</span>';
                 container.appendChild(div);
-            });
-            document.getElementById('history-section').classList.remove('hidden');
+            }
+
+            if (container.children.length) {
+                document.getElementById('history-section').classList.remove('hidden');
+            } else {
+                document.getElementById('history-section').classList.add('hidden');
+            }
         } catch (e) {
             console.error('Failed to load history:', e);
         }
