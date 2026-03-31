@@ -85,6 +85,9 @@
         document.getElementById('try-again-btn').addEventListener('click', startNewQuiz);
         document.getElementById('home-btn').addEventListener('click', showHome);
         document.getElementById('download-wrong-btn').addEventListener('click', downloadWrongWords);
+        document.getElementById('quiz-stats-btn').addEventListener('click', showQuizStats);
+        document.getElementById('close-stats-btn').addEventListener('click', hideQuizStats);
+        document.getElementById('back-to-quiz-btn').addEventListener('click', hideQuizStats);
 
         ['login-email', 'login-password'].forEach(function (id) {
             document.getElementById(id).addEventListener('keydown', function (e) {
@@ -502,6 +505,50 @@
         } catch (e) {
             console.error('Failed to load history:', e);
         }
+    }
+
+    function showQuizStats() {
+        var answered = correctCount + wrongWords.length;
+        var total = quizWords.length;
+        document.getElementById('quiz-stats-summary').textContent =
+            'Answered: ' + answered + ' / ' + total + '  |  Correct: ' + correctCount + '  |  Wrong: ' + wrongWords.length;
+
+        var correctList = document.getElementById('quiz-correct-list');
+        correctList.innerHTML = '';
+        if (correctCount === 0) {
+            correctList.innerHTML = '<p style="color:#999;font-size:13px;">No correct answers yet.</p>';
+        } else {
+            // Show answered correct words from quizWords[0..currentIndex]
+            var wrongSet = {};
+            wrongWords.forEach(function (w) { wrongSet[w.word] = true; });
+            for (var i = 0; i < currentIndex && i < quizWords.length; i++) {
+                if (!wrongSet[quizWords[i].word]) {
+                    var div = document.createElement('div');
+                    div.className = 'wrong-word-item';
+                    div.innerHTML = '<span class="wrong-word-eng">' + quizWords[i].word + '</span><span class="wrong-word-chn">' + quizWords[i].definition + '</span>';
+                    correctList.appendChild(div);
+                }
+            }
+        }
+
+        var wrongList = document.getElementById('quiz-wrong-list');
+        wrongList.innerHTML = '';
+        if (wrongWords.length === 0) {
+            wrongList.innerHTML = '<p style="color:#999;font-size:13px;">No wrong answers yet.</p>';
+        } else {
+            wrongWords.forEach(function (w) {
+                var div = document.createElement('div');
+                div.className = 'wrong-word-item';
+                div.innerHTML = '<span class="wrong-word-eng">' + w.word + '</span><span class="wrong-word-chn">' + w.definition + '</span>';
+                wrongList.appendChild(div);
+            });
+        }
+
+        document.getElementById('quiz-stats-modal').classList.remove('hidden');
+    }
+
+    function hideQuizStats() {
+        document.getElementById('quiz-stats-modal').classList.add('hidden');
     }
 
     document.addEventListener('DOMContentLoaded', init);

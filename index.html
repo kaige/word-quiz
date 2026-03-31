@@ -58,6 +58,25 @@
                 </div>
                 <div id="quiz-word" class="quiz-word"></div>
                 <div id="quiz-options" class="quiz-options"></div>
+                <div style="margin-top:12px;text-align:center;">
+                    <button id="quiz-stats-btn" class="btn btn-small btn-secondary" style="font-size:13px;">📊 View Progress</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Stats Modal -->
+        <div id="quiz-stats-modal" class="modal hidden">
+            <div class="modal-content card">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+                    <h2 style="margin:0;">Current Progress</h2>
+                    <button id="close-stats-btn" class="btn btn-small">✕</button>
+                </div>
+                <div id="quiz-stats-summary" style="margin-bottom:16px;font-size:14px;color:#666;"></div>
+                <h3>Correct ✅</h3>
+                <div id="quiz-correct-list" style="max-height:200px;overflow-y:auto;margin-bottom:16px;"></div>
+                <h3>Wrong ❌</h3>
+                <div id="quiz-wrong-list" style="max-height:200px;overflow-y:auto;"></div>
+                <button id="back-to-quiz-btn" class="btn btn-primary" style="margin-top:16px;width:100%;">Back to Quiz</button>
             </div>
         </div>
 
