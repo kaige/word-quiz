@@ -267,31 +267,33 @@
                 // Append new words in shuffled order
                 var shuffledNew = shuffle(newWords);
                 var updatedOrder = savedOrder.concat(shuffledNew);
-                // Save updated order
-                await supabase.from('user_word_order')
+                // Save updated order in background
+                supabase.from('user_word_order')
                     .update({ word_order: JSON.stringify(updatedOrder) })
-                    .eq('user_id', currentUser.id);
+                    .eq('user_id', currentUser.id)
+                    .then(function() {}, function(e) { console.error(e); });
                 return updatedOrder;
             }
             return savedOrder;
         }
-        // First time: generate random order and save
+        // First time: generate random order, save in background (don't block quiz start)
         var order = shuffle(words).map(function (w) { return w.word; });
-        await supabase.from('user_word_order').insert({
+        supabase.from('user_word_order').insert({
             user_id: currentUser.id,
             word_order: JSON.stringify(order)
-        });
+        }).catch(function (e) { console.error('Failed to save word order:', e); });
         return order;
     }
 
     async function startNewQuiz() {
         if (!words.length) return;
-        // Mark any old unfinished sessions as completed
+        // Mark old unfinished sessions as completed (don't block)
         if (supabase && currentUser) {
-            await supabase.from('quiz_sessions')
+            supabase.from('quiz_sessions')
                 .update({ completed: true })
                 .eq('user_id', currentUser.id)
-                .eq('completed', false);
+                .eq('completed', false)
+                .then(function () {}, function (e) { console.error(e); });
         }
 
         currentIndex = 0;
@@ -305,18 +307,14 @@
             }).filter(Boolean);
 
             var sessionId = Date.now().toString(36) + Math.random().toString(36).slice(2);
-            try {
-                await supabase.from('quiz_sessions').insert({
-                    id: sessionId,
-                    user_id: currentUser.id,
-                    word_order: JSON.stringify(order),
-                    completed: false
-                });
-                currentSessionId = sessionId;
-            } catch (e) {
-                console.error('Failed to create session:', e);
-                currentSessionId = null;
-            }
+            // Save session in background
+            currentSessionId = sessionId;
+            supabase.from('quiz_sessions').insert({
+                id: sessionId,
+                user_id: currentUser.id,
+                word_order: JSON.stringify(order),
+                completed: false
+            }).catch(function (e) { console.error('Failed to create session:', e); });
         } else {
             quizWords = shuffle(words);
         }
