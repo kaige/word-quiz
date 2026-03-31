@@ -1,5 +1,9 @@
 [
   {
+    "word": "Christian",
+    "definition": "基督徒"
+  },
+  {
     "word": "abolition",
     "definition": "废除"
   },
@@ -317,7 +321,7 @@
   },
   {
     "word": "announce",
-    "definition": "宣布 宣布"
+    "definition": "宣布"
   },
   {
     "word": "announcement",
@@ -428,8 +432,12 @@
     "definition": "艺术的"
   },
   {
+    "word": "aside",
+    "definition": "在旁边；到旁边"
+  },
+  {
     "word": "aspect",
-    "definition": "体"
+    "definition": "方面; 样子，外观; 方位; （语法）体"
   },
   {
     "word": "assembly",
@@ -504,8 +512,16 @@
     "definition": "姿态"
   },
   {
+    "word": "attract",
+    "definition": "吸引；引起"
+  },
+  {
     "word": "attraction",
     "definition": "吸引"
+  },
+  {
+    "word": "attributable",
+    "definition": "可归因于…的"
   },
   {
     "word": "attribute",
@@ -608,6 +624,10 @@
     "definition": "障"
   },
   {
+    "word": "base",
+    "definition": "基础；基地；根基"
+  },
+  {
     "word": "basic",
     "definition": "基本区域图表"
   },
@@ -622,6 +642,10 @@
   {
     "word": "bat",
     "definition": "蝙蝠"
+  },
+  {
+    "word": "battle",
+    "definition": "战斗；战役；斗争"
   },
   {
     "word": "beauty",
@@ -696,6 +720,10 @@
     "definition": "苦的"
   },
   {
+    "word": "blind",
+    "definition": "盲的；瞎的；盲目的"
+  },
+  {
     "word": "blog",
     "definition": "博客"
   },
@@ -726,6 +754,10 @@
   {
     "word": "borrow",
     "definition": "举债,担保物"
+  },
+  {
+    "word": "bottom",
+    "definition": "底部；底；下端"
   },
   {
     "word": "bowl",
@@ -813,7 +845,7 @@
   },
   {
     "word": "build",
-    "definition": "“建”是指建设"
+    "definition": "建设"
   },
   {
     "word": "burden",
@@ -1048,8 +1080,8 @@
     "definition": "孩子气的"
   },
   {
-    "word": "christian",
-    "definition": "基督徒"
+    "word": "cholesterol",
+    "definition": "胆固醇"
   },
   {
     "word": "church",
@@ -1089,7 +1121,7 @@
   },
   {
     "word": "clerical",
-    "definition": "klerkal"
+    "definition": "文书工作的; 神职人员的"
   },
   {
     "word": "clerk",
@@ -1264,6 +1296,10 @@
     "definition": "作曲"
   },
   {
+    "word": "composition",
+    "definition": "作文；作曲；构成；成分"
+  },
+  {
     "word": "comprehensive",
     "definition": "综合 ,全面"
   },
@@ -1294,6 +1330,10 @@
   {
     "word": "conclude",
     "definition": "结束"
+  },
+  {
+    "word": "conclusion",
+    "definition": "结论；结局；结尾"
   },
   {
     "word": "conclusive",
@@ -1370,5 +1410,6917 @@
   {
     "word": "consideration",
     "definition": "对价；重要性；结果；后果"
+  },
+  {
+    "word": "considering",
+    "definition": "考虑到；鉴于"
+  },
+  {
+    "word": "consistency",
+    "definition": "一致性；连贯性；浓度"
+  },
+  {
+    "word": "consistent",
+    "definition": "坚定的"
+  },
+  {
+    "word": "constitute",
+    "definition": "引起；成为"
+  },
+  {
+    "word": "construct",
+    "definition": "结构成分；结构体；创立"
+  },
+  {
+    "word": "consultant",
+    "definition": "商议者；查阅者；咨询专家"
+  },
+  {
+    "word": "consume",
+    "definition": "用掉；消灭；消耗"
+  },
+  {
+    "word": "consumer",
+    "definition": "用电设备；消耗装置；消耗的人或物"
+  },
+  {
+    "word": "contain",
+    "definition": "能容纳；忍耐"
+  },
+  {
+    "word": "container",
+    "definition": "容器；集装箱；货柜"
+  },
+  {
+    "word": "contamination",
+    "definition": "污染；弄脏；玷污"
+  },
+  {
+    "word": "continual",
+    "definition": "连续的；多次重复的；频频的"
+  },
+  {
+    "word": "continue",
+    "definition": "继续说；不停地回荡；没完没结"
+  },
+  {
+    "word": "contractor",
+    "definition": "承包商；承包人"
+  },
+  {
+    "word": "contribution",
+    "definition": "贡献；补助品；定期缴款"
+  },
+  {
+    "word": "contributor",
+    "definition": "贡献者；投稿人；捐助者"
+  },
+  {
+    "word": "control",
+    "definition": "控制；操纵装置；支配"
+  },
+  {
+    "word": "controversy",
+    "definition": "争议"
+  },
+  {
+    "word": "convenient",
+    "definition": "实用的；省事的；容易到达的"
+  },
+  {
+    "word": "conventional",
+    "definition": "会议的；非核的"
+  },
+  {
+    "word": "conversation",
+    "definition": "交谈，谈话"
+  },
+  {
+    "word": "convincing",
+    "definition": "令人信服的，有说服力的"
+  },
+  {
+    "word": "cooperation",
+    "definition": "合作; 协助，配合"
+  },
+  {
+    "word": "cooperative",
+    "definition": "合作的，协作的; 配合的"
+  },
+  {
+    "word": "cope",
+    "definition": "夜幕；苍穹；铸钟模型顶部"
+  },
+  {
+    "word": "copyright",
+    "definition": "版权；著作权；版权法"
+  },
+  {
+    "word": "cord",
+    "definition": "一根粗线；弦"
+  },
+  {
+    "word": "core",
+    "definition": "核心；精髓；果心"
+  },
+  {
+    "word": "corner",
+    "definition": "偏僻处；走捷径；边缘"
+  },
+  {
+    "word": "cornerstone",
+    "definition": "基石；奠基石；基础"
+  },
+  {
+    "word": "correction",
+    "definition": "纠正；改正；修改"
+  },
+  {
+    "word": "corresponding",
+    "definition": "相同的"
+  },
+  {
+    "word": "corridor",
+    "definition": "走廊；通道；走廊地带"
+  },
+  {
+    "word": "costly",
+    "definition": "代价高的"
+  },
+  {
+    "word": "cotton",
+    "definition": "棉布；棉花；脱脂棉"
+  },
+  {
+    "word": "cough",
+    "definition": "咳嗽；咳嗽病"
+  },
+  {
+    "word": "country",
+    "definition": "故乡；郊外；领域"
+  },
+  {
+    "word": "countryside",
+    "definition": "乡村；农村；乡下"
+  },
+  {
+    "word": "courage",
+    "definition": "勇气；胆量；勇敢"
+  },
+  {
+    "word": "courageous",
+    "definition": "勇敢的；有胆量的"
+  },
+  {
+    "word": "course",
+    "definition": "一道菜；跑道；习惯的程序"
+  },
+  {
+    "word": "courtyard",
+    "definition": "庭院；院子；天井"
+  },
+  {
+    "word": "cover",
+    "definition": "全套餐具；布满于；孵蛋"
+  },
+  {
+    "word": "cowboy",
+    "definition": "牛仔；牧童"
+  },
+  {
+    "word": "cream",
+    "definition": "奶油；奶油色；精华"
+  },
+  {
+    "word": "create",
+    "definition": "设计；大叫大喊；制造"
+  },
+  {
+    "word": "creative",
+    "definition": "有创造力的；创造性的"
+  },
+  {
+    "word": "creature",
+    "definition": "生物；动物；人"
+  },
+  {
+    "word": "crew",
+    "definition": "帮派；宇宙航行员"
+  },
+  {
+    "word": "crime",
+    "definition": "犯罪情况；作恶；罪名"
+  },
+  {
+    "word": "critic",
+    "definition": "持批评态度的人；鉴定家"
+  },
+  {
+    "word": "criticism",
+    "definition": "鉴定法；批评口吻"
+  },
+  {
+    "word": "crop",
+    "definition": "嗉囊；大量；剪短"
+  },
+  {
+    "word": "cross",
+    "definition": "杂交；画横线于；画十字于"
+  },
+  {
+    "word": "crossing",
+    "definition": "十字路口；交叉；横渡"
+  },
+  {
+    "word": "crowd",
+    "definition": "一堆；拥挤；东西"
+  },
+  {
+    "word": "crowded",
+    "definition": "拥挤的；挤满人的"
+  },
+  {
+    "word": "cruelty",
+    "definition": "残酷；残忍；残酷的行为"
+  },
+  {
+    "word": "cubic",
+    "definition": "用立方单位度量的；立方结构的；立方"
+  },
+  {
+    "word": "cultural",
+    "definition": "培养的；与文化有关的；情绪上的"
+  },
+  {
+    "word": "culture",
+    "definition": "养殖；陶冶；磨炼"
+  },
+  {
+    "word": "curable",
+    "definition": "可医治的；医得好的；可治愈的"
+  },
+  {
+    "word": "curiosity",
+    "definition": "奇人；奇特性；引起好奇心的事物"
+  },
+  {
+    "word": "curious",
+    "definition": "精细的"
+  },
+  {
+    "word": "current",
+    "definition": "潮流；流动；现行的"
+  },
+  {
+    "word": "currently",
+    "definition": "目前；当前；现在"
+  },
+  {
+    "word": "curtain",
+    "definition": "幕状物；落幕；中堤幕墙"
+  },
+  {
+    "word": "customer",
+    "definition": "顾客；客户；消费者"
+  },
+  {
+    "word": "customs",
+    "definition": "报关手续"
+  },
+  {
+    "word": "cycle",
+    "definition": "摩托车；循环；一转"
+  },
+  {
+    "word": "cycling",
+    "definition": "骑自行车；骑车运动"
+  },
+  {
+    "word": "damage",
+    "definition": "损害程度；帐单的数目"
+  },
+  {
+    "word": "danger",
+    "definition": "危险；威胁；危害"
+  },
+  {
+    "word": "dare",
+    "definition": "敢；竟敢；挑战"
+  },
+  {
+    "word": "daring",
+    "definition": "意气风发的；大胆泼辣的；下流的"
+  },
+  {
+    "word": "darkness",
+    "definition": "黑暗；阴暗"
+  },
+  {
+    "word": "darling",
+    "definition": "宠儿；宝贝；心爱的人"
+  },
+  {
+    "word": "data",
+    "definition": "论据；已知条件；信息"
+  },
+  {
+    "word": "database",
+    "definition": "数据库"
+  },
+  {
+    "word": "dating",
+    "definition": "约会；交往；年代测定"
+  },
+  {
+    "word": "daylight",
+    "definition": "间隔；活动力"
+  },
+  {
+    "word": "deadline",
+    "definition": "待修的车辆"
+  },
+  {
+    "word": "deal",
+    "definition": "大量；待遇；协定"
+  },
+  {
+    "word": "dealing",
+    "definition": "交易；来往；对待"
+  },
+  {
+    "word": "debate",
+    "definition": "辩论；讨论；争论"
+  },
+  {
+    "word": "debt",
+    "definition": "人情债"
+  },
+  {
+    "word": "decide",
+    "definition": "选定；认为；讨论"
+  },
+  {
+    "word": "decision",
+    "definition": "决议；判决；抉择"
+  },
+  {
+    "word": "decisive",
+    "definition": "决定性的；果断的"
+  },
+  {
+    "word": "decoration",
+    "definition": "装饰；装饰品"
+  },
+  {
+    "word": "decorative",
+    "definition": "装饰性的；装潢的"
+  },
+  {
+    "word": "deed",
+    "definition": "证书；行为；行动"
+  },
+  {
+    "word": "deeply",
+    "definition": "深深地；非常地"
+  },
+  {
+    "word": "defend",
+    "definition": "防守；保卫；辩护"
+  },
+  {
+    "word": "define",
+    "definition": "固定；判定；精确地解释"
+  },
+  {
+    "word": "definite",
+    "definition": "限定的；肯定的事"
+  },
+  {
+    "word": "definitely",
+    "definition": "明确地；肯定地；当然"
+  },
+  {
+    "word": "definition",
+    "definition": "定义；释义；清晰度"
+  },
+  {
+    "word": "degree",
+    "definition": "程度；学术；严重程度"
+  },
+  {
+    "word": "delay",
+    "definition": "被耽搁的事件；延迟器"
+  },
+  {
+    "word": "deliberation",
+    "definition": "深思熟虑；慎重；缓慢"
+  },
+  {
+    "word": "delicious",
+    "definition": "一种有香味的红色或黄色苹果"
+  },
+  {
+    "word": "delight",
+    "definition": "高兴；快乐；使人高兴的事"
+  },
+  {
+    "word": "delivery",
+    "definition": "分娩；交付；演讲的姿态"
+  },
+  {
+    "word": "demand",
+    "definition": "需求；销路；开价"
+  },
+  {
+    "word": "demanding",
+    "definition": "要求高的；费力的；苛求的"
+  },
+  {
+    "word": "democratic",
+    "definition": "民主党的；民主管理的；通俗的"
+  },
+  {
+    "word": "deny",
+    "definition": "推卸；摒弃；否认知情"
+  },
+  {
+    "word": "department",
+    "definition": "部；部门；车间"
+  },
+  {
+    "word": "departure",
+    "definition": "变更；离开的飞机；逾越"
+  },
+  {
+    "word": "depend",
+    "definition": "悬而未决"
+  },
+  {
+    "word": "dependence",
+    "definition": "依靠；依赖"
+  },
+  {
+    "word": "dependent",
+    "definition": "有瘾的"
+  },
+  {
+    "word": "depression",
+    "definition": "陷落；下沉；抑郁症"
+  },
+  {
+    "word": "deprivation",
+    "definition": "剥夺；匮乏；丧失"
+  },
+  {
+    "word": "depth",
+    "definition": "深刻；中间部分；最强烈部分"
+  },
+  {
+    "word": "descent",
+    "definition": "下坡；下坡路"
+  },
+  {
+    "word": "describe",
+    "definition": "描述；描写；形容"
+  },
+  {
+    "word": "descriptive",
+    "definition": "描写的；描述性的"
+  },
+  {
+    "word": "design",
+    "definition": "图纸；提纲；结构"
+  },
+  {
+    "word": "designer",
+    "definition": "时装设计师；打样师；名牌的"
+  },
+  {
+    "word": "desirability",
+    "definition": "可取性；吸引力；值得向往"
+  },
+  {
+    "word": "desire",
+    "definition": "食欲；邀请"
+  },
+  {
+    "word": "dessert",
+    "definition": "甜食后的新鲜水果；生食；水果和坚果"
+  },
+  {
+    "word": "destroy",
+    "definition": "肃清；扑灭；驱除"
+  },
+  {
+    "word": "destruction",
+    "definition": "毁灭的原因；扑灭；驱除"
+  },
+  {
+    "word": "detail",
+    "definition": "详细；逐一说明；选派"
+  },
+  {
+    "word": "detailed",
+    "definition": "详细的；详尽的"
+  },
+  {
+    "word": "detection",
+    "definition": "发现；探测；侦查"
+  },
+  {
+    "word": "detective",
+    "definition": "警探；私家侦探；侦探的"
+  },
+  {
+    "word": "determine",
+    "definition": "确定；断定；查明"
+  },
+  {
+    "word": "determined",
+    "definition": "坚决的；有决心的"
+  },
+  {
+    "word": "develop",
+    "definition": "开发；详尽阐述；开展"
+  },
+  {
+    "word": "developer",
+    "definition": "开发者；开发商"
+  },
+  {
+    "word": "development",
+    "definition": "发展阶段；发达物；事态发展"
+  },
+  {
+    "word": "device",
+    "definition": "设计；标记；商标"
+  },
+  {
+    "word": "devotion",
+    "definition": "忠诚；献身；奉献"
+  },
+  {
+    "word": "diabetes",
+    "definition": "多尿症；尿崩症；消渴"
+  },
+  {
+    "word": "diagnosis",
+    "definition": "诊断；判断"
+  },
+  {
+    "word": "diamond",
+    "definition": "菱饰；菱形的；金刚钻的"
+  },
+  {
+    "word": "diary",
+    "definition": "日记；日记簿；记事簿"
+  },
+  {
+    "word": "dictator",
+    "definition": "独裁者；专制者"
+  },
+  {
+    "word": "dietary",
+    "definition": "饮食的；规定食物的；饲料的"
+  },
+  {
+    "word": "differ",
+    "definition": "不同；有区别；意见不合"
+  },
+  {
+    "word": "difficulty",
+    "definition": "障碍；麻烦"
+  },
+  {
+    "word": "dig",
+    "definition": "挖掘；刻苦钻研的学生；挖掘地点"
+  },
+  {
+    "word": "digestion",
+    "definition": "消化力；消化作用；领会领悟"
+  },
+  {
+    "word": "diligence",
+    "definition": "勤奋；勤勉；迅速"
+  },
+  {
+    "word": "diner",
+    "definition": "用餐者；餐厅；小餐馆"
+  },
+  {
+    "word": "dioxide",
+    "definition": "双氧分子"
+  },
+  {
+    "word": "diplomat",
+    "definition": "外交官；有手腕的人；善于交际的人"
+  },
+  {
+    "word": "direct",
+    "definition": "直接的；直截了当的；径直的"
+  },
+  {
+    "word": "direction",
+    "definition": "指示；方向；指导"
+  },
+  {
+    "word": "director",
+    "definition": "董事；主任；理事"
+  },
+  {
+    "word": "dirt",
+    "definition": "丑闻；下流话；色情描写"
+  },
+  {
+    "word": "disability",
+    "definition": "残疾；缺陷；无能力"
+  },
+  {
+    "word": "disabled",
+    "definition": "残疾的；有缺陷的；丧失能力的"
+  },
+  {
+    "word": "disagreement",
+    "definition": "分歧；不一致；意见不合"
+  },
+  {
+    "word": "disappear",
+    "definition": "突然离开；被做掉了；被囚禁"
+  },
+  {
+    "word": "disappearance",
+    "definition": "消失；失踪；消散"
+  },
+  {
+    "word": "disappoint",
+    "definition": "挫败；使失望；使落空"
+  },
+  {
+    "word": "disappointing",
+    "definition": "令人失望的"
+  },
+  {
+    "word": "disappointment",
+    "definition": "失望；扫兴；令人失望的事"
+  },
+  {
+    "word": "disapprove",
+    "definition": "不赞成；反对"
+  },
+  {
+    "word": "disaster",
+    "definition": "灾难性损失；彻底失败的人"
+  },
+  {
+    "word": "disastrous",
+    "definition": "灾难性的；极糟的"
+  },
+  {
+    "word": "disciplinary",
+    "definition": "纪律的；学科上的；惩戒性的"
+  },
+  {
+    "word": "disciplined",
+    "definition": "有纪律的；受过训练的；遵守纪律的"
+  },
+  {
+    "word": "discourage",
+    "definition": "使泄气；使沮丧；劝阻"
+  },
+  {
+    "word": "discover",
+    "definition": "发觉；获得"
+  },
+  {
+    "word": "discovery",
+    "definition": "发现；被发现的事物"
+  },
+  {
+    "word": "discrimination",
+    "definition": "歧视；辨别力；辨别"
+  },
+  {
+    "word": "discussion",
+    "definition": "讨论；商讨；详述"
+  },
+  {
+    "word": "disease",
+    "definition": "不健全；病态；使生病"
+  },
+  {
+    "word": "disgusting",
+    "definition": "令人恶心的；令人厌恶的"
+  },
+  {
+    "word": "dish",
+    "definition": "反射碟；抛物面天线；盘装食品"
+  },
+  {
+    "word": "disintegrate",
+    "definition": "瓦解；崩溃；分裂"
+  },
+  {
+    "word": "dismissal",
+    "definition": "解雇；驳回；开除"
+  },
+  {
+    "word": "disposal",
+    "definition": "配置；排列；垃圾粉碎机"
+  },
+  {
+    "word": "disruptive",
+    "definition": "破坏性的；捣乱的；颠覆性的"
+  },
+  {
+    "word": "distance",
+    "definition": "间隔；悬殊；不介入"
+  },
+  {
+    "word": "distant",
+    "definition": "久远的；远处的"
+  },
+  {
+    "word": "distinction",
+    "definition": "大功"
+  },
+  {
+    "word": "distinctive",
+    "definition": "有特色的；独特的；与众不同的"
+  },
+  {
+    "word": "distraction",
+    "definition": "娱乐；消遣；分心"
+  },
+  {
+    "word": "distribution",
+    "definition": "分布；分发；分配"
+  },
+  {
+    "word": "district",
+    "definition": "行政区；教区；市区"
+  },
+  {
+    "word": "dive",
+    "definition": "迅速移动；猛然一跳；迅速将手伸入"
+  },
+  {
+    "word": "divide",
+    "definition": "分裂；标度；分享"
+  },
+  {
+    "word": "divorce",
+    "definition": "离婚；分离"
+  },
+  {
+    "word": "doctoral",
+    "definition": "博士的；博士学位的；学者的"
+  },
+  {
+    "word": "document",
+    "definition": "文件；文档；记录"
+  },
+  {
+    "word": "documentary",
+    "definition": "纪录片；纪实的"
+  },
+  {
+    "word": "dominance",
+    "definition": "优势；统治；支配地位"
+  },
+  {
+    "word": "dominant",
+    "definition": "高耸的；支配；盛行"
+  },
+  {
+    "word": "domination",
+    "definition": "统治；控制；支配"
+  },
+  {
+    "word": "donkey",
+    "definition": "美国民主党的象征；拖拉机；辅助发动机"
+  },
+  {
+    "word": "dormitory",
+    "definition": "宿舍；学生宿舍"
+  },
+  {
+    "word": "doubt",
+    "definition": "疑问；疑惧；犹豫"
+  },
+  {
+    "word": "download",
+    "definition": "下装；将从大计算机系统输入小计算机系统；下行装载"
+  },
+  {
+    "word": "downstairs",
+    "definition": "楼下的；在楼下；往楼下"
+  },
+  {
+    "word": "downward",
+    "definition": "向下；日趋没落地；往后推移地"
+  },
+  {
+    "word": "dozen",
+    "definition": "若干；谩骂游戏"
+  },
+  {
+    "word": "drag",
+    "definition": "拖沓地进行；生拉硬拽；劝人勉强来"
+  },
+  {
+    "word": "drama",
+    "definition": "剧本；戏剧事业；戏剧文学"
+  },
+  {
+    "word": "drawing",
+    "definition": "绘画；素描；图画"
+  },
+  {
+    "word": "dreadful",
+    "definition": "令人敬畏的；极其的；使人痛苦的"
+  },
+  {
+    "word": "drive",
+    "definition": "传动装置；运动；击球"
+  },
+  {
+    "word": "drop",
+    "definition": "滴剂；落差；空投"
+  },
+  {
+    "word": "dropout",
+    "definition": "辍学者；退出者"
+  },
+  {
+    "word": "drug",
+    "definition": "滞销货；麻醉药品；药品"
+  },
+  {
+    "word": "drunken",
+    "definition": "常醉的；酒醉引起的；酒醉的"
+  },
+  {
+    "word": "dryer",
+    "definition": "干燥机；烘干机；吹风机"
+  },
+  {
+    "word": "duration",
+    "definition": "绵延性"
+  },
+  {
+    "word": "dust",
+    "definition": "粉末；金粉；屈辱"
+  },
+  {
+    "word": "duty",
+    "definition": "义务；职责；责任"
+  },
+  {
+    "word": "dying",
+    "definition": "垂死的；临终的；消逝的"
+  },
+  {
+    "word": "dynamics",
+    "definition": "动态；动力学；力度变化"
+  },
+  {
+    "word": "eager",
+    "definition": "急切的；凛冽的；酷烈的"
+  },
+  {
+    "word": "earnings",
+    "definition": "收入；收益；利润"
+  },
+  {
+    "word": "easily",
+    "definition": "确实；安逸"
+  },
+  {
+    "word": "echo",
+    "definition": "共鸣；重复；反响"
+  },
+  {
+    "word": "ecological",
+    "definition": "生态的；生态学的"
+  },
+  {
+    "word": "economics",
+    "definition": "经济学；经济情况；经济"
+  },
+  {
+    "word": "economist",
+    "definition": "节俭的人；经济学家；经济学者"
+  },
+  {
+    "word": "economy",
+    "definition": "理财；适当的安排"
+  },
+  {
+    "word": "edge",
+    "definition": "敏锐；微醉状态；滚边"
+  },
+  {
+    "word": "editor",
+    "definition": "编者；社论撰写人；记者"
+  },
+  {
+    "word": "editorial",
+    "definition": "社论；评论；重要评论"
+  },
+  {
+    "word": "educate",
+    "definition": "教育；训练；教导"
+  },
+  {
+    "word": "education",
+    "definition": "教育学；教授法；饲养"
+  },
+  {
+    "word": "educational",
+    "definition": "教育的；有教育意义的"
+  },
+  {
+    "word": "educator",
+    "definition": "教育工作者；教师"
+  },
+  {
+    "word": "effect",
+    "definition": "财产；现象；旨趣"
+  },
+  {
+    "word": "effective",
+    "definition": "有力的；灵验的；被实施的"
+  },
+  {
+    "word": "efficiency",
+    "definition": "功率；提高功效的方法；工作效率"
+  },
+  {
+    "word": "effort",
+    "definition": "艰难的尝试；运动；工作"
+  },
+  {
+    "word": "elder",
+    "definition": "优先的；古老的；元老院成员"
+  },
+  {
+    "word": "elect",
+    "definition": "决定；当选；卓越的"
+  },
+  {
+    "word": "election",
+    "definition": "选举；当选"
+  },
+  {
+    "word": "electric",
+    "definition": "电的；用电吉他演奏的；电光似的"
+  },
+  {
+    "word": "electricity",
+    "definition": "电；电流；电学"
+  },
+  {
+    "word": "electronic",
+    "definition": "电子的；电子操纵的；电子器件的"
+  },
+  {
+    "word": "electronics",
+    "definition": "电子学；电子器件；电子电路"
+  },
+  {
+    "word": "elegance",
+    "definition": "雅致；典雅；优雅"
+  },
+  {
+    "word": "element",
+    "definition": "自然环境；基础；适宜的环境"
+  },
+  {
+    "word": "elevator",
+    "definition": "谷仓；升降机；起卸机"
+  },
+  {
+    "word": "embarrassment",
+    "definition": "难堪；窘迫；拮据"
+  },
+  {
+    "word": "emergence",
+    "definition": "出现；浮现；兴起"
+  },
+  {
+    "word": "emission",
+    "definition": "放射；发出；发射"
+  },
+  {
+    "word": "emotional",
+    "definition": "感情的；感情脆弱的；情绪的"
+  },
+  {
+    "word": "emphasis",
+    "definition": "强调；重点；重视"
+  },
+  {
+    "word": "employ",
+    "definition": "设置；让；使用"
+  },
+  {
+    "word": "employee",
+    "definition": "从业员工；伙计"
+  },
+  {
+    "word": "employer",
+    "definition": "雇主；雇用者；老板"
+  },
+  {
+    "word": "enable",
+    "definition": "使能够；使成为可能；能够做出"
+  },
+  {
+    "word": "encourage",
+    "definition": "鼓励；促进；支持"
+  },
+  {
+    "word": "encouragement",
+    "definition": "鼓励；奖励；促进"
+  },
+  {
+    "word": "encouraging",
+    "definition": "赞助的；鼓励的；促进的"
+  },
+  {
+    "word": "endanger",
+    "definition": "危及；使遭到危险；破坏"
+  },
+  {
+    "word": "ending",
+    "definition": "结局；结尾；终止"
+  },
+  {
+    "word": "endless",
+    "definition": "不断的；无休止的；无尽的"
+  },
+  {
+    "word": "endure",
+    "definition": "忍受；忍耐；持久"
+  },
+  {
+    "word": "enemy",
+    "definition": "冤家对头；攻击的人；仇人"
+  },
+  {
+    "word": "enforcement",
+    "definition": "生效；有力的论据"
+  },
+  {
+    "word": "engagement",
+    "definition": "约会；债务；约束"
+  },
+  {
+    "word": "engine",
+    "definition": "发动机；引擎；机车"
+  },
+  {
+    "word": "engineer",
+    "definition": "工程师；轮机手；精明干练的人"
+  },
+  {
+    "word": "engineering",
+    "definition": "操纵；管理；开车技术"
+  },
+  {
+    "word": "enjoyable",
+    "definition": "有乐趣的；十分欢畅的；适意的"
+  },
+  {
+    "word": "enjoyment",
+    "definition": "享受；乐趣；快乐"
+  },
+  {
+    "word": "enlarge",
+    "definition": "扩大；发挥；补充"
+  },
+  {
+    "word": "enlightenment",
+    "definition": "启蒙运动；解释；文明"
+  },
+  {
+    "word": "entertain",
+    "definition": "进行招待的活动；心存"
+  },
+  {
+    "word": "entertaining",
+    "definition": "有趣的；使人愉快的；娱乐的"
+  },
+  {
+    "word": "enthusiasm",
+    "definition": "热情；热心；热忱"
+  },
+  {
+    "word": "entire",
+    "definition": "连续的；全然的；未断的"
+  },
+  {
+    "word": "entrance",
+    "definition": "进入；使狂喜"
+  },
+  {
+    "word": "environment",
+    "definition": "环境；围绕；围绕物"
+  },
+  {
+    "word": "environmental",
+    "definition": "自然环境的；环境产生的；生态环境的"
+  },
+  {
+    "word": "equality",
+    "definition": "均等；平等；等式"
+  },
+  {
+    "word": "equip",
+    "definition": "装备；配备；使有能力"
+  },
+  {
+    "word": "equipment",
+    "definition": "设备；装备；知识"
+  },
+  {
+    "word": "era",
+    "definition": "纪元；时候；标志新的重要历史阶段开端的事件"
+  },
+  {
+    "word": "error",
+    "definition": "错误；过失；罪过"
+  },
+  {
+    "word": "escape",
+    "definition": "幸免于难；避难装置；逃避现实"
+  },
+  {
+    "word": "essence",
+    "definition": "精华；实质；要素"
+  },
+  {
+    "word": "establishment",
+    "definition": "权势集团；建立的机构；学校"
+  },
+  {
+    "word": "ethic",
+    "definition": "伦理；道德；伦理标准"
+  },
+  {
+    "word": "ethics",
+    "definition": "伦理学著作；规矩；关于伦理学的论文"
+  },
+  {
+    "word": "evaluation",
+    "definition": "估价；解译"
+  },
+  {
+    "word": "eve",
+    "definition": "前夕；前夜；前一刻"
+  },
+  {
+    "word": "even",
+    "definition": "均匀的；一致的；齐的"
+  },
+  {
+    "word": "event",
+    "definition": "项目；情况；比赛项目"
+  },
+  {
+    "word": "ever",
+    "definition": "在任何时候；始终；曾经"
+  },
+  {
+    "word": "evidence",
+    "definition": "证据；证明；迹象"
+  },
+  {
+    "word": "evil",
+    "definition": "有害的；罪恶的；不吉利的"
+  },
+  {
+    "word": "evolutionary",
+    "definition": "发展的；渐进的；承认演化的"
+  },
+  {
+    "word": "evolve",
+    "definition": "发展；使逐步形成；发育成"
+  },
+  {
+    "word": "exact",
+    "definition": "勒索"
+  },
+  {
+    "word": "exaggeration",
+    "definition": "夸大其词；过份；放大"
+  },
+  {
+    "word": "examine",
+    "definition": "研究；搜索"
+  },
+  {
+    "word": "exception",
+    "definition": "除外；异议；不服"
+  },
+  {
+    "word": "excessive",
+    "definition": "过度的；过分的；极度的"
+  },
+  {
+    "word": "excitement",
+    "definition": "令人兴奋的事；骚动；动人心弦的一举"
+  },
+  {
+    "word": "exclamation",
+    "definition": "惊叫；感叹；惊叹"
+  },
+  {
+    "word": "exclude",
+    "definition": "拒绝；孵出"
+  },
+  {
+    "word": "exclusive",
+    "definition": "全部的；限制严格的；独家经营的"
+  },
+  {
+    "word": "excuse",
+    "definition": "辩解；请假条；表白"
+  },
+  {
+    "word": "execution",
+    "definition": "执行；实行；演奏"
+  },
+  {
+    "word": "executive",
+    "definition": "行政人员；执行的；主管"
+  },
+  {
+    "word": "exhaustive",
+    "definition": "彻底的；消耗的；无遗漏的"
+  },
+  {
+    "word": "exhibit",
+    "definition": "展出产品；证件；见于广告"
+  },
+  {
+    "word": "exhibition",
+    "definition": "显示；展览品；表现"
+  },
+  {
+    "word": "exile",
+    "definition": "远离家乡的生活；冷宫；遣送"
+  },
+  {
+    "word": "exist",
+    "definition": "存在；生存"
+  },
+  {
+    "word": "existence",
+    "definition": "存在；生活；生存"
+  },
+  {
+    "word": "existent",
+    "definition": "实有的；生存的；实在者"
+  },
+  {
+    "word": "existing",
+    "definition": "现存的；现行的；存在的"
+  },
+  {
+    "word": "expansion",
+    "definition": "发展"
+  },
+  {
+    "word": "expect",
+    "definition": "认为理应得到；要求"
+  },
+  {
+    "word": "expectancy",
+    "definition": "预期；期望；期待"
+  },
+  {
+    "word": "expectation",
+    "definition": "指望；估计；期待疗法"
+  },
+  {
+    "word": "expense",
+    "definition": "价钱；牺牲；花钱的东西"
+  },
+  {
+    "word": "experience",
+    "definition": "传统；亲身经历时期"
+  },
+  {
+    "word": "experienced",
+    "definition": "老练的；有经验的；熟练的"
+  },
+  {
+    "word": "experiment",
+    "definition": "试验；实验；尝试"
+  },
+  {
+    "word": "experimental",
+    "definition": "根据实验的；实验用的；实验上的"
+  },
+  {
+    "word": "expert",
+    "definition": "技师；有经验的人；有专长的"
+  },
+  {
+    "word": "explain",
+    "definition": "揭开"
+  },
+  {
+    "word": "explanation",
+    "definition": "解释；说明；交谈"
+  },
+  {
+    "word": "exploration",
+    "definition": "测定；搜寻"
+  },
+  {
+    "word": "explosion",
+    "definition": "扩张；剧变；迸发"
+  },
+  {
+    "word": "exposure",
+    "definition": "暴晒"
+  },
+  {
+    "word": "express",
+    "definition": "快汇；快件；快速行进的"
+  },
+  {
+    "word": "expression",
+    "definition": "表情；表示；表达"
+  },
+  {
+    "word": "expressive",
+    "definition": "意味深长的；表现的；富于表情的"
+  },
+  {
+    "word": "extended",
+    "definition": "伸出的；长期的；广泛的"
+  },
+  {
+    "word": "extension",
+    "definition": "电话分机；范围；缓期"
+  },
+  {
+    "word": "extensive",
+    "definition": "广泛的；广大的；大量的"
+  },
+  {
+    "word": "extent",
+    "definition": "限度；分量；土地估价"
+  },
+  {
+    "word": "extinction",
+    "definition": "灭绝；消灭；熄灭"
+  },
+  {
+    "word": "extraction",
+    "definition": "拔出；抽出；血统"
+  },
+  {
+    "word": "extraordinary",
+    "definition": "特别的；破例的；临时的"
+  },
+  {
+    "word": "eyesight",
+    "definition": "眼力；眼界；见解"
+  },
+  {
+    "word": "factual",
+    "definition": "根据事实的"
+  },
+  {
+    "word": "fail",
+    "definition": "失败；失误；不及格者"
+  },
+  {
+    "word": "failure",
+    "definition": "失败；失败者；衰退"
+  },
+  {
+    "word": "fair",
+    "definition": "美丽的；晴朗的；有希望的"
+  },
+  {
+    "word": "fairly",
+    "definition": "简直；相当地；正当地"
+  },
+  {
+    "word": "fan",
+    "definition": "风扇；簸箕；扬谷机"
+  },
+  {
+    "word": "fantasy",
+    "definition": "怪念头；离奇的图案；想入非非"
+  },
+  {
+    "word": "farming",
+    "definition": "农业；务农；畜牧业"
+  },
+  {
+    "word": "farther",
+    "definition": "更远的；进一步地"
+  },
+  {
+    "word": "fascinating",
+    "definition": "迷人的；极美的；极好的"
+  },
+  {
+    "word": "fascination",
+    "definition": "魅力；迷恋；有魅力的东西"
+  },
+  {
+    "word": "fashionable",
+    "definition": "时尚的；流行的；时髦的"
+  },
+  {
+    "word": "fate",
+    "definition": "灾难；可预期演变；注定"
+  },
+  {
+    "word": "faulty",
+    "definition": "有错误的；不完美的；有缺点的"
+  },
+  {
+    "word": "fax",
+    "definition": "传真机；传真通信；复印本"
+  },
+  {
+    "word": "fear",
+    "definition": "机遇；令人害怕的事物；害怕会丧生"
+  },
+  {
+    "word": "fearful",
+    "definition": "担心的；严重的；胆怯的"
+  },
+  {
+    "word": "federal",
+    "definition": "国家的；美国联邦政府的；中央政府的"
+  },
+  {
+    "word": "feed",
+    "definition": "饭食；吃饭；传送"
+  },
+  {
+    "word": "feel",
+    "definition": "试探；经受；体谅"
+  },
+  {
+    "word": "feverish",
+    "definition": "发热的；狂热的；兴奋的"
+  },
+  {
+    "word": "fiber",
+    "definition": "纤维；质地；性格"
+  },
+  {
+    "word": "fiction",
+    "definition": "小说；虚构；虚构的事"
+  },
+  {
+    "word": "field",
+    "definition": "实地；视野；范畴"
+  },
+  {
+    "word": "figure",
+    "definition": "扮演角色；考虑；跳某种舞步"
+  },
+  {
+    "word": "film",
+    "definition": "电影；胶片；薄膜"
+  },
+  {
+    "word": "financial",
+    "definition": "金融界的；善于理财的；财经家的"
+  },
+  {
+    "word": "finding",
+    "definition": "发现；发现物；评定"
+  },
+  {
+    "word": "fine",
+    "definition": "漂亮的；美好的；晴朗的"
+  },
+  {
+    "word": "fireplace",
+    "definition": "壁炉；炉床；火炉"
+  },
+  {
+    "word": "firm",
+    "definition": "事务所；冰川粒雪；严格的"
+  },
+  {
+    "word": "fit",
+    "definition": "合格的；健康的；性感迷人的"
+  },
+  {
+    "word": "fix",
+    "definition": "校准；安装；供给"
+  },
+  {
+    "word": "fixed",
+    "definition": "确定的；固执的；通过作弊预先安排好结果的"
+  },
+  {
+    "word": "flat",
+    "definition": "走了气的；断然的；浅的"
+  },
+  {
+    "word": "fleet",
+    "definition": "弗利特河；全部军舰；浅的"
+  },
+  {
+    "word": "flexibility",
+    "definition": "灵活性；弹性；柔韧性"
+  },
+  {
+    "word": "flight",
+    "definition": "飞机的航程；楼梯的一段；搭机旅行"
+  },
+  {
+    "word": "flood",
+    "definition": "使大受感动；照进；压倒"
+  },
+  {
+    "word": "flow",
+    "definition": "涨潮；泛滥；大量"
+  },
+  {
+    "word": "fluency",
+    "definition": "流利；流畅"
+  },
+  {
+    "word": "fog",
+    "definition": "模糊；苔藓；割后再生的草"
+  },
+  {
+    "word": "folk",
+    "definition": "民间音乐；正派的人们；民间的"
+  },
+  {
+    "word": "fond",
+    "definition": "痴想的；爱好的；愚蠢的"
+  },
+  {
+    "word": "forbid",
+    "definition": "禁止；妨碍；妨害"
+  },
+  {
+    "word": "force",
+    "definition": "暴力；说服力；效力"
+  },
+  {
+    "word": "foreigner",
+    "definition": "陌生人；外国船；进口货物"
+  },
+  {
+    "word": "foreseeable",
+    "definition": "可预见的"
+  },
+  {
+    "word": "forget",
+    "definition": "别提；怠慢；放弃"
+  },
+  {
+    "word": "forgetful",
+    "definition": "健忘的；好忘事的"
+  },
+  {
+    "word": "forgiving",
+    "definition": "宽容的；宽恕的；仁慈的"
+  },
+  {
+    "word": "form",
+    "definition": "形状；表格；良好的健康状态"
+  },
+  {
+    "word": "formal",
+    "definition": "合乎格式的；礼节上的"
+  },
+  {
+    "word": "formation",
+    "definition": "形成；形成物；群系"
+  },
+  {
+    "word": "former",
+    "definition": "前者的；在前的；前任的"
+  },
+  {
+    "word": "formula",
+    "definition": "准则"
+  },
+  {
+    "word": "forth",
+    "definition": "以后；离去；外出"
+  },
+  {
+    "word": "fortunate",
+    "definition": "带来幸运的；侥幸的；吉利的"
+  },
+  {
+    "word": "forward",
+    "definition": "提前的；放肆的；向前的"
+  },
+  {
+    "word": "found",
+    "definition": "装备齐全的；不另外收费的供应品"
+  },
+  {
+    "word": "foundation",
+    "definition": "基础；粉底霜；机构"
+  },
+  {
+    "word": "founder",
+    "definition": "翻砂工；熔制玻璃工人；使陷入泥沼"
+  },
+  {
+    "word": "founding",
+    "definition": "铸造；熔铸；翻砂"
+  },
+  {
+    "word": "frame",
+    "definition": "镜头；体制；画面"
+  },
+  {
+    "word": "frank",
+    "definition": "一望而知的；公开的；法兰克人"
+  },
+  {
+    "word": "freeze",
+    "definition": "使沮丧；使呆住；可以冷藏"
+  },
+  {
+    "word": "frequency",
+    "definition": "拍频；发病率；振动频率"
+  },
+  {
+    "word": "frequent",
+    "definition": "稍多的；快速的；时常来访"
+  },
+  {
+    "word": "fresh",
+    "definition": "清新的；新鲜的；新近的"
+  },
+  {
+    "word": "freshman",
+    "definition": "新生；大学一年级学生"
+  },
+  {
+    "word": "front",
+    "definition": "正面；外表；门面"
+  },
+  {
+    "word": "fruitful",
+    "definition": "富有成效的；多产的；肥沃的"
+  },
+  {
+    "word": "frustrating",
+    "definition": "令人懊恼的"
+  },
+  {
+    "word": "frustration",
+    "definition": "挫折；沮丧；烦闷"
+  },
+  {
+    "word": "fuel",
+    "definition": "能量"
+  },
+  {
+    "word": "functional",
+    "definition": "功能的；作用的；有多种用途的"
+  },
+  {
+    "word": "funding",
+    "definition": "资金；基金；提供基金"
+  },
+  {
+    "word": "fur",
+    "definition": "除去水垢；收帆；以毛皮制作"
+  },
+  {
+    "word": "furniture",
+    "definition": "装修；附属品；内容"
+  },
+  {
+    "word": "gadget",
+    "definition": "小器具；小装置；小玩意"
+  },
+  {
+    "word": "gain",
+    "definition": "腰槽；雄榫上的斜肩；改进"
+  },
+  {
+    "word": "gap",
+    "definition": "差距；空白；峡谷"
+  },
+  {
+    "word": "garage",
+    "definition": "加油站"
+  },
+  {
+    "word": "gardener",
+    "definition": "园艺家；园艺爱好者；菜农"
+  },
+  {
+    "word": "gardening",
+    "definition": "翻腾作用；种植；园林工人的工作"
+  },
+  {
+    "word": "gasoline",
+    "definition": "汽油"
+  },
+  {
+    "word": "gate",
+    "definition": "观众人数；政治丑闻；选通脉冲"
+  },
+  {
+    "word": "gather",
+    "definition": "使聚集；收拾；使皱起"
+  },
+  {
+    "word": "gathering",
+    "definition": "聚会；集会；采集"
+  },
+  {
+    "word": "gaze",
+    "definition": "凝视；注视；眼光"
+  },
+  {
+    "word": "gender",
+    "definition": "性交"
+  },
+  {
+    "word": "general",
+    "definition": "首席的；公众的；将军级的"
+  },
+  {
+    "word": "generation",
+    "definition": "一代；一代事物；同辈人"
+  },
+  {
+    "word": "geographic",
+    "definition": "地理学的；地理的；地区性的"
+  },
+  {
+    "word": "geography",
+    "definition": "地理环境；地域；地理区域"
+  },
+  {
+    "word": "geological",
+    "definition": "地质学的；地质的"
+  },
+  {
+    "word": "giant",
+    "definition": "巨人；强大的组织；巨擘"
+  },
+  {
+    "word": "glad",
+    "definition": "明媚的；充满欢乐的"
+  },
+  {
+    "word": "globe",
+    "definition": "球；眼球；天体"
+  },
+  {
+    "word": "glory",
+    "definition": "灿烂；崇拜；产生骄傲的理由"
+  },
+  {
+    "word": "golden",
+    "definition": "黄金般的；五十周年纪念日的；有出息的"
+  },
+  {
+    "word": "goodness",
+    "definition": "真谛；上帝；天哪"
+  },
+  {
+    "word": "goods",
+    "definition": "动产；商品；真货"
+  },
+  {
+    "word": "govern",
+    "definition": "管理；统治；治理"
+  },
+  {
+    "word": "government",
+    "definition": "支配；统治；政厅"
+  },
+  {
+    "word": "governor",
+    "definition": "总督；统治者；司令官"
+  },
+  {
+    "word": "grace",
+    "definition": "宽限期；美德；通情达理"
+  },
+  {
+    "word": "grade",
+    "definition": "阶段；程度；全体学生"
+  },
+  {
+    "word": "graduate",
+    "definition": "大学毕业生；刻度的；为大学毕业生设立的"
+  },
+  {
+    "word": "graduation",
+    "definition": "分划；表示经纬度的线；浓缩"
+  },
+  {
+    "word": "grain",
+    "definition": "谷粒；触感；使深深渗入"
+  },
+  {
+    "word": "grammar",
+    "definition": "说法"
+  },
+  {
+    "word": "grammatical",
+    "definition": "符合语法规则"
+  },
+  {
+    "word": "grandchildren",
+    "definition": "孙子孙女；孙辈"
+  },
+  {
+    "word": "granted",
+    "definition": "就算；即使；因为"
+  },
+  {
+    "word": "grasp",
+    "definition": "支配；把握；理解力"
+  },
+  {
+    "word": "grassy",
+    "definition": "草绿色的；盖满草的；长满草的"
+  },
+  {
+    "word": "grateful",
+    "definition": "感激的；感谢的；可喜的"
+  },
+  {
+    "word": "greeting",
+    "definition": "招呼；迎接；致意"
+  },
+  {
+    "word": "grief",
+    "definition": "伤心事；悲痛的缘由；失败"
+  },
+  {
+    "word": "grocery",
+    "definition": "食品杂货；食品杂货业；小酒馆"
+  },
+  {
+    "word": "ground",
+    "definition": "范围；基础；庭园"
+  },
+  {
+    "word": "grow",
+    "definition": "渐渐变得；发芽；逐渐开始"
+  },
+  {
+    "word": "growth",
+    "definition": "生长物；产物；发展"
+  },
+  {
+    "word": "guard",
+    "definition": "控制；使谨慎；护送"
+  },
+  {
+    "word": "guest",
+    "definition": "客座教授；做客；在无线电节目中客串演出"
+  },
+  {
+    "word": "guidance",
+    "definition": "指导；引导；指引"
+  },
+  {
+    "word": "guide",
+    "definition": "指导者；指挥者；规准"
+  },
+  {
+    "word": "guilt",
+    "definition": "悔恨；使人内疚的责备；黑戾"
+  },
+  {
+    "word": "guilty",
+    "definition": "犯了错误的；堕落的；问心有愧的"
+  },
+  {
+    "word": "gum",
+    "definition": "牙床；齿龈；树胶"
+  },
+  {
+    "word": "gut",
+    "definition": "内脏；肚子；内心"
+  },
+  {
+    "word": "gym",
+    "definition": "体育馆；体操；体育"
+  },
+  {
+    "word": "habitat",
+    "definition": "栖息地；聚集处；自然环境"
+  },
+  {
+    "word": "habitual",
+    "definition": "惯常的；习惯的；习以为常的"
+  },
+  {
+    "word": "halfway",
+    "definition": "半途的；中途的；不彻底的"
+  },
+  {
+    "word": "handful",
+    "definition": "用手抓起的数量"
+  },
+  {
+    "word": "handle",
+    "definition": "论及；掌握；举动"
+  },
+  {
+    "word": "handwriting",
+    "definition": "笔迹；手写；书法"
+  },
+  {
+    "word": "handy",
+    "definition": "手边的；有用的；容易做的"
+  },
+  {
+    "word": "hang",
+    "definition": "等待；不放弃；倾斜"
+  },
+  {
+    "word": "hardly",
+    "definition": "不十分"
+  },
+  {
+    "word": "hardship",
+    "definition": "压制；虐待；刺激"
+  },
+  {
+    "word": "harm",
+    "definition": "伤害；损害；危害"
+  },
+  {
+    "word": "harmful",
+    "definition": "有害的；造成伤害的"
+  },
+  {
+    "word": "harmless",
+    "definition": "无害的；无恶意的"
+  },
+  {
+    "word": "harmonious",
+    "definition": "和谐的；和睦的；协调的"
+  },
+  {
+    "word": "harvest",
+    "definition": "报酬"
+  },
+  {
+    "word": "hasten",
+    "definition": "赶快；催促；加速"
+  },
+  {
+    "word": "hay",
+    "definition": "趁有太阳时晒干草；一种乡村舞蹈；成果"
+  },
+  {
+    "word": "hazard",
+    "definition": "机会；危险之源"
+  },
+  {
+    "word": "haze",
+    "definition": "疑惑；暧昧；混浊"
+  },
+  {
+    "word": "hazy",
+    "definition": "朦胧的；模糊的；薄雾的"
+  },
+  {
+    "word": "headache",
+    "definition": "头痛；麻烦；令人头痛的人"
+  },
+  {
+    "word": "heading",
+    "definition": "信头；用作顶端的东西；方向"
+  },
+  {
+    "word": "headmaster",
+    "definition": "校长"
+  },
+  {
+    "word": "headquarters",
+    "definition": "总部；司令部；总公司"
+  },
+  {
+    "word": "healthful",
+    "definition": "有益于健康的；保健的；健全的"
+  },
+  {
+    "word": "heat",
+    "definition": "发热变质"
+  },
+  {
+    "word": "heated",
+    "definition": "火辣辣的"
+  },
+  {
+    "word": "heating",
+    "definition": "供暖；加热；暖气装置"
+  },
+  {
+    "word": "height",
+    "definition": "高度；顶点；身高"
+  },
+  {
+    "word": "helpless",
+    "definition": "无助的；无能为力的"
+  },
+  {
+    "word": "hence",
+    "definition": "因此；由此；从此"
+  },
+  {
+    "word": "hesitant",
+    "definition": "踌躇的；犹豫的；迟疑的"
+  },
+  {
+    "word": "hesitate",
+    "definition": "犹豫；迟疑；踌躇"
+  },
+  {
+    "word": "hesitation",
+    "definition": "口吃；暂停；不愿"
+  },
+  {
+    "word": "hide",
+    "definition": "潜伏；鞭打；严惩某人"
+  },
+  {
+    "word": "hire",
+    "definition": "找；临时雇用；租金"
+  },
+  {
+    "word": "historical",
+    "definition": "过去的；依据历史发展叙述的"
+  },
+  {
+    "word": "hit",
+    "definition": "得分；好运；毒品的一剂"
+  },
+  {
+    "word": "hold",
+    "definition": "表现；继续前进"
+  },
+  {
+    "word": "honest",
+    "definition": "正直的；用正当手段获得的；老实的"
+  },
+  {
+    "word": "honesty",
+    "definition": "公正；贞节；廉耻"
+  },
+  {
+    "word": "honeymoon",
+    "definition": "蜜月旅行；蜜月假期；短暂的和谐时期"
+  },
+  {
+    "word": "honor",
+    "definition": "阁下；勋章；贞操"
+  },
+  {
+    "word": "hopeful",
+    "definition": "有希望的；充满希望的；有前途的"
+  },
+  {
+    "word": "hopeless",
+    "definition": "绝望的；没有希望的；无能的"
+  },
+  {
+    "word": "horror",
+    "definition": "恐怖；恐怖性；讨厌鬼"
+  },
+  {
+    "word": "hospitable",
+    "definition": "好客的；殷勤的；适宜的"
+  },
+  {
+    "word": "household",
+    "definition": "王室；家务；次等面粉"
+  },
+  {
+    "word": "housework",
+    "definition": "家事"
+  },
+  {
+    "word": "housing",
+    "definition": "住房；住宅；住房供给"
+  },
+  {
+    "word": "huge",
+    "definition": "巨大的；庞大的；非常的"
+  },
+  {
+    "word": "humor",
+    "definition": "幽默；诙谐；心情"
+  },
+  {
+    "word": "humorous",
+    "definition": "诙谐的；有幽默感的；幽默的"
+  },
+  {
+    "word": "hunger",
+    "definition": "饥饿感"
+  },
+  {
+    "word": "hunt",
+    "definition": "驱逐；用猎狗追猎；狩猎中变更鸣铃的次序"
+  },
+  {
+    "word": "hunting",
+    "definition": "打猎；狩猎；搜寻"
+  },
+  {
+    "word": "hurry",
+    "definition": "催促；迅速移动；迅速处理"
+  },
+  {
+    "word": "hurtful",
+    "definition": "造成伤害的；伤人的"
+  },
+  {
+    "word": "icy",
+    "definition": "冰冷的；覆盖着冰的；结满冰的"
+  },
+  {
+    "word": "identical",
+    "definition": "完全相似的；同源的；恒等"
+  },
+  {
+    "word": "identification",
+    "definition": "鉴定；身份证明；认同"
+  },
+  {
+    "word": "identity",
+    "definition": "身份；特有的感觉"
+  },
+  {
+    "word": "ignorant",
+    "definition": "显示无知的"
+  },
+  {
+    "word": "ignore",
+    "definition": "睥睨"
+  },
+  {
+    "word": "illness",
+    "definition": "疾病；病；身体不适"
+  },
+  {
+    "word": "image",
+    "definition": "形象；印象；形象化的描述"
+  },
+  {
+    "word": "imaginary",
+    "definition": "虚构的；想像中的；幻想的"
+  },
+  {
+    "word": "imagination",
+    "definition": "想像力；创造力；想像"
+  },
+  {
+    "word": "imaging",
+    "definition": "造像；映像；想象"
+  },
+  {
+    "word": "immediate",
+    "definition": "直接的；紧接的；直觉的"
+  },
+  {
+    "word": "immediately",
+    "definition": "立即；直接地；马上"
+  },
+  {
+    "word": "immensely",
+    "definition": "极大地；无限地；非常"
+  },
+  {
+    "word": "immunity",
+    "definition": "豁免；免除；免疫力"
+  },
+  {
+    "word": "impatience",
+    "definition": "焦急；不耐烦；切盼"
+  },
+  {
+    "word": "impatient",
+    "definition": "不合的；不许的"
+  },
+  {
+    "word": "implementation",
+    "definition": "成就；装置；应用"
+  },
+  {
+    "word": "implication",
+    "definition": "纠缠；含蓄；蕴含"
+  },
+  {
+    "word": "implicit",
+    "definition": "固有的；成为一部份的；盲目的"
+  },
+  {
+    "word": "imply",
+    "definition": "含蓄；使有必要"
+  },
+  {
+    "word": "import",
+    "definition": "进口；输入；引进"
+  },
+  {
+    "word": "importance",
+    "definition": "自大；傲慢；重要性"
+  },
+  {
+    "word": "imposing",
+    "definition": "动人的；仪表堂堂的；盛气凌人的"
+  },
+  {
+    "word": "imposition",
+    "definition": "强加；哄骗；负担"
+  },
+  {
+    "word": "impression",
+    "definition": "印象；效果；影响"
+  },
+  {
+    "word": "improve",
+    "definition": "改建"
+  },
+  {
+    "word": "improvement",
+    "definition": "增进；进步；改良措施"
+  },
+  {
+    "word": "impulsive",
+    "definition": "冲动的；意气用事的"
+  },
+  {
+    "word": "incentive",
+    "definition": "刺激性的；鼓励性质的；诱发的"
+  },
+  {
+    "word": "inch",
+    "definition": "小岛；短距离；穿过"
+  },
+  {
+    "word": "incident",
+    "definition": "事故；某事件的附随事件；伴随而来的"
+  },
+  {
+    "word": "incidental",
+    "definition": "附带的；偶然的；次要的"
+  },
+  {
+    "word": "inclined",
+    "definition": "倾向于…的；有…意向的"
+  },
+  {
+    "word": "include",
+    "definition": "包括；包含"
+  },
+  {
+    "word": "including",
+    "definition": "包括"
+  },
+  {
+    "word": "inclusion",
+    "definition": "包括；包含；内含物"
+  },
+  {
+    "word": "income",
+    "definition": "收入；所得；收益"
+  },
+  {
+    "word": "increase",
+    "definition": "渐圆；有增无减"
+  },
+  {
+    "word": "increasingly",
+    "definition": "日益"
+  },
+  {
+    "word": "incredible",
+    "definition": "极大的；不能自圆其说的；骇人听闻的"
+  },
+  {
+    "word": "incredibly",
+    "definition": "难以置信地；非常地；极其"
+  },
+  {
+    "word": "indeed",
+    "definition": "甚至；更确切地；强调肯定的陈述或答覆"
+  },
+  {
+    "word": "independence",
+    "definition": "独立镇；国家；足够维持闭居生活的收入"
+  },
+  {
+    "word": "independent",
+    "definition": "无党派的；自治的；不相干的人所做的"
+  },
+  {
+    "word": "index",
+    "definition": "指标；指针；根指数"
+  },
+  {
+    "word": "indicate",
+    "definition": "象征；预示；简单陈述"
+  },
+  {
+    "word": "indication",
+    "definition": "暗示；指示器读数；指出"
+  },
+  {
+    "word": "indicator",
+    "definition": "指示器；指标；标志"
+  },
+  {
+    "word": "indifference",
+    "definition": "冷漠；漠不关心；无重要性"
+  },
+  {
+    "word": "indoor",
+    "definition": "室内的；位于室内的；在室内进行的"
+  },
+  {
+    "word": "industrial",
+    "definition": "从事工业的；劳资的；有很多产业的"
+  },
+  {
+    "word": "industry",
+    "definition": "工业；生产制造"
+  },
+  {
+    "word": "infection",
+    "definition": "感染；传染；传染病"
+  },
+  {
+    "word": "infectious",
+    "definition": "传染的；有感染力的"
+  },
+  {
+    "word": "infer",
+    "definition": "作出推论；间接地提出"
+  },
+  {
+    "word": "infinite",
+    "definition": "无法衡量的；无限长的"
+  },
+  {
+    "word": "influence",
+    "definition": "运动"
+  },
+  {
+    "word": "influential",
+    "definition": "有影响的；有支配力的；得势的"
+  },
+  {
+    "word": "inform",
+    "definition": "使充满；关照说；检举"
+  },
+  {
+    "word": "informative",
+    "definition": "有益的；情报的；见闻广博的"
+  },
+  {
+    "word": "infrastructure",
+    "definition": "基础设施；基础结构；基础下部组织"
+  },
+  {
+    "word": "initiative",
+    "definition": "介绍的；倡议；主动的行动"
+  },
+  {
+    "word": "injury",
+    "definition": "伤害；损伤；受伤处"
+  },
+  {
+    "word": "inner",
+    "definition": "内心的；亲密的；核心的"
+  },
+  {
+    "word": "innocence",
+    "definition": "清白；天真无邪；矢车菊"
+  },
+  {
+    "word": "innovate",
+    "definition": "引入新事物"
+  },
+  {
+    "word": "innovative",
+    "definition": "创新的；革新的；引进新思想的"
+  },
+  {
+    "word": "input",
+    "definition": "输入；投入；输入端"
+  },
+  {
+    "word": "inquiry",
+    "definition": "询问；调查；探究"
+  },
+  {
+    "word": "inquisitive",
+    "definition": "好奇的；爱打听的；好询问的"
+  },
+  {
+    "word": "insect",
+    "definition": "昆虫；虫"
+  },
+  {
+    "word": "insist",
+    "definition": "强调；执意继续做"
+  },
+  {
+    "word": "insistence",
+    "definition": "坚持；强调"
+  },
+  {
+    "word": "inspect",
+    "definition": "检查；视察；检阅"
+  },
+  {
+    "word": "inspector",
+    "definition": "检查员；视察员；督察"
+  },
+  {
+    "word": "inspiration",
+    "definition": "灵感"
+  },
+  {
+    "word": "instance",
+    "definition": "动机；引证"
+  },
+  {
+    "word": "instant",
+    "definition": "某一时刻；直接的"
+  },
+  {
+    "word": "instinctive",
+    "definition": "本能的；直觉的；天生的"
+  },
+  {
+    "word": "institution",
+    "definition": "制定；公共团体的建筑物"
+  },
+  {
+    "word": "institutional",
+    "definition": "制度的；机构的；公共机构的"
+  },
+  {
+    "word": "instruct",
+    "definition": "指示；教；委托"
+  },
+  {
+    "word": "instruction",
+    "definition": "吩咐；细目"
+  },
+  {
+    "word": "instructor",
+    "definition": "导师；指导书"
+  },
+  {
+    "word": "instrument",
+    "definition": "手段；乐器；器械"
+  },
+  {
+    "word": "instrumental",
+    "definition": "有帮助的；乐器的；起作用的"
+  },
+  {
+    "word": "insure",
+    "definition": "保障；确保；接受保险"
+  },
+  {
+    "word": "intake",
+    "definition": "引入口；吸气；通风口"
+  },
+  {
+    "word": "intangible",
+    "definition": "无形的；难以捉摸的；不可触及的"
+  },
+  {
+    "word": "integrate",
+    "definition": "整合；完整的；完全的"
+  },
+  {
+    "word": "integration",
+    "definition": "营养的吸收"
+  },
+  {
+    "word": "intelligence",
+    "definition": "智力；情报；聪明"
+  },
+  {
+    "word": "intelligent",
+    "definition": "能将数字信息转换成硬拷贝的"
+  },
+  {
+    "word": "intend",
+    "definition": "合法地解释或说明"
+  },
+  {
+    "word": "intense",
+    "definition": "紧张的；认真的"
+  },
+  {
+    "word": "intensive",
+    "definition": "密集的；彻底的；集中的"
+  },
+  {
+    "word": "intention",
+    "definition": "意图；目的；意向"
+  },
+  {
+    "word": "intentional",
+    "definition": "故意的；有意的；蓄意的"
+  },
+  {
+    "word": "interaction",
+    "definition": "相互作用；相互影响；交互作用"
+  },
+  {
+    "word": "interactive",
+    "definition": "互动的；交互的；合作的"
+  },
+  {
+    "word": "interested",
+    "definition": "感兴趣的"
+  },
+  {
+    "word": "interfere",
+    "definition": "妨碍；介入；性骚扰"
+  },
+  {
+    "word": "interference",
+    "definition": "阻碍；介入"
+  },
+  {
+    "word": "interior",
+    "definition": "本质的；内侧；内景"
+  },
+  {
+    "word": "internal",
+    "definition": "体内的；内服的；内部构件"
+  },
+  {
+    "word": "interpretation",
+    "definition": "解释；口译；诠释"
+  },
+  {
+    "word": "interpreter",
+    "definition": "解释者"
+  },
+  {
+    "word": "interview",
+    "definition": "面试；协商；口头审查"
+  },
+  {
+    "word": "interviewer",
+    "definition": "采访者；接见者；面试者"
+  },
+  {
+    "word": "introduction",
+    "definition": "采用；介绍；引进"
+  },
+  {
+    "word": "introductory",
+    "definition": "介绍的；引导的；初步的"
+  },
+  {
+    "word": "intrude",
+    "definition": "过问"
+  },
+  {
+    "word": "intrusion",
+    "definition": "不速而来"
+  },
+  {
+    "word": "invasion",
+    "definition": "干预；骚扰；浸润"
+  },
+  {
+    "word": "invent",
+    "definition": "创造力；捏造；发明"
+  },
+  {
+    "word": "invention",
+    "definition": "发明；创造；虚构"
+  },
+  {
+    "word": "inventor",
+    "definition": "发明家；发明者"
+  },
+  {
+    "word": "investigation",
+    "definition": "调查；研究；审查"
+  },
+  {
+    "word": "investment",
+    "definition": "投资；投入；覆盖"
+  },
+  {
+    "word": "investor",
+    "definition": "出资者；授权者；包围者"
+  },
+  {
+    "word": "invitation",
+    "definition": "请帖；招致；引诱"
+  },
+  {
+    "word": "invite",
+    "definition": "邀请；招待；挑引"
+  },
+  {
+    "word": "inviting",
+    "definition": "宜人的；动听的；有魅力的"
+  },
+  {
+    "word": "involved",
+    "definition": "耗费很多时间"
+  },
+  {
+    "word": "involvement",
+    "definition": "财政困难；复杂的情况；牵连的事务"
+  },
+  {
+    "word": "irrational",
+    "definition": "无理数；无理性的生物；不合理的"
+  },
+  {
+    "word": "irregular",
+    "definition": "不规则的；不规律的；不正规的"
+  },
+  {
+    "word": "island",
+    "definition": "岛状物；群岛；孤立的地区"
+  },
+  {
+    "word": "isolation",
+    "definition": "单独；封锁交通；孤陋寡闻"
+  },
+  {
+    "word": "jealousy",
+    "definition": "警惕；妒羡；羡慕"
+  },
+  {
+    "word": "jet",
+    "definition": "乌黑发亮的颜色；黑玉；黑色大理石"
+  },
+  {
+    "word": "jewel",
+    "definition": "宝石；王冠上的宝石；镶嵌"
+  },
+  {
+    "word": "joint",
+    "definition": "连带的；共存的；与别人分享的"
+  },
+  {
+    "word": "journalism",
+    "definition": "新闻写作；新闻学；新闻业"
+  },
+  {
+    "word": "journey",
+    "definition": "往返；航线"
+  },
+  {
+    "word": "joyful",
+    "definition": "高兴的；快乐的；充满喜悦的"
+  },
+  {
+    "word": "judge",
+    "definition": "裁判员；断定；认为"
+  },
+  {
+    "word": "judgment",
+    "definition": "鉴定；由判决所确定的债务；确定债务的判决书"
+  },
+  {
+    "word": "justice",
+    "definition": "审判；司法；妥当"
+  },
+  {
+    "word": "justify",
+    "definition": "各行长度正合适；调整使全行排满；证明"
+  },
+  {
+    "word": "keep",
+    "definition": "控制住；记；雇用"
+  },
+  {
+    "word": "keyboard",
+    "definition": "琴键；钥匙板"
+  },
+  {
+    "word": "kick",
+    "definition": "踢腿；解雇；开始"
+  },
+  {
+    "word": "kilogram",
+    "definition": "千克；公斤"
+  },
+  {
+    "word": "kindergarten",
+    "definition": "幼稚园；幼儿园；学前班"
+  },
+  {
+    "word": "kindness",
+    "definition": "善良；仁慈；善意"
+  },
+  {
+    "word": "kingdom",
+    "definition": "王国；作为王国占有"
+  },
+  {
+    "word": "knee",
+    "definition": "膝状物；膝头；腕骨"
+  },
+  {
+    "word": "knock",
+    "definition": "怦怦跳；打哆嗦；说坏话"
+  },
+  {
+    "word": "knowhow",
+    "definition": "诀窍；实际技能；技术秘诀"
+  },
+  {
+    "word": "knowledge",
+    "definition": "知识；了解；学问"
+  },
+  {
+    "word": "knowledgeable",
+    "definition": "精明的；聪明的；理解力强的"
+  },
+  {
+    "word": "label",
+    "definition": "绰号；称号；标记"
+  },
+  {
+    "word": "labor",
+    "definition": "英国工党；努力；工会"
+  },
+  {
+    "word": "laboratory",
+    "definition": "药厂；化学工厂"
+  },
+  {
+    "word": "laborious",
+    "definition": "费力的；勤劳的；艰苦的"
+  },
+  {
+    "word": "lack",
+    "definition": "疏忽"
+  },
+  {
+    "word": "ladder",
+    "definition": "梯状物；途径；成功的手段"
+  },
+  {
+    "word": "lake",
+    "definition": "湖；湖泊"
+  },
+  {
+    "word": "lamb",
+    "definition": "易上当受骗的人"
+  },
+  {
+    "word": "landing",
+    "definition": "着陆；降落；楼梯平台"
+  },
+  {
+    "word": "landmark",
+    "definition": "里程碑；陆标；界标"
+  },
+  {
+    "word": "laptop",
+    "definition": "便携式电脑；笔记本电脑；手提电脑"
+  },
+  {
+    "word": "largely",
+    "definition": "主要地；大量地；大部分"
+  },
+  {
+    "word": "laser",
+    "definition": "激光；激光器；镭射"
+  },
+  {
+    "word": "lastly",
+    "definition": "最后；最后一点"
+  },
+  {
+    "word": "lately",
+    "definition": "最近；近来"
+  },
+  {
+    "word": "latter",
+    "definition": "后者的；后一半的；后半期的"
+  },
+  {
+    "word": "laughter",
+    "definition": "笑声；笑；力量悬殊得可笑的体育比赛"
+  },
+  {
+    "word": "lawyer",
+    "definition": "律师；法学家"
+  },
+  {
+    "word": "lay",
+    "definition": "停止使用；位置；方向"
+  },
+  {
+    "word": "lead",
+    "definition": "诱使；使过；最擅长于"
+  },
+  {
+    "word": "leadership",
+    "definition": "领导权；领导工作；领导应有的品质"
+  },
+  {
+    "word": "leading",
+    "definition": "领导的；指导的；领路的"
+  },
+  {
+    "word": "leaf",
+    "definition": "页扇；活动面板；花瓣"
+  },
+  {
+    "word": "lean",
+    "definition": "偏袒；依偎；倾向于"
+  },
+  {
+    "word": "learned",
+    "definition": "学者的；精通法律的；需要经过学习研究的"
+  },
+  {
+    "word": "least",
+    "definition": "最少的；最小种类的；最轻的"
+  },
+  {
+    "word": "lecture",
+    "definition": "讲道"
+  },
+  {
+    "word": "lecturer",
+    "definition": "讲师；演讲者"
+  },
+  {
+    "word": "legendary",
+    "definition": "传奇的；传说的；著名的"
+  },
+  {
+    "word": "legislation",
+    "definition": "法规；立法机构的审议事项；法案"
+  },
+  {
+    "word": "leisure",
+    "definition": "游览；业余的；不以工作为生的"
+  },
+  {
+    "word": "lemonade",
+    "definition": "柠檬水；柠檬汽水；柠檬饮料"
+  },
+  {
+    "word": "lend",
+    "definition": "提供；公开表示支持；出租"
+  },
+  {
+    "word": "length",
+    "definition": "期间；长；动物的体长"
+  },
+  {
+    "word": "liability",
+    "definition": "惹麻烦的人；可能性"
+  },
+  {
+    "word": "liberal",
+    "definition": "自由的；自由主义的；通才教育的"
+  },
+  {
+    "word": "liberation",
+    "definition": "解放；释放；解脱"
+  },
+  {
+    "word": "lift",
+    "definition": "顺便搭载；举起之力；吊车"
+  },
+  {
+    "word": "lighting",
+    "definition": "照明；灯光；照明设备"
+  },
+  {
+    "word": "lightning",
+    "definition": "意外的幸运；劣等威士忌酒；闪电战方式"
+  },
+  {
+    "word": "likely",
+    "definition": "预料的"
+  },
+  {
+    "word": "limit",
+    "definition": "限制；地区；极其令人讨厌"
+  },
+  {
+    "word": "limitation",
+    "definition": "限制；局限；限度"
+  },
+  {
+    "word": "limited",
+    "definition": "有限的；受宪法限制的；股份有限公司"
+  },
+  {
+    "word": "link",
+    "definition": "相关联；袖口链扣；交通路线"
+  },
+  {
+    "word": "lip",
+    "definition": "嘴唇；唇状物；唇的周围"
+  },
+  {
+    "word": "list",
+    "definition": "倾斜；狭条；木条"
+  },
+  {
+    "word": "listener",
+    "definition": "听众；倾听者"
+  },
+  {
+    "word": "literary",
+    "definition": "文学的；精通文学的；文学上的"
+  },
+  {
+    "word": "literate",
+    "definition": "能读写的人；有文化修养的人；识字的人"
+  },
+  {
+    "word": "livelihood",
+    "definition": "生计；谋生之道"
+  },
+  {
+    "word": "lively",
+    "definition": "活泼的；充满活力的；生动的"
+  },
+  {
+    "word": "liver",
+    "definition": "肝脏"
+  },
+  {
+    "word": "load",
+    "definition": "工作量；沉重感；大量给予"
+  },
+  {
+    "word": "lobby",
+    "definition": "大厅；游说集团；游说"
+  },
+  {
+    "word": "local",
+    "definition": "局部的；乡土的；位置的"
+  },
+  {
+    "word": "locate",
+    "definition": "创办于；把地方分配给"
+  },
+  {
+    "word": "location",
+    "definition": "外景拍摄地；场所；测量"
+  },
+  {
+    "word": "lock",
+    "definition": "锁；制轮楔；头发"
+  },
+  {
+    "word": "lodge",
+    "definition": "旅舍；传达室；帐篷"
+  },
+  {
+    "word": "logical",
+    "definition": "按照逻辑的；推理正确的；头脑清醒的"
+  },
+  {
+    "word": "loneliness",
+    "definition": "孤独；寂寞；人迹罕至"
+  },
+  {
+    "word": "long",
+    "definition": "个子高的；长音的；似乎比实际时间长的"
+  },
+  {
+    "word": "loose",
+    "definition": "宽的；不确切的；模糊的"
+  },
+  {
+    "word": "loosen",
+    "definition": "松开；变松；松弛"
+  },
+  {
+    "word": "lose",
+    "definition": "亏损；输掉；失败"
+  },
+  {
+    "word": "loss",
+    "definition": "浪费；亏损；损毁"
+  },
+  {
+    "word": "lot",
+    "definition": "一块地；份儿；某一类的人"
+  },
+  {
+    "word": "lover",
+    "definition": "情侣"
+  },
+  {
+    "word": "lower",
+    "definition": "下游的；南部的；低年级的"
+  },
+  {
+    "word": "loyalty",
+    "definition": "忠诚的行为；信任；忠实的臣民"
+  },
+  {
+    "word": "luggage",
+    "definition": "随身行李；提包；皮箱"
+  },
+  {
+    "word": "lung",
+    "definition": "呼吸器官；可供呼吸新鲜空气的地方；深处"
+  },
+  {
+    "word": "luxurious",
+    "definition": "奢侈的；豪华的；非常舒适的"
+  },
+  {
+    "word": "machine",
+    "definition": "机动器械；大型油画；用机器做"
+  },
+  {
+    "word": "mad",
+    "definition": "着迷的；神经错乱的；激动的"
+  },
+  {
+    "word": "magical",
+    "definition": "有魔力的；魔术的；迷人的"
+  },
+  {
+    "word": "magnet",
+    "definition": "磁铁；磁体；有吸引力的人或物"
+  },
+  {
+    "word": "magnetic",
+    "definition": "磁的；有吸引力的；有魅力的"
+  },
+  {
+    "word": "mainland",
+    "definition": "大陆；本土；国土的主体"
+  },
+  {
+    "word": "mainstream",
+    "definition": "主流"
+  },
+  {
+    "word": "maintenance",
+    "definition": "生计；供给；瞻养义务"
+  },
+  {
+    "word": "major",
+    "definition": "较大范围的；一流的；主修的"
+  },
+  {
+    "word": "makeup",
+    "definition": "化妆品；组成；性格"
+  },
+  {
+    "word": "male",
+    "definition": "男性的；雄的；凸形的"
+  },
+  {
+    "word": "manage",
+    "definition": "管理；设法；经营"
+  },
+  {
+    "word": "management",
+    "definition": "管理；经营；管理部门"
+  },
+  {
+    "word": "managerial",
+    "definition": "管理的；经理的"
+  },
+  {
+    "word": "manipulation",
+    "definition": "操纵；控制；窜改"
+  },
+  {
+    "word": "mankind",
+    "definition": "人类；男性；男子"
+  },
+  {
+    "word": "manner",
+    "definition": "生活方式；惯例"
+  },
+  {
+    "word": "manufacturer",
+    "definition": "制造商；生产商；制造厂"
+  },
+  {
+    "word": "marathon",
+    "definition": "马拉松；持久赛"
+  },
+  {
+    "word": "marketing",
+    "definition": "营销；市场推广；销售"
+  },
+  {
+    "word": "marriage",
+    "definition": "结婚；婚姻；合并"
+  },
+  {
+    "word": "mass",
+    "definition": "大宗；主要部分；大规模的"
+  },
+  {
+    "word": "master",
+    "definition": "师傅；男教师；名家作品"
+  },
+  {
+    "word": "mastery",
+    "definition": "精通；掌握；控制"
+  },
+  {
+    "word": "match",
+    "definition": "婚姻；导火线；火柴"
+  },
+  {
+    "word": "material",
+    "definition": "材料；原料；素材"
+  },
+  {
+    "word": "mathematical",
+    "definition": "数学的；精确的"
+  },
+  {
+    "word": "mathematics",
+    "definition": "数学；数学应用"
+  },
+  {
+    "word": "mean",
+    "definition": "就是；决定将来；注定"
+  },
+  {
+    "word": "meaningful",
+    "definition": "有意义的；意味深长的"
+  },
+  {
+    "word": "means",
+    "definition": "方式；交通工具"
+  },
+  {
+    "word": "measurable",
+    "definition": "可测量的；重大的；可预见的"
+  },
+  {
+    "word": "mechanic",
+    "definition": "机械地工作的人；专开保险箱的盗贼；体力劳动者"
+  },
+  {
+    "word": "mechanical",
+    "definition": "机械的；机械学的；力学的"
+  },
+  {
+    "word": "mechanics",
+    "definition": "力学；机械学；技巧"
+  },
+  {
+    "word": "media",
+    "definition": "媒体；传媒；媒介"
+  },
+  {
+    "word": "medical",
+    "definition": "内科的；医学的；医术的"
+  },
+  {
+    "word": "medicare",
+    "definition": "医疗保险；老年保健医疗"
+  },
+  {
+    "word": "medicinal",
+    "definition": "药用的；医学的；有疗效的"
+  },
+  {
+    "word": "medicine",
+    "definition": "有功效的东西；酒；最佳方法"
+  },
+  {
+    "word": "member",
+    "definition": "政党支部"
+  },
+  {
+    "word": "membership",
+    "definition": "从属关系"
+  },
+  {
+    "word": "memorize",
+    "definition": "记住；熟记；记忆"
+  },
+  {
+    "word": "mental",
+    "definition": "在脑中进行的；思考的；精神健康的"
+  },
+  {
+    "word": "mention",
+    "definition": "提及；提到；说起"
+  },
+  {
+    "word": "mere",
+    "definition": "仅仅的；纯粹的；只不过"
+  },
+  {
+    "word": "merely",
+    "definition": "仅仅；只不过；只是"
+  },
+  {
+    "word": "merry",
+    "definition": "轻快的；激烈的；乐天的"
+  },
+  {
+    "word": "messy",
+    "definition": "肮脏的；混乱的；不整洁的"
+  },
+  {
+    "word": "metabolic",
+    "definition": "变化的；代谢作用的；变形的"
+  },
+  {
+    "word": "metal",
+    "definition": "本质；质料；熔解玻璃"
+  },
+  {
+    "word": "method",
+    "definition": "条理；方式；规律"
+  },
+  {
+    "word": "methodology",
+    "definition": "方法论；方法学"
+  },
+  {
+    "word": "metric",
+    "definition": "公制的；公尺的；度量"
+  },
+  {
+    "word": "metro",
+    "definition": "巴黎地铁；地下铁道；地下铁路"
+  },
+  {
+    "word": "microscopic",
+    "definition": "微小的；只能从显微镜里看到的；精微的"
+  },
+  {
+    "word": "microwave",
+    "definition": "微波炉；超高频波；微波的"
+  },
+  {
+    "word": "midday",
+    "definition": "正午；中午；日中"
+  },
+  {
+    "word": "midnight",
+    "definition": "午夜；子夜；漆黑"
+  },
+  {
+    "word": "mighty",
+    "definition": "强大的；刚毅的；非常的"
+  },
+  {
+    "word": "migration",
+    "definition": "迁徙；迁移；移民群"
+  },
+  {
+    "word": "mild",
+    "definition": "温和的；轻微的；宽大的"
+  },
+  {
+    "word": "military",
+    "definition": "军事的；军队的；军人的"
+  },
+  {
+    "word": "mine",
+    "definition": "火箭炮弹；信息源泉；知识宝库"
+  },
+  {
+    "word": "mineral",
+    "definition": "姜汁啤酒；矿质的；似矿物的"
+  },
+  {
+    "word": "mining",
+    "definition": "采矿；矿业；采矿业"
+  },
+  {
+    "word": "ministry",
+    "definition": "部；内阁；牧师的职务和责任"
+  },
+  {
+    "word": "minor",
+    "definition": "未成年的；少数的；年纪较小的"
+  },
+  {
+    "word": "minute",
+    "definition": "当然不；详细的；细致入微的"
+  },
+  {
+    "word": "mirror",
+    "definition": "镜子；借鉴；镜像"
+  },
+  {
+    "word": "mislead",
+    "definition": "盲从"
+  },
+  {
+    "word": "misleading",
+    "definition": "引入歧途的；使人误解的；骗人的"
+  },
+  {
+    "word": "mistaken",
+    "definition": "错误的；弄错的；不正确"
+  },
+  {
+    "word": "misunderstand",
+    "definition": "误解；误会；曲解"
+  },
+  {
+    "word": "misunderstanding",
+    "definition": "误解；误会；分歧"
+  },
+  {
+    "word": "mixer",
+    "definition": "混合器；混合者；搅拌器"
+  },
+  {
+    "word": "mixture",
+    "definition": "混合；混杂；混合料"
+  },
+  {
+    "word": "mobile",
+    "definition": "流动的；运动的；易感动的"
+  },
+  {
+    "word": "model",
+    "definition": "设计图；设计；范例"
+  },
+  {
+    "word": "modification",
+    "definition": "修改；改变；更改"
+  },
+  {
+    "word": "moment",
+    "definition": "时机；片刻；瞬间"
+  },
+  {
+    "word": "momentarily",
+    "definition": "立刻；每时每刻地；短暂地"
+  },
+  {
+    "word": "monthly",
+    "definition": "每月一次的；按月的；按月结算的"
+  },
+  {
+    "word": "monumental",
+    "definition": "巨大的；不朽的；纪念碑的"
+  },
+  {
+    "word": "mood",
+    "definition": "情绪；气氛；喜怒无常"
+  },
+  {
+    "word": "mop",
+    "definition": "雇工集市；扭歪嘴的人；抛光布轮"
+  },
+  {
+    "word": "moral",
+    "definition": "能辨别是非的；可能的；道德规范"
+  },
+  {
+    "word": "mostly",
+    "definition": "主要地；一般地；大多数地"
+  },
+  {
+    "word": "motel",
+    "definition": "汽车旅馆；存车旅社；公路旅社"
+  },
+  {
+    "word": "motivation",
+    "definition": "刺激；行动方式；动机的形成"
+  },
+  {
+    "word": "motive",
+    "definition": "策源地；不固定的；成为主题"
+  },
+  {
+    "word": "motor",
+    "definition": "摩托；推动物；机动车"
+  },
+  {
+    "word": "mountainous",
+    "definition": "巨大的；多山的；有山的"
+  },
+  {
+    "word": "movement",
+    "definition": "运动；移动；动作"
+  },
+  {
+    "word": "mud",
+    "definition": "没价值的东西；咖啡；巧克力布丁"
+  },
+  {
+    "word": "mule",
+    "definition": "电力牵引机；小型拖拉机；冻疮"
+  },
+  {
+    "word": "multiple",
+    "definition": "多路的；多人享有的；多重的"
+  },
+  {
+    "word": "murder",
+    "definition": "谋杀案；谋杀罪；讨厌的事"
+  },
+  {
+    "word": "muscle",
+    "definition": "力气；臂力；舌腭肌"
+  },
+  {
+    "word": "museum",
+    "definition": "博物馆；陈列馆；美术馆"
+  },
+  {
+    "word": "musical",
+    "definition": "音乐会"
+  },
+  {
+    "word": "mysterious",
+    "definition": "神秘的；不可思议的；诡秘的"
+  },
+  {
+    "word": "mystery",
+    "definition": "奥秘；神秘；神秘的事物"
+  },
+  {
+    "word": "nail",
+    "definition": "爪；喙上的硬甲壳；甲沟"
+  },
+  {
+    "word": "namely",
+    "definition": "即；也就是；那就是"
+  },
+  {
+    "word": "nap",
+    "definition": "孤注一掷；在瞌睡中度过；无准备"
+  },
+  {
+    "word": "narrow",
+    "definition": "勉强的；眼光短浅的；有偏见的"
+  },
+  {
+    "word": "nationwide",
+    "definition": "全国性的；遍及全国的"
+  },
+  {
+    "word": "native",
+    "definition": "出生地的；朴素的；生在某国的人"
+  },
+  {
+    "word": "natural",
+    "definition": "天然的；正常的；未开垦的"
+  },
+  {
+    "word": "navy",
+    "definition": "海军部；舰艇"
+  },
+  {
+    "word": "nearby",
+    "definition": "附近的；邻近的；近旁的"
+  },
+  {
+    "word": "necessarily",
+    "definition": "必要地；必然地；必需地"
+  },
+  {
+    "word": "necessary",
+    "definition": "强迫的；应该；一定"
+  },
+  {
+    "word": "necessity",
+    "definition": "必要性；必需品；必然"
+  },
+  {
+    "word": "necklace",
+    "definition": "项链；项圈；脖链儿"
+  },
+  {
+    "word": "needle",
+    "definition": "指针；磁针；编织针"
+  },
+  {
+    "word": "needy",
+    "definition": "贫穷的；贫困的；穷困的"
+  },
+  {
+    "word": "negation",
+    "definition": "否定；否认；拒绝"
+  },
+  {
+    "word": "negative",
+    "definition": "否定；阴极板；拒绝"
+  },
+  {
+    "word": "negotiate",
+    "definition": "使流通；克服；兑现"
+  },
+  {
+    "word": "negotiation",
+    "definition": "谈判；协商；交涉"
+  },
+  {
+    "word": "neighborhood",
+    "definition": "邻里；街区；附近"
+  },
+  {
+    "word": "nerve",
+    "definition": "沉着；精力；果断"
+  },
+  {
+    "word": "nest",
+    "definition": "窝；温床；巢"
+  },
+  {
+    "word": "network",
+    "definition": "网络；网状系统；人际网"
+  },
+  {
+    "word": "networking",
+    "definition": "电脑系统的连线作业；联网；人际关系网"
+  },
+  {
+    "word": "neutral",
+    "definition": "中立的；中性的；中立国的"
+  },
+  {
+    "word": "niece",
+    "definition": "侄女；外甥女；教士的私生女"
+  },
+  {
+    "word": "nightmare",
+    "definition": "梦魇；恶梦；噩梦"
+  },
+  {
+    "word": "nod",
+    "definition": "不小心而出错；低头；使弯曲"
+  },
+  {
+    "word": "noise",
+    "definition": "议论；电子干扰讯号；发出噪声"
+  },
+  {
+    "word": "noisy",
+    "definition": "过分鲜艳的；乱哄哄的"
+  },
+  {
+    "word": "nonsense",
+    "definition": "无价值的东西；没有意义的文章；荒谬的念头"
+  },
+  {
+    "word": "nor",
+    "definition": "也不；比；去甲"
+  },
+  {
+    "word": "normal",
+    "definition": "正常的；当量的；平均的"
+  },
+  {
+    "word": "northeast",
+    "definition": "东北；东北方"
+  },
+  {
+    "word": "northwest",
+    "definition": "美国西北部；西北；西北部"
+  },
+  {
+    "word": "notice",
+    "definition": "警告；介绍；招呼"
+  },
+  {
+    "word": "noticeable",
+    "definition": "显而易见的；重要的；值得注意的"
+  },
+  {
+    "word": "noun",
+    "definition": "名词；名词代用语；实词"
+  },
+  {
+    "word": "novelist",
+    "definition": "小说家"
+  },
+  {
+    "word": "novelty",
+    "definition": "新奇的经验；新奇景象；新奇的"
+  },
+  {
+    "word": "number",
+    "definition": "数量上的优势；彩票赌博；使位数有限"
+  },
+  {
+    "word": "nurse",
+    "definition": "护士；保姆；保育员"
+  },
+  {
+    "word": "nutrient",
+    "definition": "营养的；滋养的；营养物的"
+  },
+  {
+    "word": "obese",
+    "definition": "肥胖的；过胖的"
+  },
+  {
+    "word": "obesity",
+    "definition": "肥胖；过胖；多脂"
+  },
+  {
+    "word": "obey",
+    "definition": "听话；听由；随行为"
+  },
+  {
+    "word": "object",
+    "definition": "客体；宗旨；客观"
+  },
+  {
+    "word": "obligation",
+    "definition": "义务；证券；负担"
+  },
+  {
+    "word": "obliged",
+    "definition": "感激的；感谢的；义不容辞的"
+  },
+  {
+    "word": "observation",
+    "definition": "监视；意见；知识"
+  },
+  {
+    "word": "observe",
+    "definition": "监视；研究；起观察者的作用"
+  },
+  {
+    "word": "observer",
+    "definition": "观察者；观察员；评论者"
+  },
+  {
+    "word": "obtain",
+    "definition": "流行；存在；投合一般人心理"
+  },
+  {
+    "word": "occasionally",
+    "definition": "偶尔；有时；间或"
+  },
+  {
+    "word": "occupation",
+    "definition": "居住；消遣；事情"
+  },
+  {
+    "word": "occurrence",
+    "definition": "出现；发生；事件"
+  },
+  {
+    "word": "ocean",
+    "definition": "海洋；大海"
+  },
+  {
+    "word": "odds",
+    "definition": "差异；差额；可能性"
+  },
+  {
+    "word": "offering",
+    "definition": "祭品；提供；贡献"
+  },
+  {
+    "word": "official",
+    "definition": "讲究形式的；法定的；官方授权的"
+  },
+  {
+    "word": "oil",
+    "definition": "油画颜料；油画；油类"
+  },
+  {
+    "word": "oily",
+    "definition": "油滑的；含油的；油的"
+  },
+  {
+    "word": "olympiad",
+    "definition": "奥林匹克运动会；奥运会"
+  },
+  {
+    "word": "olympic",
+    "definition": "奥林匹斯山的；奥林匹克竞赛项目"
+  },
+  {
+    "word": "onto",
+    "definition": "推卸到；转嫁给；发觉"
+  },
+  {
+    "word": "openly",
+    "definition": "公开地；公然地；坦率地"
+  },
+  {
+    "word": "opera",
+    "definition": "歌剧；歌剧院；歌剧艺术"
+  },
+  {
+    "word": "operate",
+    "definition": "操作股票；管理；使运行"
+  },
+  {
+    "word": "operation",
+    "definition": "操作"
+  },
+  {
+    "word": "operational",
+    "definition": "操作的；运营的；可使用的"
+  },
+  {
+    "word": "operator",
+    "definition": "经营者；施行手术的医生；司机"
+  },
+  {
+    "word": "opposition",
+    "definition": "反对党"
+  },
+  {
+    "word": "optimist",
+    "definition": "乐观主义者；乐天派"
+  },
+  {
+    "word": "optimistic",
+    "definition": "乐观主义的；抱乐观看法的；乐天的"
+  },
+  {
+    "word": "option",
+    "definition": "选择权；选择自由；选择的余地"
+  },
+  {
+    "word": "optional",
+    "definition": "随意的；选修的；可选择的"
+  },
+  {
+    "word": "ordinary",
+    "definition": "平常的；普通的；平凡的"
+  },
+  {
+    "word": "organic",
+    "definition": "器官的；生物的；构成整体所必需的"
+  },
+  {
+    "word": "organization",
+    "definition": "团体；条理；分配"
+  },
+  {
+    "word": "organize",
+    "definition": "组织；安排；筹备"
+  },
+  {
+    "word": "origin",
+    "definition": "基因"
+  },
+  {
+    "word": "orphanage",
+    "definition": "孤儿院；孤儿身份；孤儿"
+  },
+  {
+    "word": "otherwise",
+    "definition": "不那样；换句话说；另外一种的"
+  },
+  {
+    "word": "ounce",
+    "definition": "盎司；少量；一点"
+  },
+  {
+    "word": "outdoor",
+    "definition": "户外的；室外的；喜欢户外活动的"
+  },
+  {
+    "word": "outer",
+    "definition": "远离中心的；外面的；外部的"
+  },
+  {
+    "word": "outing",
+    "definition": "远足；跑马练习；划船练习"
+  },
+  {
+    "word": "outstanding",
+    "definition": "杰出的；显著的；未解决的"
+  },
+  {
+    "word": "outward",
+    "definition": "外出的；皮毛的；公开的"
+  },
+  {
+    "word": "oven",
+    "definition": "炉；烤箱；灶"
+  },
+  {
+    "word": "overcoat",
+    "definition": "大衣；外套；厚外套"
+  },
+  {
+    "word": "overhead",
+    "definition": "企业一般管理费用；企业一般管理费；在上头的"
+  },
+  {
+    "word": "overnight",
+    "definition": "突然；只供一夜的；很快的"
+  },
+  {
+    "word": "overseas",
+    "definition": "海外的；外国的；国外的"
+  },
+  {
+    "word": "overtime",
+    "definition": "加班；超时；加时赛"
+  },
+  {
+    "word": "overwhelming",
+    "definition": "惊人的；占绝对优势的；丰溢的"
+  },
+  {
+    "word": "oxygen",
+    "definition": "氧气"
+  },
+  {
+    "word": "pack",
+    "definition": "大量；填封；驮运货物或装备"
+  },
+  {
+    "word": "package",
+    "definition": "一揽子交易；一包；一组事物"
+  },
+  {
+    "word": "packet",
+    "definition": "邮船；一批信件；小件行李"
+  },
+  {
+    "word": "painful",
+    "definition": "困难的；疼痛的；费力的"
+  },
+  {
+    "word": "paint",
+    "definition": "涂漆；颜料；绘画作品"
+  },
+  {
+    "word": "painter",
+    "definition": "画家；油漆匠；漆工"
+  },
+  {
+    "word": "painting",
+    "definition": "绘画；油画；水彩画"
+  },
+  {
+    "word": "palace",
+    "definition": "宫殿；豪华住宅；宏伟建筑物"
+  },
+  {
+    "word": "pale",
+    "definition": "苍白的；灰白的；朦胧的"
+  },
+  {
+    "word": "paragraph",
+    "definition": "节；短文；短篇报道"
+  },
+  {
+    "word": "parcel",
+    "definition": "一部分；赢来的钱；零担的"
+  },
+  {
+    "word": "parental",
+    "definition": "父母的；亲代的；父的"
+  },
+  {
+    "word": "parenting",
+    "definition": "育儿；养育；教养"
+  },
+  {
+    "word": "participant",
+    "definition": "参与者；参加者；关系者"
+  },
+  {
+    "word": "particular",
+    "definition": "详细的；格外的"
+  },
+  {
+    "word": "particularly",
+    "definition": "尤其；详细地；具体地"
+  },
+  {
+    "word": "partner",
+    "definition": "配偶；合伙；合股"
+  },
+  {
+    "word": "partnership",
+    "definition": "伙伴关系；合伙企业；合股关系"
+  },
+  {
+    "word": "pass",
+    "definition": "宣布；排泄；延伸"
+  },
+  {
+    "word": "passage",
+    "definition": "出入口；水路；船费"
+  },
+  {
+    "word": "passenger",
+    "definition": "碍手绊脚的人；分娩时的胎儿；听任马自由行动的骑手"
+  },
+  {
+    "word": "passionate",
+    "definition": "拥有强烈性爱的；情意绵绵的；急躁的"
+  },
+  {
+    "word": "passport",
+    "definition": "执照；保障；入场券"
+  },
+  {
+    "word": "path",
+    "definition": "道路；路线；途径"
+  },
+  {
+    "word": "patience",
+    "definition": "心思"
+  },
+  {
+    "word": "pattern",
+    "definition": "样式；形态；照图样做"
+  },
+  {
+    "word": "pause",
+    "definition": "停顿符号；段落；沉默"
+  },
+  {
+    "word": "paw",
+    "definition": "笔迹；搔；翻找"
+  },
+  {
+    "word": "payment",
+    "definition": "付款；支付；报酬"
+  },
+  {
+    "word": "peaceful",
+    "definition": "寻求和平的"
+  },
+  {
+    "word": "peak",
+    "definition": "尖形突出部；翘起尾巴；最大的"
+  },
+  {
+    "word": "penny",
+    "definition": "一便士硬币；一分硬币；一文钱"
+  },
+  {
+    "word": "per",
+    "definition": "每；由；根据"
+  },
+  {
+    "word": "percent",
+    "definition": "部分；百分之一；每百分的"
+  },
+  {
+    "word": "percentage",
+    "definition": "百分比；百分率；比例"
+  },
+  {
+    "word": "perception",
+    "definition": "洞察力；看法；知觉"
+  },
+  {
+    "word": "perfection",
+    "definition": "完善；完美；圆满"
+  },
+  {
+    "word": "perform",
+    "definition": "表现；玩把戏；从事"
+  },
+  {
+    "word": "period",
+    "definition": "周期；月经；阶段"
+  },
+  {
+    "word": "periodic",
+    "definition": "周期的；定期的；间歇的"
+  },
+  {
+    "word": "permanence",
+    "definition": "耐久性；不变性"
+  },
+  {
+    "word": "permission",
+    "definition": "许可；允许；同意"
+  },
+  {
+    "word": "permissive",
+    "definition": "许可的；宽容的；纵容的"
+  },
+  {
+    "word": "permit",
+    "definition": "准单；通行证；授权"
+  },
+  {
+    "word": "perseverance",
+    "definition": "坚韧不拔；不屈不挠；坚持不懈"
+  },
+  {
+    "word": "persistent",
+    "definition": "持续的；坚持不懈的；固执的"
+  },
+  {
+    "word": "persuade",
+    "definition": "说服；被说服；劝服"
+  },
+  {
+    "word": "persuasion",
+    "definition": "说服；信仰；信念"
+  },
+  {
+    "word": "persuasive",
+    "definition": "有说服力的；劝诱的；令人信服的"
+  },
+  {
+    "word": "pessimist",
+    "definition": "悲观主义者；悲观者"
+  },
+  {
+    "word": "pessimistic",
+    "definition": "悲观的；悲观主义的；厌世的"
+  },
+  {
+    "word": "petrol",
+    "definition": "用汽油消除"
+  },
+  {
+    "word": "phase",
+    "definition": "使一致；调相；使分阶段进行"
+  },
+  {
+    "word": "phenomenon",
+    "definition": "非凡的人；奇迹；稀有的事"
+  },
+  {
+    "word": "philosopher",
+    "definition": "哲学家；思想家"
+  },
+  {
+    "word": "philosophical",
+    "definition": "哲学上的；冷静的；达观的"
+  },
+  {
+    "word": "philosophy",
+    "definition": "哲学；哲学体系；达观"
+  },
+  {
+    "word": "photographer",
+    "definition": "摄影师；照相师；摄影家"
+  },
+  {
+    "word": "photographic",
+    "definition": "摄制的；逼真的；摄影术的"
+  },
+  {
+    "word": "photography",
+    "definition": "照相术；摄影术；摄制"
+  },
+  {
+    "word": "phrase",
+    "definition": "说法"
+  },
+  {
+    "word": "physical",
+    "definition": "物质的；有形的；形而下的"
+  },
+  {
+    "word": "physics",
+    "definition": "物理学；物理过程；物理性质"
+  },
+  {
+    "word": "picky",
+    "definition": "挑剔的；过分讲究的；爱挑剔的"
+  },
+  {
+    "word": "picnic",
+    "definition": "轻松的工作；聚餐；野餐食物"
+  },
+  {
+    "word": "pigeon",
+    "definition": "鸽子；易受骗的人；鸽肉"
+  },
+  {
+    "word": "pile",
+    "definition": "电池；核反应堆；过度施加"
+  },
+  {
+    "word": "pint",
+    "definition": "一品脱的量；一品脱的容器"
+  },
+  {
+    "word": "pioneer",
+    "definition": "第一个进入不毛之地而生根或繁殖的动植物；开拓性；创新"
+  },
+  {
+    "word": "pipe",
+    "definition": "管乐器；尖锐的声音；导管"
+  },
+  {
+    "word": "plain",
+    "definition": "朴素的；清楚的；简单的"
+  },
+  {
+    "word": "planet",
+    "definition": "星体；地球；指某人的想法完全不切实际"
+  },
+  {
+    "word": "planner",
+    "definition": "计划者；设计者；规划人员"
+  },
+  {
+    "word": "planning",
+    "definition": "制订计划；城市规划；土地规划"
+  },
+  {
+    "word": "plant",
+    "definition": "诈骗；诱饵；装置"
+  },
+  {
+    "word": "plastic",
+    "definition": "电木；可塑体；整形"
+  },
+  {
+    "word": "plate",
+    "definition": "整页插图；图版；感光板"
+  },
+  {
+    "word": "pleasant",
+    "definition": "令人愉快的；舒适的；友好的"
+  },
+  {
+    "word": "pleasing",
+    "definition": "合意的；舒适的；可爱的"
+  },
+  {
+    "word": "pleasure",
+    "definition": "肉体上的快乐；享受；声色之娱"
+  },
+  {
+    "word": "plentiful",
+    "definition": "充足的；富裕的；丰产的"
+  },
+  {
+    "word": "plenty",
+    "definition": "许多事；层出不穷的；足够有余"
+  },
+  {
+    "word": "pocket",
+    "definition": "小块地区；一袋；零用钱"
+  },
+  {
+    "word": "poet",
+    "definition": "诗人；空想家；诗人一样的人"
+  },
+  {
+    "word": "poetic",
+    "definition": "诗的；诗意的；富有想象力的"
+  },
+  {
+    "word": "poetry",
+    "definition": "诗作；诗歌艺术；韵文"
+  },
+  {
+    "word": "pointless",
+    "definition": "无意义的；不得要领的；不尖的"
+  },
+  {
+    "word": "poison",
+    "definition": "抑制剂；有害之物；败坏道德之事"
+  },
+  {
+    "word": "poisonous",
+    "definition": "有毒的；恶毒的"
+  },
+  {
+    "word": "polar",
+    "definition": "极地的；两极的；截然对立的"
+  },
+  {
+    "word": "polite",
+    "definition": "殷勤的；上流社会的；恳切的"
+  },
+  {
+    "word": "political",
+    "definition": "对政治感兴趣的；人事纠纷的；政权的"
+  },
+  {
+    "word": "politics",
+    "definition": "党派关系；政界；政纲"
+  },
+  {
+    "word": "pond",
+    "definition": "池塘；鱼塘；游泳池"
+  },
+  {
+    "word": "popularity",
+    "definition": "流行；普及；声望"
+  },
+  {
+    "word": "population",
+    "definition": "特定居民；人口的聚居；个数"
+  },
+  {
+    "word": "populous",
+    "definition": "人口稠密的；人口众多的；挤满的"
+  },
+  {
+    "word": "pork",
+    "definition": "猪肉；猪；支持政党上台所分到的好处"
+  },
+  {
+    "word": "portable",
+    "definition": "易携带的；能持久的；手提式打字机"
+  },
+  {
+    "word": "porter",
+    "definition": "搬运工；门房；服务员"
+  },
+  {
+    "word": "position",
+    "definition": "把某人看做或描述为特定的人；担任或保持一个职务"
+  },
+  {
+    "word": "possess",
+    "definition": "迷住；使沾染；得到"
+  },
+  {
+    "word": "possibility",
+    "definition": "可能性；可能的事"
+  },
+  {
+    "word": "possible",
+    "definition": "潜在的"
+  },
+  {
+    "word": "possibly",
+    "definition": "可能；也许；或许"
+  },
+  {
+    "word": "post",
+    "definition": "球门柱；冶炼熔炉的一炉矿石；粘贴公共告示的牌子"
+  },
+  {
+    "word": "postponement",
+    "definition": "推迟；延期"
+  },
+  {
+    "word": "pound",
+    "definition": "磅；汽车扣押场；渔塘"
+  },
+  {
+    "word": "practicality",
+    "definition": "实用性；实例；可行性"
+  },
+  {
+    "word": "praise",
+    "definition": "感谢；崇拜"
+  },
+  {
+    "word": "preacher",
+    "definition": "传教士；说教者；鼓吹者"
+  },
+  {
+    "word": "precisely",
+    "definition": "精确地；准确地；恰好"
+  },
+  {
+    "word": "precision",
+    "definition": "严格；平平整整；以精准的执行而著称的"
+  },
+  {
+    "word": "predict",
+    "definition": "预测；预言；预报"
+  },
+  {
+    "word": "prediction",
+    "definition": "预言；预测；预报"
+  },
+  {
+    "word": "prefer",
+    "definition": "任命；录用；推荐"
+  },
+  {
+    "word": "preference",
+    "definition": "偏爱；偏爱的事物；爱好"
+  },
+  {
+    "word": "preferential",
+    "definition": "优先的；优惠的；优待的"
+  },
+  {
+    "word": "preparation",
+    "definition": "配制；备课；标本"
+  },
+  {
+    "word": "prepare",
+    "definition": "起草；有思想；防范"
+  },
+  {
+    "word": "prescription",
+    "definition": "处方；药方；指示"
+  },
+  {
+    "word": "presently",
+    "definition": "作为直接结果；必然地；接着"
+  },
+  {
+    "word": "preserve",
+    "definition": "保存；保护；维持"
+  },
+  {
+    "word": "presidential",
+    "definition": "总统的；首脑的"
+  },
+  {
+    "word": "press",
+    "definition": "紧迫；压榨机"
+  },
+  {
+    "word": "pressing",
+    "definition": "咄咄逼人的；拥挤的；不容忽视的"
+  },
+  {
+    "word": "pressure",
+    "definition": "压迫；催促；艰难"
+  },
+  {
+    "word": "prevent",
+    "definition": "预先；行动在之前；冲突"
+  },
+  {
+    "word": "preventive",
+    "definition": "预防的；防备的"
+  },
+  {
+    "word": "priceless",
+    "definition": "无价的；贵重的；稀世之珍的"
+  },
+  {
+    "word": "pride",
+    "definition": "引以自豪的人；自豪；群"
+  },
+  {
+    "word": "primarily",
+    "definition": "主要地；首先；根本上"
+  },
+  {
+    "word": "primary",
+    "definition": "基层的；本来的；原色的"
+  },
+  {
+    "word": "principle",
+    "definition": "构造；政策；使有印象"
+  },
+  {
+    "word": "print",
+    "definition": "印花样于；用印刷体写；印刷字体"
+  },
+  {
+    "word": "printer",
+    "definition": "打印机；印刷机；印刷工人"
+  },
+  {
+    "word": "printing",
+    "definition": "印刷；印刷术；打印"
+  },
+  {
+    "word": "priority",
+    "definition": "优先；优先权；重点"
+  },
+  {
+    "word": "prison",
+    "definition": "陷阱；关押制度；紧紧抱住"
+  },
+  {
+    "word": "private",
+    "definition": "为一部份人的；内心的；独立的"
+  },
+  {
+    "word": "prize",
+    "definition": "赠品；大；用杠杆推动"
+  },
+  {
+    "word": "probable",
+    "definition": "妥当的；当时的；很可能的事情"
+  },
+  {
+    "word": "problematic",
+    "definition": "疑难的；问题的；成问题的"
+  },
+  {
+    "word": "process",
+    "definition": "传票；进行；作用"
+  },
+  {
+    "word": "processor",
+    "definition": "处理器；加工者"
+  },
+  {
+    "word": "produce",
+    "definition": "出示；上演；生产"
+  },
+  {
+    "word": "product",
+    "definition": "产品；产物；成果"
+  },
+  {
+    "word": "production",
+    "definition": "生产；作品；制作"
+  },
+  {
+    "word": "productivity",
+    "definition": "生产率指每单位劳动生产的产品或服务的速率；丰饶；多产"
+  },
+  {
+    "word": "profession",
+    "definition": "职业；声明；表白"
+  },
+  {
+    "word": "professor",
+    "definition": "教授；教师；老师"
+  },
+  {
+    "word": "profitable",
+    "definition": "有益的；赢利的；有用的"
+  },
+  {
+    "word": "profound",
+    "definition": "深刻的；深远的；渊博的"
+  },
+  {
+    "word": "program",
+    "definition": "节目；课程；程序设计"
+  },
+  {
+    "word": "progress",
+    "definition": "经过；发达；顺利进行"
+  },
+  {
+    "word": "prohibition",
+    "definition": "禁令；禁止；禁酒"
+  },
+  {
+    "word": "projection",
+    "definition": "投影；预测；投射"
+  },
+  {
+    "word": "prominent",
+    "definition": "突出的；著名的；显著的"
+  },
+  {
+    "word": "promising",
+    "definition": "有希望的；有前途的；有出息的"
+  },
+  {
+    "word": "promotion",
+    "definition": "提升；促进；发扬"
+  },
+  {
+    "word": "pronunciation",
+    "definition": "发音；读法；发音法"
+  },
+  {
+    "word": "proof",
+    "definition": "检定的品质；试管；标准强度"
+  },
+  {
+    "word": "proper",
+    "definition": "彻底的"
+  },
+  {
+    "word": "proposal",
+    "definition": "求婚；建议；提议"
+  },
+  {
+    "word": "proposition",
+    "definition": "商品"
+  },
+  {
+    "word": "prospective",
+    "definition": "预期的；潜在的；未来的"
+  },
+  {
+    "word": "protect",
+    "definition": "包庇；有保护作用"
+  },
+  {
+    "word": "protection",
+    "definition": "保护；通行证；护照"
+  },
+  {
+    "word": "protective",
+    "definition": "防护的；有贸易保护倾向的；实行关税保护的"
+  },
+  {
+    "word": "proud",
+    "definition": "挺拔的；满足的；光荣的"
+  },
+  {
+    "word": "prove",
+    "definition": "证明；证实；结果是"
+  },
+  {
+    "word": "proverb",
+    "definition": "谚语；格言；俗语"
+  },
+  {
+    "word": "provide",
+    "definition": "提供；供应；规定"
+  },
+  {
+    "word": "psychological",
+    "definition": "心理学的；心理的；心灵的"
+  },
+  {
+    "word": "psychologist",
+    "definition": "心理学家"
+  },
+  {
+    "word": "pub",
+    "definition": "酒吧；酒馆；客栈"
+  },
+  {
+    "word": "publication",
+    "definition": "出版；出版物；发行"
+  },
+  {
+    "word": "publicly",
+    "definition": "公开地；由公众；为公众所同意"
+  },
+  {
+    "word": "pulse",
+    "definition": "有节奏的跳动；活力；电流的突然增强或减弱意向"
+  },
+  {
+    "word": "punch",
+    "definition": "冲床；冲压机；孔"
+  },
+  {
+    "word": "punishment",
+    "definition": "惩罚；刑罚；处罚"
+  },
+  {
+    "word": "pupil",
+    "definition": "射光孔"
+  },
+  {
+    "word": "purchase",
+    "definition": "起重装置；年租；挣得的东西"
+  },
+  {
+    "word": "pure",
+    "definition": "纯粹的；完全的；不含有害物质的"
+  },
+  {
+    "word": "purify",
+    "definition": "使纯粹"
+  },
+  {
+    "word": "purple",
+    "definition": "帝王的；血腥的；刺激的"
+  },
+  {
+    "word": "purpose",
+    "definition": "目的；用途；意图"
+  },
+  {
+    "word": "pursue",
+    "definition": "纠缠；经营；采取"
+  },
+  {
+    "word": "qualify",
+    "definition": "获得参赛资格；使所说的话语气减弱"
+  },
+  {
+    "word": "quality",
+    "definition": "质量；才能；高位"
+  },
+  {
+    "word": "quantify",
+    "definition": "用数量表示；量化；作出定量工作"
+  },
+  {
+    "word": "quantity",
+    "definition": "数量；大量"
+  },
+  {
+    "word": "quarter",
+    "definition": "一刻钟；四分之一；住处"
+  },
+  {
+    "word": "queue",
+    "definition": "车队；排队；一长串备用的东西"
+  },
+  {
+    "word": "quite",
+    "definition": "相当地；完全地；颇"
+  },
+  {
+    "word": "quote",
+    "definition": "复述；引号"
+  },
+  {
+    "word": "race",
+    "definition": "赛跑；门第；急流"
+  },
+  {
+    "word": "racial",
+    "definition": "人种的；存在或发生于种族之间的"
+  },
+  {
+    "word": "racist",
+    "definition": "种族主义的；种族歧视的"
+  },
+  {
+    "word": "railway",
+    "definition": "轨道；有轨车道；铁路线"
+  },
+  {
+    "word": "raise",
+    "definition": "加薪额；拱高路段；上升"
+  },
+  {
+    "word": "rank",
+    "definition": "士兵；横列；阵线"
+  },
+  {
+    "word": "rapid",
+    "definition": "动作快的；短时间内发生的；急促的"
+  },
+  {
+    "word": "rare",
+    "definition": "极好的；非常有趣的；极度的"
+  },
+  {
+    "word": "rate",
+    "definition": "等级；行市；估价"
+  },
+  {
+    "word": "rather",
+    "definition": "而不是；在某种程度上；选择"
+  },
+  {
+    "word": "rating",
+    "definition": "等级；收视率；收听率"
+  },
+  {
+    "word": "ray",
+    "definition": "光线；射线；光辉"
+  },
+  {
+    "word": "reach",
+    "definition": "达到；传到；射及"
+  },
+  {
+    "word": "react",
+    "definition": "倒退；复古"
+  },
+  {
+    "word": "reaction",
+    "definition": "反动；反作用力；反作用"
+  },
+  {
+    "word": "realistic",
+    "definition": "现实的；逼真的；现实主义的"
+  },
+  {
+    "word": "reality",
+    "definition": "事实；真实；逼真"
+  },
+  {
+    "word": "realize",
+    "definition": "实现；实行；把具体表现出来"
+  },
+  {
+    "word": "rear",
+    "definition": "殿后的；殿后部队；后卫"
+  },
+  {
+    "word": "receive",
+    "definition": "接发球；承认；得到"
+  },
+  {
+    "word": "recent",
+    "definition": "近代的"
+  },
+  {
+    "word": "receptive",
+    "definition": "善于接受的；乐于接受的；能容纳的"
+  },
+  {
+    "word": "recognition",
+    "definition": "承认；认识；认可"
+  },
+  {
+    "word": "recognize",
+    "definition": "赏识；提交保证书；感谢"
+  },
+  {
+    "word": "recommend",
+    "definition": "使成为可取；得到称许"
+  },
+  {
+    "word": "record",
+    "definition": "唱片；成绩；功过"
+  },
+  {
+    "word": "recorder",
+    "definition": "市法院法官；收报机；录音技师"
+  },
+  {
+    "word": "recording",
+    "definition": "录音；记录；唱片"
+  },
+  {
+    "word": "recovery",
+    "definition": "恢复；痊愈；复得"
+  },
+  {
+    "word": "recreation",
+    "definition": "游戏；再创造"
+  },
+  {
+    "word": "recruitment",
+    "definition": "征募新兵；补充；补充鱼群"
+  },
+  {
+    "word": "recyclable",
+    "definition": "再循环；反复利用；整修"
+  },
+  {
+    "word": "reduce",
+    "definition": "减少；缩小；减轻体重"
+  },
+  {
+    "word": "reduction",
+    "definition": "减速；转换"
+  },
+  {
+    "word": "refer",
+    "definition": "认为；借助；有关系"
+  },
+  {
+    "word": "reflect",
+    "definition": "反响；把反射回来；被映出"
+  },
+  {
+    "word": "reflection",
+    "definition": "反映；反射；映像"
+  },
+  {
+    "word": "reform",
+    "definition": "感化；重新组合；改革杂志"
+  },
+  {
+    "word": "refresh",
+    "definition": "使恢复；吃点心；喝饮料"
+  },
+  {
+    "word": "refrigerator",
+    "definition": "冰箱；冷藏室；雪柜"
+  },
+  {
+    "word": "refuse",
+    "definition": "拒婚；打不出同花牌；发生故障失效"
+  },
+  {
+    "word": "regard",
+    "definition": "注重；关心；考察"
+  },
+  {
+    "word": "regarding",
+    "definition": "关于；至于"
+  },
+  {
+    "word": "region",
+    "definition": "邻近"
+  },
+  {
+    "word": "regional",
+    "definition": "地区的；局部的；整个地区的"
+  },
+  {
+    "word": "register",
+    "definition": "挂号邮寄；托运；自动记录"
+  },
+  {
+    "word": "regret",
+    "definition": "抱歉；抱怨；遗憾"
+  },
+  {
+    "word": "regular",
+    "definition": "端正的；合格的；规则的"
+  },
+  {
+    "word": "regularity",
+    "definition": "规律性；一致性；整齐"
+  },
+  {
+    "word": "regulation",
+    "definition": "官方的"
+  },
+  {
+    "word": "regulatory",
+    "definition": "监管的；管理的；调整的"
+  },
+  {
+    "word": "reject",
+    "definition": "落选的词语；呕吐；拒绝的"
+  },
+  {
+    "word": "rejection",
+    "definition": "拒绝；呕出物；退回"
+  },
+  {
+    "word": "relate",
+    "definition": "认同；欣赏；符合"
+  },
+  {
+    "word": "relation",
+    "definition": "交情"
+  },
+  {
+    "word": "relative",
+    "definition": "附条件的；有关事项；相对性红细胞增多"
+  },
+  {
+    "word": "relativity",
+    "definition": "相对性；认识的相对性；互相依存"
+  },
+  {
+    "word": "relaxation",
+    "definition": "放松；休息；松弛"
+  },
+  {
+    "word": "reliance",
+    "definition": "依靠；信任；依赖"
+  },
+  {
+    "word": "relieve",
+    "definition": "衬托；使成浮雕；供应食品给"
+  },
+  {
+    "word": "religion",
+    "definition": "宗教团体；心爱的事物；重大的影响"
+  },
+  {
+    "word": "religious",
+    "definition": "笃信宗教的；教团的；凭良心的"
+  },
+  {
+    "word": "remain",
+    "definition": "逗留；仍需去做；不离去"
+  },
+  {
+    "word": "remainder",
+    "definition": "剩余物；余数；残余"
+  },
+  {
+    "word": "remark",
+    "definition": "注意；察觉；观察"
+  },
+  {
+    "word": "remarkable",
+    "definition": "显著的；非凡的；引人注目的"
+  },
+  {
+    "word": "remedial",
+    "definition": "治疗的；补救的；补习的"
+  },
+  {
+    "word": "reminder",
+    "definition": "提醒物；提示；催办"
+  },
+  {
+    "word": "remote",
+    "definition": "久远的；间接的；模糊的"
+  },
+  {
+    "word": "removal",
+    "definition": "移动；除去；免职"
+  },
+  {
+    "word": "remove",
+    "definition": "脱掉；拿下；洗清"
+  },
+  {
+    "word": "rendering",
+    "definition": "翻译；表现；译文"
+  },
+  {
+    "word": "renew",
+    "definition": "续期；更新；重新开始"
+  },
+  {
+    "word": "renewable",
+    "definition": "可恢复的；可更新的；可继续的"
+  },
+  {
+    "word": "renewal",
+    "definition": "更新；恢复；展期"
+  },
+  {
+    "word": "renovate",
+    "definition": "恢复的；革新的；翻新的"
+  },
+  {
+    "word": "rent",
+    "definition": "出租的财产；绽线处；租借"
+  },
+  {
+    "word": "rental",
+    "definition": "出租业；收租；租用的房屋"
+  },
+  {
+    "word": "repair",
+    "definition": "治疗；恢复；修补部位"
+  },
+  {
+    "word": "repay",
+    "definition": "报答；偿还；回敬"
+  },
+  {
+    "word": "repeatedly",
+    "definition": "一再；多次；再三"
+  },
+  {
+    "word": "repetitive",
+    "definition": "重复的；反复的；唠叨的"
+  },
+  {
+    "word": "replace",
+    "definition": "给与替手；更新；使复职"
+  },
+  {
+    "word": "replacement",
+    "definition": "更换；取代；归还"
+  },
+  {
+    "word": "reply",
+    "definition": "反响；寒暄；吭声"
+  },
+  {
+    "word": "reporter",
+    "definition": "指示器；呈报者；审判记录员"
+  },
+  {
+    "word": "representation",
+    "definition": "代表；陈述；表现"
+  },
+  {
+    "word": "representative",
+    "definition": "类似物；使节；捍卫者"
+  },
+  {
+    "word": "reproduce",
+    "definition": "复制；再生产；再现"
+  },
+  {
+    "word": "reproductive",
+    "definition": "生殖的；再现的；再生的"
+  },
+  {
+    "word": "require",
+    "definition": "请求；需要；命令"
+  },
+  {
+    "word": "requirement",
+    "definition": "必要条件；要求；需要"
+  },
+  {
+    "word": "research",
+    "definition": "探测；追究；学术"
+  },
+  {
+    "word": "researcher",
+    "definition": "研究员；研究者"
+  },
+  {
+    "word": "resemblance",
+    "definition": "相似性；肖像；相似点"
+  },
+  {
+    "word": "reservation",
+    "definition": "保留；预订；预约"
+  },
+  {
+    "word": "reserved",
+    "definition": "内向的；预定的；沉默寡言的"
+  },
+  {
+    "word": "resident",
+    "definition": "侨民；无迁徙习性的动物；站长"
+  },
+  {
+    "word": "residential",
+    "definition": "住宅的；居住的；作住所用的"
+  },
+  {
+    "word": "resist",
+    "definition": "抵制；抵抗；反对"
+  },
+  {
+    "word": "resistance",
+    "definition": "抵抗运动；反抗精神；浴血奋战"
+  },
+  {
+    "word": "resistant",
+    "definition": "抵抗的；有抵抗力的；抗…的"
+  },
+  {
+    "word": "resolve",
+    "definition": "宗旨；果断；坚定的信念"
+  },
+  {
+    "word": "resourceful",
+    "definition": "资源丰富的；足智多谋的；有策略的"
+  },
+  {
+    "word": "respect",
+    "definition": "尊重；方面；敬意"
+  },
+  {
+    "word": "respectable",
+    "definition": "值得尊敬的；体面的；相当好的"
+  },
+  {
+    "word": "respectful",
+    "definition": "尊重人的；恭敬的；有礼貌的"
+  },
+  {
+    "word": "respectively",
+    "definition": "分别地；各自地；顺序为"
+  },
+  {
+    "word": "respond",
+    "definition": "有良好反应；作出灵敏反应；应付"
+  },
+  {
+    "word": "response",
+    "definition": "感扰性；应验；特性曲线"
+  },
+  {
+    "word": "responsibility",
+    "definition": "义务；可信赖性；责任能力"
+  },
+  {
+    "word": "responsible",
+    "definition": "重要的；明白是非的"
+  },
+  {
+    "word": "restraint",
+    "definition": "克制；限制；监禁"
+  },
+  {
+    "word": "restrict",
+    "definition": "限制；约束；节制"
+  },
+  {
+    "word": "restriction",
+    "definition": "限制；约束；限制规定"
+  },
+  {
+    "word": "restrictive",
+    "definition": "限定的；拘束的；有约束力的"
+  },
+  {
+    "word": "result",
+    "definition": "答案；决定；成绩"
+  },
+  {
+    "word": "retailer",
+    "definition": "零售商；零售店；详述者"
+  },
+  {
+    "word": "retention",
+    "definition": "保留物；保持力；固位"
+  },
+  {
+    "word": "retire",
+    "definition": "撤回；撤离；引退"
+  },
+  {
+    "word": "retired",
+    "definition": "退休的；退役的；幽静的"
+  },
+  {
+    "word": "retirement",
+    "definition": "退休；退役；退隐"
+  },
+  {
+    "word": "reunion",
+    "definition": "团聚；重聚；再联合"
+  },
+  {
+    "word": "reveal",
+    "definition": "告诉"
+  },
+  {
+    "word": "reversal",
+    "definition": "颠倒；逆转；反转"
+  },
+  {
+    "word": "reviewer",
+    "definition": "评论家；检阅者；评论员"
+  },
+  {
+    "word": "revolution",
+    "definition": "旋转；革命；公转"
+  },
+  {
+    "word": "revolutionary",
+    "definition": "革命的；革命者；革命性的"
+  },
+  {
+    "word": "rewarding",
+    "definition": "有报酬的；有益的；报答的"
+  },
+  {
+    "word": "rid",
+    "definition": "放射免疫弥散；羊脑囊虫病；脱去"
+  },
+  {
+    "word": "ride",
+    "definition": "停泊；航行；用车运送"
+  },
+  {
+    "word": "riotous",
+    "definition": "暴乱的；放纵的；狂欢的"
+  },
+  {
+    "word": "ripe",
+    "definition": "时机成熟的；成熟的；适宜的"
+  },
+  {
+    "word": "rise",
+    "definition": "斜坡；高地；小山"
+  },
+  {
+    "word": "risk",
+    "definition": "保险金额；冒险；危险率"
+  },
+  {
+    "word": "robbery",
+    "definition": "明抢"
+  },
+  {
+    "word": "rocky",
+    "definition": "岩石的；困难的；摇晃的"
+  },
+  {
+    "word": "role",
+    "definition": "作用；角色；任务"
+  },
+  {
+    "word": "romance",
+    "definition": "浪漫史；中世纪骑士故事；浪漫曲"
+  },
+  {
+    "word": "romantic",
+    "definition": "惊险的；浪漫的人；爱幻想者"
+  },
+  {
+    "word": "roof",
+    "definition": "最高处；放入屋里"
+  },
+  {
+    "word": "root",
+    "definition": "根基；祖先；基础"
+  },
+  {
+    "word": "rosy",
+    "definition": "乐观的；美好的；玫瑰色的"
+  },
+  {
+    "word": "roughly",
+    "definition": "粗暴地；粗略地；粗糙地"
+  },
+  {
+    "word": "round",
+    "definition": "以周长计；传遍着；圆周"
+  },
+  {
+    "word": "row",
+    "definition": "划船；喧闹；划船运送"
+  },
+  {
+    "word": "royalty",
+    "definition": "版税；王权；王的特权"
+  },
+  {
+    "word": "rubber",
+    "definition": "按摩师；粗锉；砥石"
+  },
+  {
+    "word": "rubbish",
+    "definition": "无聊的想法；废物；无意义的东西"
+  },
+  {
+    "word": "rude",
+    "definition": "猛烈的；方式粗鲁地；粗鲁的人"
+  },
+  {
+    "word": "ruin",
+    "definition": "堕落；崩溃；丧失地位"
+  },
+  {
+    "word": "rule",
+    "definition": "统治期间；定律；建议"
+  },
+  {
+    "word": "ruler",
+    "definition": "划线人；划线机；用尺打或敲"
+  },
+  {
+    "word": "runway",
+    "definition": "河床；滑道；跑道"
+  },
+  {
+    "word": "rush",
+    "definition": "袭击；突破；铺灯心草于"
+  },
+  {
+    "word": "sadness",
+    "definition": "悲哀；悲伤；悲痛"
+  },
+  {
+    "word": "sail",
+    "definition": "游览；冒大风险；顺利通过"
+  },
+  {
+    "word": "sailing",
+    "definition": "扬帆行驶；航行方法；漂浮"
+  },
+  {
+    "word": "sake",
+    "definition": "理由；缘故；目的"
+  },
+  {
+    "word": "salary",
+    "definition": "工资；薪俸；俸给"
+  },
+  {
+    "word": "salesman",
+    "definition": "推销员；售货员；业务员"
+  },
+  {
+    "word": "sample",
+    "definition": "集锦歌；榜样；试用品"
+  },
+  {
+    "word": "satisfaction",
+    "definition": "报复；履行义务；妥善处理"
+  },
+  {
+    "word": "satisfactory",
+    "definition": "令人满意的；符合要求的；良好的"
+  },
+  {
+    "word": "satisfy",
+    "definition": "使果腹；使弄清楚；消除"
+  },
+  {
+    "word": "saving",
+    "definition": "搭救；节省物；储蓄"
+  },
+  {
+    "word": "scarcity",
+    "definition": "缺乏；不足；稀少"
+  },
+  {
+    "word": "scare",
+    "definition": "大吃一惊；恐惧病；棒颈"
+  },
+  {
+    "word": "scary",
+    "definition": "吓人的；胆小的；引起惊慌的"
+  },
+  {
+    "word": "scene",
+    "definition": "现场；事件；一场"
+  },
+  {
+    "word": "scenic",
+    "definition": "舞台布景的；戏剧性的；舞台的"
+  },
+  {
+    "word": "schooling",
+    "definition": "学费；学校教育；教育"
+  },
+  {
+    "word": "scientific",
+    "definition": "系统的；需要技术的；从事科学工作的"
+  },
+  {
+    "word": "scope",
+    "definition": "范围；地域；占星图"
+  },
+  {
+    "word": "screen",
+    "definition": "荧光屏；电影；隔板"
+  },
+  {
+    "word": "seasonal",
+    "definition": "季节性的；随季节变化的"
+  },
+  {
+    "word": "secretary",
+    "definition": "部长；干事；秘书"
+  },
+  {
+    "word": "secure",
+    "definition": "被妥善保管的；被拘留的；拿稳的"
+  },
+  {
+    "word": "security",
+    "definition": "保护措施；安全工作；可靠性"
+  },
+  {
+    "word": "seed",
+    "definition": "种子选手；萌芽；蚝卵"
+  },
+  {
+    "word": "seek",
+    "definition": "出外觅求；图谋"
+  },
+  {
+    "word": "seem",
+    "definition": "变得；很可能会"
+  },
+  {
+    "word": "seeming",
+    "definition": "似乎真实的；表象；表面"
+  },
+  {
+    "word": "seemingly",
+    "definition": "看来"
+  },
+  {
+    "word": "seldom",
+    "definition": "很少；不常；难得"
+  },
+  {
+    "word": "select",
+    "definition": "遵循；结交；分割"
+  },
+  {
+    "word": "selection",
+    "definition": "选择；选拔；挑选"
+  },
+  {
+    "word": "selective",
+    "definition": "选择性的；精挑细选的"
+  },
+  {
+    "word": "selfish",
+    "definition": "自私的；只顾自己的；利己主义的"
+  },
+  {
+    "word": "semester",
+    "definition": "六个月的时期"
+  },
+  {
+    "word": "seminar",
+    "definition": "讨论发表会"
+  },
+  {
+    "word": "send",
+    "definition": "波浪的推进力；船受浪推动向上抬起；船的纵摇"
+  },
+  {
+    "word": "senior",
+    "definition": "成人的；毕业年级的；资深人士"
+  },
+  {
+    "word": "sense",
+    "definition": "理智；见识；观念"
+  },
+  {
+    "word": "sensitivity",
+    "definition": "敏感性；灵敏度；敏感"
+  },
+  {
+    "word": "separate",
+    "definition": "分别开的；分居的；离开肉体的"
+  },
+  {
+    "word": "separation",
+    "definition": "分离；分开；分居"
+  },
+  {
+    "word": "serve",
+    "definition": "对待；帮佣；发球"
+  },
+  {
+    "word": "serving",
+    "definition": "上菜；弓弦缠线部分；用于上菜的"
+  },
+  {
+    "word": "set",
+    "definition": "安排；设置；使处于"
+  },
+  {
+    "word": "settle",
+    "definition": "安放；使定居；办好"
+  },
+  {
+    "word": "settlement",
+    "definition": "解决；定居；新拓居地"
+  },
+  {
+    "word": "several",
+    "definition": "数人；多个的；种种的"
+  },
+  {
+    "word": "severity",
+    "definition": "严格；严重；严厉"
+  },
+  {
+    "word": "shade",
+    "definition": "荫；阴凉处；灯罩"
+  },
+  {
+    "word": "shadow",
+    "definition": "阴影；幻影；阴暗处"
+  },
+  {
+    "word": "shake",
+    "definition": "摇头；不稳；握手"
+  },
+  {
+    "word": "shaky",
+    "definition": "摇晃的；不可靠的；不稳定的"
+  },
+  {
+    "word": "shame",
+    "definition": "带来耻辱的人；使害羞；使某人羞愧不得不做"
+  },
+  {
+    "word": "shape",
+    "definition": "身材；形成；设计"
+  },
+  {
+    "word": "sharp",
+    "definition": "急转的；辛辣的；尖的"
+  },
+  {
+    "word": "shelf",
+    "definition": "突出的岩石；搁板状物；搁板的容量"
+  },
+  {
+    "word": "shipping",
+    "definition": "航运；海运；运输"
+  },
+  {
+    "word": "shoot",
+    "definition": "飞速通过；投篮；拍照"
+  },
+  {
+    "word": "shore",
+    "definition": "国家；本土"
+  },
+  {
+    "word": "shortage",
+    "definition": "缺少；缺乏；欠缺"
+  },
+  {
+    "word": "shortcoming",
+    "definition": "缺点；短处；不足之处"
+  },
+  {
+    "word": "shortly",
+    "definition": "唐突地"
+  },
+  {
+    "word": "shot",
+    "definition": "注射；射程；镜头"
+  },
+  {
+    "word": "shoulder",
+    "definition": "山肩；瓶肩；肩状物"
+  },
+  {
+    "word": "shout",
+    "definition": "付请客喝酒的账；吆喝；付请客账"
+  },
+  {
+    "word": "shut",
+    "definition": "关闭；关上；关门"
+  },
+  {
+    "word": "shyness",
+    "definition": "害羞；腼腆；羞怯"
+  },
+  {
+    "word": "sideways",
+    "definition": "向旁边；侧身；斜着"
+  },
+  {
+    "word": "sight",
+    "definition": "看见；见解；看见的事物"
+  },
+  {
+    "word": "significance",
+    "definition": "意思；价值；功能"
+  },
+  {
+    "word": "significant",
+    "definition": "值得注意的；非偶然的；别有含义的"
+  },
+  {
+    "word": "silk",
+    "definition": "绢丝光泽；玉蜀黍的须；降落伞"
+  },
+  {
+    "word": "similar",
+    "definition": "顺势药物"
+  },
+  {
+    "word": "simplicity",
+    "definition": "简明易懂的事物"
+  },
+  {
+    "word": "simply",
+    "definition": "露骨地"
+  },
+  {
+    "word": "sin",
+    "definition": "罪；违背常情；正弦"
+  },
+  {
+    "word": "sit",
+    "definition": "开会；开庭；合身"
+  },
+  {
+    "word": "situation",
+    "definition": "地位；场所；关系"
+  },
+  {
+    "word": "ski",
+    "definition": "坐雪橇；撬运；滑雪板"
+  },
+  {
+    "word": "skillful",
+    "definition": "熟练的；制作精巧的；灵巧的"
+  },
+  {
+    "word": "skinny",
+    "definition": "皮包骨的；极瘦的；皮的"
+  },
+  {
+    "word": "skyscraper",
+    "definition": "摩天大楼；超高层大楼；钻高飞球"
+  },
+  {
+    "word": "slave",
+    "definition": "奴隶般受控制的人；摆脱不了某种习惯的人；职业棒球选手"
+  },
+  {
+    "word": "slavery",
+    "definition": "奴隶制；奴隶生活；流口水的"
+  },
+  {
+    "word": "sleepiness",
+    "definition": "困倦；想睡；瞌睡"
+  },
+  {
+    "word": "sleeve",
+    "definition": "拖靶"
+  },
+  {
+    "word": "slight",
+    "definition": "少量的；轻蔑的；无聊的"
+  },
+  {
+    "word": "slightly",
+    "definition": "稍微；轻微地；有一点"
+  },
+  {
+    "word": "slippery",
+    "definition": "须小心对待的；狡猾的；难以解释的"
+  },
+  {
+    "word": "smartphone",
+    "definition": "智能手机"
+  },
+  {
+    "word": "smog",
+    "definition": "烟尘；汽车尾气；工厂排放的废气"
+  },
+  {
+    "word": "social",
+    "definition": "社会福利的"
+  },
+  {
+    "word": "society",
+    "definition": "协会；社交界；社会"
+  },
+  {
+    "word": "sociologist",
+    "definition": "社会学家"
+  },
+  {
+    "word": "soda",
+    "definition": "氢氧化钠；氧化钠；无水碳酸钠"
+  },
+  {
+    "word": "soften",
+    "definition": "变软；软化；缓和"
+  },
+  {
+    "word": "software",
+    "definition": "语言设备；方案；计算程序"
+  },
+  {
+    "word": "solar",
+    "definition": "日光的；太阳能的；太阳系的"
+  },
+  {
+    "word": "soldier",
+    "definition": "逃避工作者；军事家；黑手党组织最低阶层分子"
+  },
+  {
+    "word": "solely",
+    "definition": "单独地；完全；仅仅"
+  },
+  {
+    "word": "solid",
+    "definition": "固体的；实心的；牢靠的"
+  },
+  {
+    "word": "solution",
+    "definition": "溶液；解答；溶解"
+  },
+  {
+    "word": "solve",
+    "definition": "溶解；调停；弄清"
+  },
+  {
+    "word": "somehow",
+    "definition": "以某种方式；不知怎么地；设法"
+  },
+  {
+    "word": "sometime",
+    "definition": "某一时间的；有一天；终归"
+  },
+  {
+    "word": "sorrow",
+    "definition": "悲痛；悲哀；悲伤"
+  },
+  {
+    "word": "soul",
+    "definition": "灵魂；人；化身"
+  },
+  {
+    "word": "sound",
+    "definition": "音响；音调；探针"
+  },
+  {
+    "word": "source",
+    "definition": "原始资料；出处；发源"
+  },
+  {
+    "word": "southwest",
+    "definition": "西南；西南方"
+  },
+  {
+    "word": "spark",
+    "definition": "火星；情郎；焕发"
+  },
+  {
+    "word": "speaker",
+    "definition": "扬声器；议长；喇叭"
+  },
+  {
+    "word": "specialist",
+    "definition": "有某种特长的运动员；专家的"
+  },
+  {
+    "word": "specific",
+    "definition": "特效药；详细说明书；详论"
+  },
+  {
+    "word": "specify",
+    "definition": "分类；特殊化"
+  },
+  {
+    "word": "speech",
+    "definition": "说话；演说；说话能力"
+  },
+  {
+    "word": "speeding",
+    "definition": "超速行驶"
+  },
+  {
+    "word": "spending",
+    "definition": "开销；花费；支出"
+  },
+  {
+    "word": "spirit",
+    "definition": "情绪；心灵；志气"
+  },
+  {
+    "word": "spite",
+    "definition": "恶意；怨恨；心术不良"
+  },
+  {
+    "word": "spokesperson",
+    "definition": "发言人；代言人"
+  },
+  {
+    "word": "sponsorship",
+    "definition": "赞助；发起；保证"
+  },
+  {
+    "word": "spoon",
+    "definition": "匙状物；一匙的量；匙"
+  },
+  {
+    "word": "spot",
+    "definition": "丘疹；职位；困境"
+  },
+  {
+    "word": "spread",
+    "definition": "撒；分布；陈列"
+  },
+  {
+    "word": "spy",
+    "definition": "情报员；密探行为；搜集情报"
+  },
+  {
+    "word": "stability",
+    "definition": "坚定；恒心；巩固"
+  },
+  {
+    "word": "stable",
+    "definition": "稳定的；安定的；坚固的"
+  },
+  {
+    "word": "stage",
+    "definition": "阶段；舞台；步骤"
+  },
+  {
+    "word": "stainless",
+    "definition": "不会脏的"
+  },
+  {
+    "word": "staircase",
+    "definition": "楼梯间；梯子；阶梯"
+  },
+  {
+    "word": "stamp",
+    "definition": "特征；痕迹；捣击机"
+  },
+  {
+    "word": "standpoint",
+    "definition": "立场；观点；看法"
+  },
+  {
+    "word": "stare",
+    "definition": "盯得某人转移目光"
+  },
+  {
+    "word": "starvation",
+    "definition": "饿死；挨饿；绝食"
+  },
+  {
+    "word": "state",
+    "definition": "情况；国家；政府"
+  },
+  {
+    "word": "statement",
+    "definition": "声明书；对儿童进行特殊教育评估认定"
+  },
+  {
+    "word": "statistical",
+    "definition": "统计性的；以数据表示的；关于统计的"
+  },
+  {
+    "word": "steadily",
+    "definition": "稳定地；稳固地；坚定地"
+  },
+  {
+    "word": "steal",
+    "definition": "溜；突然做；博得某人的欢心"
+  },
+  {
+    "word": "steam",
+    "definition": "轮船；气力；情绪的紧张"
+  },
+  {
+    "word": "steel",
+    "definition": "钢铁工业；钢铁公司股票；坚强"
+  },
+  {
+    "word": "step",
+    "definition": "步骤；舞步；足迹"
+  },
+  {
+    "word": "stick",
+    "definition": "手杖；棒打；有敌意的言行"
+  },
+  {
+    "word": "sticky",
+    "definition": "有粘性的东西；用有粘性的东西涂抹"
+  },
+  {
+    "word": "stiffen",
+    "definition": "变硬；僵硬；加强"
+  },
+  {
+    "word": "still",
+    "definition": "温柔的；低声的；犹"
+  },
+  {
+    "word": "stimulate",
+    "definition": "有刺激之作用；起促进作用"
+  },
+  {
+    "word": "stimulation",
+    "definition": "刺激；激励；鼓舞"
+  },
+  {
+    "word": "stir",
+    "definition": "激动；搅拌；监狱"
+  },
+  {
+    "word": "stocking",
+    "definition": "载畜；苗木密度；提供长筒袜"
+  },
+  {
+    "word": "stomach",
+    "definition": "胃；欲望；胆量"
+  },
+  {
+    "word": "stony",
+    "definition": "多石的；没有表情的；未产生预期的结果的"
+  },
+  {
+    "word": "stoppage",
+    "definition": "阻塞；扣除；扣留"
+  },
+  {
+    "word": "storage",
+    "definition": "蓄电"
+  },
+  {
+    "word": "storm",
+    "definition": "激动；爆发；发作"
+  },
+  {
+    "word": "stove",
+    "definition": "火炉；窑；烘房"
+  },
+  {
+    "word": "straight",
+    "definition": "直的；连续的；平的"
+  },
+  {
+    "word": "strange",
+    "definition": "不可思议的；冷淡的；不习惯的"
+  },
+  {
+    "word": "stranger",
+    "definition": "局外人；客人；先生"
+  },
+  {
+    "word": "strategy",
+    "definition": "策略；战略；计谋"
+  },
+  {
+    "word": "stream",
+    "definition": "一连串；流注；倾注"
+  },
+  {
+    "word": "strength",
+    "definition": "强度；浓度；兵力"
+  },
+  {
+    "word": "stressful",
+    "definition": "紧张的；压力重的；产生压力的"
+  },
+  {
+    "word": "strict",
+    "definition": "严厉的；严谨的；义不容辞的"
+  },
+  {
+    "word": "strike",
+    "definition": "罢工；罢课；发现"
+  },
+  {
+    "word": "structure",
+    "definition": "构造体；整体性；整体结构"
+  },
+  {
+    "word": "struggle",
+    "definition": "努力奋斗的目标；要认真对待的事；挣扎脱身"
+  },
+  {
+    "word": "studio",
+    "definition": "电影制片厂；练功室；广播电视公司"
+  },
+  {
+    "word": "stylish",
+    "definition": "时髦的；漂亮的；流行的"
+  },
+  {
+    "word": "subject",
+    "definition": "对象；主旋律；主旨"
+  },
+  {
+    "word": "submission",
+    "definition": "看法；谦恭；提交物"
+  },
+  {
+    "word": "substance",
+    "definition": "物质；本体；财产"
+  },
+  {
+    "word": "substantial",
+    "definition": "大量的；实质的；坚固的"
+  },
+  {
+    "word": "subtraction",
+    "definition": "减法；扣除"
+  },
+  {
+    "word": "suburb",
+    "definition": "边缘；城郊；市郊"
+  },
+  {
+    "word": "suburban",
+    "definition": "有郊区特点的；偏狭的；近郊的"
+  },
+  {
+    "word": "succeed",
+    "definition": "继承；办妥；获得成效"
+  },
+  {
+    "word": "success",
+    "definition": "成就；成功的事；中文终端服务系统"
+  },
+  {
+    "word": "successive",
+    "definition": "后继的；连绵的；继续的"
+  },
+  {
+    "word": "sudden",
+    "definition": "猛烈的；突然发生的事；出乎意料地"
+  },
+  {
+    "word": "suffer",
+    "definition": "遭受；忍受；受苦"
+  },
+  {
+    "word": "suffering",
+    "definition": "痛苦；苦难；受难"
+  },
+  {
+    "word": "suggestion",
+    "definition": "暗示；建议；联想"
+  },
+  {
+    "word": "suitable",
+    "definition": "适宜的；合适的；适当的"
+  },
+  {
+    "word": "sum",
+    "definition": "运算；顶点；算术题"
+  },
+  {
+    "word": "sunrise",
+    "definition": "日出；黎明；东方"
+  },
+  {
+    "word": "superior",
+    "definition": "优胜者；修道院院长；长官"
+  },
+  {
+    "word": "supervision",
+    "definition": "管理；检查；指导"
+  },
+  {
+    "word": "supervisor",
+    "definition": "指导者；审订者；铁道线路检查员"
+  },
+  {
+    "word": "supplementary",
+    "definition": "补充的；增补的；附加的"
+  },
+  {
+    "word": "supplier",
+    "definition": "供应者；供应国；补充者"
+  },
+  {
+    "word": "supply",
+    "definition": "给养；军需；补充"
+  },
+  {
+    "word": "support",
+    "definition": "支持者；维持；生活费"
+  },
+  {
+    "word": "supporter",
+    "definition": "支持者；护身；拥护者"
+  },
+  {
+    "word": "supportive",
+    "definition": "支持的；支援的；赞助的"
+  },
+  {
+    "word": "suppose",
+    "definition": "假使；假定；猜测"
+  },
+  {
+    "word": "supposedly",
+    "definition": "据说；据传；恐怕"
+  },
+  {
+    "word": "surf",
+    "definition": "海浪；漫游；海浪拍岸"
+  },
+  {
+    "word": "surface",
+    "definition": "广场；空地；切口"
+  },
+  {
+    "word": "surfing",
+    "definition": "冲浪游戏；冲浪运动；浏览"
+  },
+  {
+    "word": "surgical",
+    "definition": "外科的；外科手术的；外科医生的"
+  },
+  {
+    "word": "surprise",
+    "definition": "喜出望外；意外的礼物；从其得到某信息等"
+  },
+  {
+    "word": "surround",
+    "definition": "围绕物；地毯周围与墙之间的地板；外围物"
+  },
+  {
+    "word": "surroundings",
+    "definition": "环境；周围的事物"
+  },
+  {
+    "word": "survive",
+    "definition": "丧失"
+  },
+  {
+    "word": "suspension",
+    "definition": "悬架；悬置机构；暂不作出"
+  },
+  {
+    "word": "suspicion",
+    "definition": "怀疑；嫌疑；疑心"
+  },
+  {
+    "word": "sustainability",
+    "definition": "可持续性；持久性"
+  },
+  {
+    "word": "sustainable",
+    "definition": "能保持在一定水平的；合理利用的；不破坏生态平衡的"
+  },
+  {
+    "word": "sweat",
+    "definition": "艰苦努力；小事一桩；懊恼"
+  },
+  {
+    "word": "switch",
+    "definition": "转辙器；鞭子；柔软的细枝"
+  },
+  {
+    "word": "symbol",
+    "definition": "符号；象征；记号"
+  },
+  {
+    "word": "sympathy",
+    "definition": "协调"
+  },
+  {
+    "word": "symptom",
+    "definition": "症状；征兆；征候"
+  },
+  {
+    "word": "system",
+    "definition": "制度；体制；规律"
+  },
+  {
+    "word": "tail",
+    "definition": "大权旁落；临阵脱逃；逐渐消失"
+  },
+  {
+    "word": "tailor",
+    "definition": "剪裁；成衣商；蓝鲑"
+  },
+  {
+    "word": "takeoff",
+    "definition": "起跳；出发；发射"
+  },
+  {
+    "word": "tale",
+    "definition": "故事；谎话；坏话"
+  },
+  {
+    "word": "talent",
+    "definition": "天资；人才；才能"
+  },
+  {
+    "word": "tangible",
+    "definition": "实际的；可触知的；有形的"
+  },
+  {
+    "word": "tape",
+    "definition": "录了音的盒式磁带；录了像的盒式磁带；钉上带子"
+  },
+  {
+    "word": "target",
+    "definition": "目标；对象；靶子"
+  },
+  {
+    "word": "task",
+    "definition": "使命；目的；事情"
+  },
+  {
+    "word": "taste",
+    "definition": "味觉；得体；审美"
+  },
+  {
+    "word": "tasty",
+    "definition": "可口的；好吃的；大方的"
+  },
+  {
+    "word": "tax",
+    "definition": "会费；收税官；开价"
+  },
+  {
+    "word": "technical",
+    "definition": "工艺的；工业的；科技的"
+  },
+  {
+    "word": "technological",
+    "definition": "技术的；科技性的"
+  },
+  {
+    "word": "teen",
+    "definition": "青少年；十几岁"
+  },
+  {
+    "word": "temper",
+    "definition": "特征；质地；勇气"
+  },
+  {
+    "word": "temperature",
+    "definition": "气温；体温；温度"
+  },
+  {
+    "word": "tend",
+    "definition": "有助于"
+  },
+  {
+    "word": "tense",
+    "definition": "引起紧张的；尴尬的；忐忑不安的"
+  },
+  {
+    "word": "tent",
+    "definition": "深红葡萄酒；暂时居住；使在帐篷里住宿"
+  },
+  {
+    "word": "term",
+    "definition": "任期；学期；地位"
+  },
+  {
+    "word": "terribly",
+    "definition": "很厉害地；万分；过分"
+  },
+  {
+    "word": "terrify",
+    "definition": "使恐惧；恐吓；使害怕"
+  },
+  {
+    "word": "territory",
+    "definition": "管区；成为必然的部份"
+  },
+  {
+    "word": "terror",
+    "definition": "恐怖；恐惧；可怕的人或事"
+  },
+  {
+    "word": "terrorism",
+    "definition": "恐怖主义"
+  },
+  {
+    "word": "terrorist",
+    "definition": "恐怖分子"
+  },
+  {
+    "word": "text",
+    "definition": "课本；本文；正文"
+  },
+  {
+    "word": "theater",
+    "definition": "戏剧效果"
+  },
+  {
+    "word": "theoretical",
+    "definition": "假设的；推理的；非应用的"
+  },
+  {
+    "word": "theory",
+    "definition": "理论；推测；学说"
+  },
+  {
+    "word": "therapy",
+    "definition": "治疗；疗效；方法"
+  },
+  {
+    "word": "thereby",
+    "definition": "因此；由此；从而"
+  },
+  {
+    "word": "therefore",
+    "definition": "因此；所以；因而"
+  },
+  {
+    "word": "thick",
+    "definition": "阴霾的；粗的；密集的"
+  },
+  {
+    "word": "thief",
+    "definition": "小偷；窃贼；强盗"
+  },
+  {
+    "word": "thirsty",
+    "definition": "渴望的；干旱的；渴的"
+  },
+  {
+    "word": "thread",
+    "definition": "线；螺纹；线状物"
+  },
+  {
+    "word": "threat",
+    "definition": "难办的问题"
+  },
+  {
+    "word": "throw",
+    "definition": "使突然陷入；使滚动；掷骰子"
+  },
+  {
+    "word": "ticket",
+    "definition": "标签；公认候选人名单；纲领"
+  },
+  {
+    "word": "tie",
+    "definition": "领带；牵累；线"
+  },
+  {
+    "word": "tight",
+    "definition": "势均力敌的；亲密的；紧紧地"
+  },
+  {
+    "word": "timing",
+    "definition": "定时；计时；时间的选择"
+  },
+  {
+    "word": "tin",
+    "definition": "锡；警察；罐头"
+  },
+  {
+    "word": "tiny",
+    "definition": "极小的；微小的；微量的"
+  },
+  {
+    "word": "tip",
+    "definition": "顶端附加的小件；尖；递送"
+  },
+  {
+    "word": "tireless",
+    "definition": "不知疲倦的；坚持不懈的"
+  },
+  {
+    "word": "tiring",
+    "definition": "累人的；麻烦的；无聊的"
+  },
+  {
+    "word": "tobacco",
+    "definition": "烟叶；烟草制品；抽烟"
+  },
+  {
+    "word": "toilet",
+    "definition": "浴室；梳妆台"
+  },
+  {
+    "word": "tone",
+    "definition": "风格；情调；明暗"
+  },
+  {
+    "word": "tongue",
+    "definition": "舌状物；说法；国民"
+  },
+  {
+    "word": "tool",
+    "definition": "机床；工具母机；刀叉"
+  },
+  {
+    "word": "tooth",
+    "definition": "嗜好；齿状物；胃口"
+  },
+  {
+    "word": "topic",
+    "definition": "题目；话题；主题"
+  },
+  {
+    "word": "tour",
+    "definition": "巡视；巡回演出；巡回比赛"
+  },
+  {
+    "word": "tourist",
+    "definition": "冬季到南部做工的流动工人；巡回比赛的运动队队员；游客的"
+  },
+  {
+    "word": "towards",
+    "definition": "有希望的；在进行中的；有利的"
+  },
+  {
+    "word": "trace",
+    "definition": "图形；微量；记录"
+  },
+  {
+    "word": "trade",
+    "definition": "行业；商业；职业"
+  },
+  {
+    "word": "traffic",
+    "definition": "交通量；交通；运输"
+  },
+  {
+    "word": "tragedy",
+    "definition": "悲剧；悲剧因素；凄楚伤感"
+  },
+  {
+    "word": "tragic",
+    "definition": "悲剧作品"
+  },
+  {
+    "word": "trainee",
+    "definition": "受训者；实习生；新兵"
+  },
+  {
+    "word": "trainer",
+    "definition": "驯兽师；运动鞋；瞄准手"
+  },
+  {
+    "word": "transformation",
+    "definition": "转变；转化；变革"
+  },
+  {
+    "word": "translator",
+    "definition": "译员；翻译者；翻译机"
+  },
+  {
+    "word": "transmit",
+    "definition": "传动；传声；发射"
+  },
+  {
+    "word": "treasure",
+    "definition": "财富；贵重物品；宝库"
+  },
+  {
+    "word": "treat",
+    "definition": "交涉；作东道主；轮到请客的人"
+  },
+  {
+    "word": "treatment",
+    "definition": "处理；待遇；论述"
+  },
+  {
+    "word": "treaty",
+    "definition": "条约；协定；协议"
+  },
+  {
+    "word": "tricky",
+    "definition": "狡猾的；巧妙的；复杂的"
+  },
+  {
+    "word": "triple",
+    "definition": "三倍的；三重的；三层的"
+  },
+  {
+    "word": "troop",
+    "definition": "士兵；一队的童子军；列队行进"
+  },
+  {
+    "word": "troublesome",
+    "definition": "令人烦恼的；麻烦的；棘手的"
+  },
+  {
+    "word": "truck",
+    "definition": "运货马车；可挂拖车的汽车；手摇车"
+  },
+  {
+    "word": "truly",
+    "definition": "忠实地；真正地；合法地"
+  },
+  {
+    "word": "trust",
+    "definition": "可信赖的人；确信；希望"
+  },
+  {
+    "word": "truth",
+    "definition": "真理；思想体系"
+  },
+  {
+    "word": "tutor",
+    "definition": "师傅；辅导员；导师是加拿大研制的一种教练机"
+  },
+  {
+    "word": "type",
+    "definition": "符号；象征；字体"
+  },
+  {
+    "word": "typist",
+    "definition": "打字员"
+  },
+  {
+    "word": "ultimate",
+    "definition": "根本的；基本的；极限的"
+  },
+  {
+    "word": "ultimately",
+    "definition": "最后；最终；终极地"
+  },
+  {
+    "word": "uncertain",
+    "definition": "难预料的"
+  },
+  {
+    "word": "uncertainty",
+    "definition": "不确定性；不确定"
+  },
+  {
+    "word": "undergraduate",
+    "definition": "本科生；大学本科生"
+  },
+  {
+    "word": "understanding",
+    "definition": "协议；判断力；智力"
+  },
+  {
+    "word": "undertaking",
+    "definition": "事业；任务；承诺"
+  },
+  {
+    "word": "underwear",
+    "definition": "内衣"
+  },
+  {
+    "word": "undoubtedly",
+    "definition": "毫无疑问地；确实地"
+  },
+  {
+    "word": "unemployed",
+    "definition": "空闲的；未投资的；失业者"
+  },
+  {
+    "word": "unemployment",
+    "definition": "失业；失业率"
+  },
+  {
+    "word": "uniform",
+    "definition": "军人；均质土；柔道衣"
+  },
+  {
+    "word": "union",
+    "definition": "工会；学生自治会"
+  },
+  {
+    "word": "universe",
+    "definition": "全人类；经验体系；全领域"
+  },
+  {
+    "word": "upgrade",
+    "definition": "向上地；上坡；上升"
+  },
+  {
+    "word": "upon",
+    "definition": "关于；给；盯"
+  },
+  {
+    "word": "upper",
+    "definition": "较高的；上游的；后期的"
+  },
+  {
+    "word": "upset",
+    "definition": "混乱的；搅乱的；不适的"
+  },
+  {
+    "word": "upstairs",
+    "definition": "高水平地；上层地；楼上"
+  },
+  {
+    "word": "upwards",
+    "definition": "向上；上升"
+  },
+  {
+    "word": "urge",
+    "definition": "冲动；推动力；迫切的要求"
+  },
+  {
+    "word": "urgency",
+    "definition": "紧迫；紧急；迫切"
+  },
+  {
+    "word": "urgent",
+    "definition": "紧急的；迫切的；催促的"
+  },
+  {
+    "word": "usage",
+    "definition": "用法；惯例；损蚀"
+  },
+  {
+    "word": "useless",
+    "definition": "不擅长的"
+  },
+  {
+    "word": "utter",
+    "definition": "说明"
+  },
+  {
+    "word": "utterly",
+    "definition": "完全地；彻底地；十足地"
+  },
+  {
+    "word": "vacancy",
+    "definition": "空虚；空额；空"
+  },
+  {
+    "word": "vague",
+    "definition": "不明确的；朦胧的；笼统的"
+  },
+  {
+    "word": "valid",
+    "definition": "正确的；认可的；合理的"
+  },
+  {
+    "word": "valuable",
+    "definition": "可估价的；可评价的；财产"
+  },
+  {
+    "word": "value",
+    "definition": "重要性；交换力；面值"
+  },
+  {
+    "word": "variation",
+    "definition": "偏差；变化的程度；变量"
+  },
+  {
+    "word": "variety",
+    "definition": "变化；综艺节目；种种"
+  },
+  {
+    "word": "various",
+    "definition": "许多的；好几个的；多方面的"
+  },
+  {
+    "word": "vary",
+    "definition": "修改；逸出；使变调"
+  },
+  {
+    "word": "vast",
+    "definition": "巨额的；大海；浩瀚的太空"
+  },
+  {
+    "word": "vegetarian",
+    "definition": "吃素的人；食草动物；怕吃荤腥肉类的人"
+  },
+  {
+    "word": "verb",
+    "definition": "动词化"
+  },
+  {
+    "word": "version",
+    "definition": "版本；改写本；变体"
+  },
+  {
+    "word": "victim",
+    "definition": "替罪羊；待处决的犯人"
+  },
+  {
+    "word": "violation",
+    "definition": "违反；侵犯；违背"
+  },
+  {
+    "word": "violence",
+    "definition": "狂热行为；破坏"
+  },
+  {
+    "word": "violin",
+    "definition": "小提琴演奏者；紫堇类吐根碱"
+  },
+  {
+    "word": "violinist",
+    "definition": "小提琴手；小提琴家"
+  },
+  {
+    "word": "virtual",
+    "definition": "模拟的；具有可产生某种效果之内在力的"
+  },
+  {
+    "word": "virtue",
+    "definition": "善行；价值；力"
+  },
+  {
+    "word": "visa",
+    "definition": "签证；办理签证"
+  },
+  {
+    "word": "visibility",
+    "definition": "能见度；可见性；明显性"
+  },
+  {
+    "word": "vision",
+    "definition": "眼光；梦想；所见事物"
+  },
+  {
+    "word": "visual",
+    "definition": "光学的；直观的；视觉心像的"
+  },
+  {
+    "word": "vitality",
+    "definition": "活力；生命力；生动性"
+  },
+  {
+    "word": "vitamin",
+    "definition": "维他命；骨化醇；硫胺"
+  },
+  {
+    "word": "vocabulary",
+    "definition": "遣词用字；口才"
+  },
+  {
+    "word": "volcanic",
+    "definition": "猛烈的；暴烈的；火山的"
+  },
+  {
+    "word": "volume",
+    "definition": "大块"
+  },
+  {
+    "word": "volunteer",
+    "definition": "自愿服务；当志愿兵；自愿参加的"
+  },
+  {
+    "word": "vote",
+    "definition": "投票结果；投票纸；由舆论决定"
+  },
+  {
+    "word": "voyage",
+    "definition": "航程；企业；项目"
+  },
+  {
+    "word": "vulnerability",
+    "definition": "脆弱性；弱点；易受伤害"
+  },
+  {
+    "word": "waist",
+    "definition": "背心；紧身胸衣；小孩的内衣"
+  },
+  {
+    "word": "warmth",
+    "definition": "火；温度"
+  },
+  {
+    "word": "warn",
+    "definition": "警戒；训诫"
+  },
+  {
+    "word": "warning",
+    "definition": "征候；可引以为戒的事；殷鉴"
+  },
+  {
+    "word": "waste",
+    "definition": "滥用；糟蹋；一大片"
+  },
+  {
+    "word": "wasteful",
+    "definition": "浪费的；挥霍的"
+  },
+  {
+    "word": "waterproof",
+    "definition": "防水的；不透水的"
+  },
+  {
+    "word": "wave",
+    "definition": "波浪；挥手；浪潮"
+  },
+  {
+    "word": "weaken",
+    "definition": "畏缩；变稀薄"
+  },
+  {
+    "word": "wealth",
+    "definition": "资源；幸福；福利"
+  },
+  {
+    "word": "wealthy",
+    "definition": "财产多的；财富的"
+  },
+  {
+    "word": "wear",
+    "definition": "呈现；变光滑；磨薄"
+  },
+  {
+    "word": "wedding",
+    "definition": "结合"
+  },
+  {
+    "word": "weed",
+    "definition": "废物；衣服；大麻烟"
+  },
+  {
+    "word": "weep",
+    "definition": "分泌出；流血；哭着使"
+  },
+  {
+    "word": "weigh",
+    "definition": "考虑；加过重负担于；称起来"
+  },
+  {
+    "word": "weight",
+    "definition": "重物；砝码；重要性"
+  },
+  {
+    "word": "whatsoever",
+    "definition": "任何的（用于加强否定）"
+  },
+  {
+    "word": "wheat",
+    "definition": "生手；小麦色；小麦色的"
+  },
+  {
+    "word": "whenever",
+    "definition": "在任何时节"
+  },
+  {
+    "word": "whereas",
+    "definition": "反之；然而；鉴于"
+  },
+  {
+    "word": "whether",
+    "definition": "是否；可能的选择"
+  },
+  {
+    "word": "whichever",
+    "definition": "无论哪个；无论哪些"
+  },
+  {
+    "word": "while",
+    "definition": "只要；倒；曾经"
+  },
+  {
+    "word": "whole",
+    "definition": "完全的；总数；完全"
+  },
+  {
+    "word": "wide",
+    "definition": "广泛的；一般的；宽的"
+  },
+  {
+    "word": "widen",
+    "definition": "范围扩大；程度加深"
+  },
+  {
+    "word": "widespread",
+    "definition": "大量的；到处流行的；扩展开的"
+  },
+  {
+    "word": "wild",
+    "definition": "任性的；无法无天的；狂风暴雨的"
+  },
+  {
+    "word": "willingness",
+    "definition": "愿意；乐意；自发"
+  },
+  {
+    "word": "wind",
+    "definition": "弯曲；气流；气味"
+  },
+  {
+    "word": "wing",
+    "definition": "机翼；从物体本身延伸的东西；造厢房于"
+  },
+  {
+    "word": "wireless",
+    "definition": "无线的；无线电报的；不用电线的"
+  },
+  {
+    "word": "wise",
+    "definition": "博学的；明白的；察觉的"
+  },
+  {
+    "word": "withdrawal",
+    "definition": "退隐；退股；退缩"
+  },
+  {
+    "word": "witty",
+    "definition": "情趣横生的"
+  },
+  {
+    "word": "wonder",
+    "definition": "询问；不可思议的；非凡的"
+  },
+  {
+    "word": "wooden",
+    "definition": "木制的；木头的；呆板的"
+  },
+  {
+    "word": "wording",
+    "definition": "措辞；用语；表达方式"
+  },
+  {
+    "word": "workforce",
+    "definition": "劳动力；员工总数；工人总数"
+  },
+  {
+    "word": "workshop",
+    "definition": "工场；车间；创作室"
+  },
+  {
+    "word": "worried",
+    "definition": "担心的；发愁的；担忧的"
+  },
+  {
+    "word": "worse",
+    "definition": "更坏的；更重的；更严厉的"
+  },
+  {
+    "word": "worship",
+    "definition": "崇拜；礼拜仪式；阁下"
+  },
+  {
+    "word": "worst",
+    "definition": "最有害的；最痛苦的；错误最多的"
+  },
+  {
+    "word": "worth",
+    "definition": "值一定金额的数量；真价；白璧无瑕"
+  },
+  {
+    "word": "wound",
+    "definition": "屈辱；恋爱的痛苦；悲"
+  },
+  {
+    "word": "wrapping",
+    "definition": "包装；包装材料；包装纸"
+  },
+  {
+    "word": "yard",
+    "definition": "工场；堆场；圈栏"
+  },
+  {
+    "word": "yearly",
+    "definition": "每年的；一年一次的；按年的"
+  },
+  {
+    "word": "yet",
+    "definition": "然而；还；但是"
+  },
+  {
+    "word": "yoga",
+    "definition": "瑜珈功；瑜伽修行法"
+  },
+  {
+    "word": "youth",
+    "definition": "青年；青春；年轻人"
   }
 ]
