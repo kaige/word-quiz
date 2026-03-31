@@ -244,6 +244,25 @@
         await startNewQuiz();
     }
 
+    async function getUserWordOrder() {
+        // Check if user has a saved word order
+        var { data } = await supabase
+            .from('user_word_order')
+            .select('word_order')
+            .eq('user_id', currentUser.id)
+            .limit(1);
+        if (data && data.length) {
+            return JSON.parse(data[0].word_order);
+        }
+        // First time: generate random order and save
+        var order = shuffle(words).map(function (w) { return w.word; });
+        await supabase.from('user_word_order').insert({
+            user_id: currentUser.id,
+            word_order: JSON.stringify(order)
+        });
+        return order;
+    }
+
     async function startNewQuiz() {
         if (!words.length) return;
         // Mark any old unfinished sessions as completed
@@ -254,15 +273,17 @@
                 .eq('completed', false);
         }
 
-        quizWords = words.slice(); // alphabetical order
         currentIndex = 0;
         correctCount = 0;
         wrongWords = [];
 
-        // Create session
         if (supabase && currentUser) {
+            var order = await getUserWordOrder();
+            quizWords = order.map(function (w) {
+                return words.find(function (ww) { return ww.word === w; });
+            }).filter(Boolean);
+
             var sessionId = Date.now().toString(36) + Math.random().toString(36).slice(2);
-            var order = quizWords.map(function (w) { return w.word; });
             try {
                 await supabase.from('quiz_sessions').insert({
                     id: sessionId,
@@ -275,6 +296,8 @@
                 console.error('Failed to create session:', e);
                 currentSessionId = null;
             }
+        } else {
+            quizWords = shuffle(words);
         }
 
         showPage('quiz-page');
